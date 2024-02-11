@@ -1,0 +1,16 @@
+cameras:
+  - make: "Canon"
+    model: "SL1"
+    pitch: 4.29
+  - make: "Fujifilm"
+    model: "X-T2"
+    pitch: 3.9
+  - make: "Fujifilm"
+    model: "X-T20"
+    pitch: 3.93
+  - make: "Fujifilm"
+    model: "X70"
+    pitch: "4.82"
+  - make: "Fujifilm"
+    model: "GFX 50S"
+    pitch: 5.3
