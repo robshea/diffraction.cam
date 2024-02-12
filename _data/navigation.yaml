@@ -1,3 +1,7 @@
 main:
+  - title: "Diffraction"
+    url: /
   - title: "Digital Cameras"
     url: /cameras/
+  - title: "Other Data"
+    url: /other-data/

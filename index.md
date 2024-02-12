@@ -29,22 +29,3 @@ layout: home
   {% endfor %}
 </tbody>
 </table>
-
-## f-numbers
-
-{% for f-number in site.data.f-numbers.f-number %}
-- {{ f-number.f-stop }}
-{% endfor %}
-
-## Wavelengths
-
-{% for wavelength in site.data.wavelengths.wavelengths %}
-- {{ wavelength.wavelength }}
-{% endfor %}
-
-## Filters
-
-{% for filter in site.data.filters.filters %}
-- {{ filter.filter }}
-  - {{ filter.wavelengths }}
-{% endfor %}

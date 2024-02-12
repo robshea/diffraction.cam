@@ -1,12 +1,12 @@
 ---
 title: Digital Cameras
-date: 2023-01-10 09:00:00:00 -0500
+date: 2024-01-11 09:00:00:00 -0500
 permalink: /cameras/
 layout: single
 published: true
 ---
 
-## Cameras
+<a href="mailto:diff@590.mozmail.com?subject=diffraction.cam Add a Camera">Add a Camera</a>
 
 <table id="digital-cameras">
 <caption>Digital Cameras</caption>
