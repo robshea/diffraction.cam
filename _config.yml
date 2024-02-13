@@ -47,6 +47,7 @@ head_scripts:
 #  - https://code.jquery.com/jquery-3.2.1.min.js
 #  - /assets/js/your-custom-head-script.js
 footer_scripts:
+  /assets/js/main.js
 #  - https://code.jquery.com/jquery-3.2.1.min.js
 #  - /assets/js/your-custom-head-script.js
 
