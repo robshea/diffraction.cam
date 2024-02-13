@@ -8,9 +8,57 @@ search: false
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 
+// table
+#diff-table {
+}
 
 // first column
 #diff-table tbody td:first-child {
-  background-color: lightgray;
+  background-color: #D6EAF8;
+  color: #154360;
   text-align: right;
+  font-weight: bold;
+  width: 75px;
+}
+// header row
+#uv, #w350, #w400 {
+  background-color: #E8DAEF;
+  color: #4A235A;
+  text-align: center;
+}
+#visible, #w470, #w550, #w590, #w665, #w720  {
+  background-color: #D1F2EB;
+  color: #0B5345;
+  text-align: center;
+}
+#ir, #w780, #w830, #w930, #w1000 {
+  background-color: #F2D7D5;
+  color: #78281F;
+  text-align: center;
+}
+// cells
+th {
+  padding: 0.25em
+}
+td {
+  text-align: right;
+  width: 105px;
+}
+.good {
+  background-color: #82E0AA;
+  color: #145A32;
+}
+.maybe {
+  background-color: #F7DC6F;
+  color: #7D6608;
+}
+.bad {
+  background-color: #D98880;
+  color: #641E16;
+}
+.show {
+  opacity: 1;
+}
+.hide {
+  opacity: .25;
 }

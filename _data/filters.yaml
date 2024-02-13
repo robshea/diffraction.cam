@@ -1,10 +1,10 @@
 filters:
+  - filter: Full spectrum
+    wavelengths: 350, 400, 470, 550, 590, 665, 720, 780, 830, 930, 1000
   - filter: Hot mirror
     wavelengths: 470, 550, 590, 665, 720
   - filter: UV Bandpass
     wavelengths: 350, 400
-  - filter: Full spectrum
-    wavelengths: 350, 400, 470, 550, 590, 665, 720, 780, 830, 930, 1000
   - filter: 470 nm
     wavelengths: 470, 550, 590, 665, 720, 780, 830, 930, 1000
   - filter: 550 nm
