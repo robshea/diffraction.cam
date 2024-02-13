@@ -8,6 +8,32 @@ search: false
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 
+input, label, select {
+  float:left;
+  margin:5px;
+}
+
+label {
+  margin-left: 20px;
+}
+
+form {
+  background-color: transparent;
+  margin-bottom: 50px;
+}
+
+caption {
+  display: none;
+}
+
+#pitch {
+  width: 5em;
+}
+
+#pitch-label {
+  color:gray;
+}
+
 // table
 #diff-table {
 }
@@ -40,7 +66,7 @@ search: false
 th {
   padding: 0.25em
 }
-td {
+#diff-table td {
   text-align: right;
   width: 105px;
 }
@@ -61,4 +87,7 @@ td {
 }
 .hide {
   opacity: .25;
+}
+#legend-table {
+  margin-left: 40px;
 }

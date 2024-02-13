@@ -6,7 +6,7 @@ layout: splash
 ---
 
 <form>
-<label for="camera">Camera</label>
+<label for="camera" id="camera-label">Camera</label>
 <select name="camera" id="camera" onchange="updatePitch()">
   <option value="">- select camera -</option>
   {% for camera in site.data.cameras.cameras %}
@@ -14,10 +14,10 @@ layout: splash
   {% endfor %}
 </select>
 
-<label for="pitch">Pixel Pitch (μm)</label>
+<label for="pitch" id="pitch-label">Pixel Pitch (μm)</label>
 <input type="text" id="pitch" name="pitch" disabled>
 
-<label for="filter">Filter</label>
+<label for="filter" id="filter-label">Filter</label>
 <select name="filter" id="filter" onchange="updateFilter(this)">
   {% for filter in site.data.filters.filters %}
   <option value="{{ filter.wavelengths }}">{{ filter.filter }}</option>
@@ -57,4 +57,30 @@ layout: splash
 </tbody>
 </table>
 
-### How to Read this Table
+- Add radio buttons to select rows
+
+### How To Use This Table
+
+- Select a camera. If your camera is not listed, [request to add it here](/cameras/).
+- Select a filter. If a column is dimmed, that wavelength of light will not be transmitted by the selected filter.
+- Identify the row of the ƒ-number you wish to shoot at.
+
+<table id="legend-table">
+<caption>Legend</caption>
+<colgroup>
+    <col style="width: 50px">
+    <col>
+</colgroup>
+<tr>
+  <td class="good"></td>
+  <td>No visible diffraction</td>
+</tr>
+<tr>
+  <td class="maybe"></td>
+  <td>Visible diffraction may slightly impact image sharpness</td>
+</tr>
+<tr>
+  <td class="bad"></td>
+  <td>Visible diffraction will impact image sharpness</td>
+</tr>
+</table>

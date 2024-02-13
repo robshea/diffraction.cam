@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: diffraction.cam
+title: Visible Diffraction for Digital Cameras
 name: "Rob Shea"
 email: diff@590.mozmail.com
 description: ""
