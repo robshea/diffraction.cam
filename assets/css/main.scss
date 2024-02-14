@@ -23,7 +23,8 @@ form {
 }
 
 caption {
-  display: none;
+  caption-side: bottom;
+  font-style: italic;
 }
 
 #pitch {
@@ -38,14 +39,25 @@ caption {
 #diff-table {
 }
 
-// first column
-#diff-table tbody td:first-child {
+// first & second column
+#diff-table td:first-child, #diff-table td:nth-child(2) {
   background-color: #D6EAF8;
   color: #154360;
   text-align: right;
   font-weight: bold;
   width: 75px;
 }
+
+// first column
+#diff-table td:first-child {
+  width: 25px;
+}
+
+// second column
+#diff-table td:nth-child(2) {
+  width: 50px;
+}
+
 // header row
 #uv, #w350, #w400 {
   background-color: #E8DAEF;
@@ -62,6 +74,12 @@ caption {
   color: #78281F;
   text-align: center;
 }
+
+// highlight row
+.highlight {
+  border: 2px solid #154360 ;
+}
+
 // cells
 th {
   padding: 0.25em

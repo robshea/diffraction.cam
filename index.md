@@ -6,6 +6,7 @@ layout: splash
 ---
 
 <form>
+
 <label for="camera" id="camera-label">Camera</label>
 <select name="camera" id="camera" onchange="updatePitch()">
   <option value="">- select camera -</option>
@@ -24,23 +25,21 @@ layout: splash
   {% endfor %}
 </select>
 
-</form>
-
 <table id="diff-table">
-<caption>Visible Diffraction</caption>
+<caption>Airy Disk to Pixel Pitch ratio</caption>
 <colgroup>
-    <col span="1">
+    <col span="2">
     <col span="11">
 </colgroup>
 <thead>
   <tr>
-    <th></th>
+    <th colspan="2"></th>
     <th colspan="2" id="uv">Ultraviolet</th>
     <th colspan="5" id="visible">Visible Light</th>
     <th colspan="4" id="ir">Infrared</th>
   </tr>
   <tr>
-    <th></th>
+    <th colspan="2"></th>
     {% for wavelength in site.data.wavelengths.wavelengths %}
       <th id="w{{ wavelength.wavelength }}">{{ wavelength.wavelength }}</th>
     {% endfor %}
@@ -48,25 +47,27 @@ layout: splash
 </thead>
 <tbody>
   {% for f-number in site.data.f-numbers.f-number %}
-    <tr><td>ƒ/{{ f-number.f-stop }}</td>
-    {% for wavelength in site.data.wavelengths.wavelengths %}
-      <td id="{{ f-number.f-stop }}-{{ wavelength.wavelength }}" class="w{{ wavelength.wavelength }}"></td>
-    {% endfor %}
+    <tr id="row{{ f-number.f-stop }}">
+      <td><input type="radio" id="rf-number" name="rf-number" value="{{ f-number.f-stop }}" onchange="highlightRow(this)"></td>
+      <td>ƒ/{{ f-number.f-stop }}</td>
+      {% for wavelength in site.data.wavelengths.wavelengths %}
+        <td id="{{ f-number.f-stop }}-{{ wavelength.wavelength }}" class="w{{ wavelength.wavelength }}"></td>
+      {% endfor %}
     </tr>
   {% endfor %}
 </tbody>
 </table>
 
-- Add radio buttons to select rows
+</form>
 
 ### How To Use This Table
 
 - Select a camera. If your camera is not listed, [request to add it here](/cameras/).
 - Select a filter. If a column is dimmed, that wavelength of light will not be transmitted by the selected filter.
-- Identify the row of the ƒ-number you wish to shoot at.
+- Select the row of the ƒ-number you wish to shoot at.
 
 <table id="legend-table">
-<caption>Legend</caption>
+<caption>Airy Disk to Pixel Pitch ratio legend</caption>
 <colgroup>
     <col style="width: 50px">
     <col>

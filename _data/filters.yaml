@@ -5,22 +5,22 @@ filters:
     wavelengths: 470, 550, 590, 665, 720
   - filter: UV Bandpass
     wavelengths: 350, 400
-  - filter: 470 nm
+  - filter: 470 nm high-pass
     wavelengths: 470, 550, 590, 665, 720, 780, 830, 930, 1000
-  - filter: 550 nm
+  - filter: 550 nm high-pass
     wavelengths: 550, 590, 665, 720, 780, 830, 930, 1000
-  - filter: 590 nm
+  - filter: 590 nm high-pass
     wavelengths: 590, 665, 720, 780, 830, 930, 1000
-  - filter: 665 nm
+  - filter: 665 nm high-pass
     wavelengths: 665, 720, 780, 830, 930, 1000
-  - filter: 720 nm
+  - filter: 720 nm high-pass
     wavelengths: 720, 780, 830, 930, 1000
-  - filter: 780 nm
+  - filter: 780 nm high-pass
     wavelengths: 780, 830, 930, 1000
-  - filter: 830 nm
+  - filter: 830 nm high-pass
     wavelengths: 830, 930, 1000
-  - filter: 930 nm
+  - filter: 930 nm high-pass
     wavelengths: 930, 1000
-  - filter: 1000 nm
+  - filter: 1000 nm high-pass
     wavelengths: 1000
 

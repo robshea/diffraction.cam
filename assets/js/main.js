@@ -32,7 +32,7 @@ function updatePitch() {
         cell_class = "maybe";
       }
 
-      var element = document.getElementById(cell_id);
+      let element = document.getElementById(cell_id);
       element.classList.remove("good", "maybe", "bad");
       element.classList.add(cell_class);
       w++;
@@ -48,14 +48,13 @@ function airyPitchRatio(f_number, wavelength, pitch_micron) {
   return rounded;
 }
 
-function updateFilter(filterWavelengths) {
-  var wavelengthsList = filterWavelengths.value;
+function updateFilter(input) {
+  let wavelengthsList = input.value;
   let w = 0;
-  let cell_class = "";
   while (w < wavelengths.length) {
-    var elements = document.querySelectorAll(".w"+wavelengths[w]);
+    let elements = document.querySelectorAll(".w"+wavelengths[w]);
 
-    for (var i = 0; i < elements.length; i++) {
+    for (let i = 0; i < elements.length; i++) {
       if (wavelengthsList.includes(wavelengths[w], 0)) {
         // show column
         elements[i].classList.remove("hide", "show");
@@ -70,3 +69,31 @@ function updateFilter(filterWavelengths) {
 
   }
 }
+
+function highlightRow(input) {
+  let selected_row = input.value;
+  let f = 0;
+  while (f < f_numbers.length) {
+    let element = document.getElementById("row"+f_numbers[f]);
+    if (selected_row == f_numbers[f]) {
+      element.classList.add("highlight");
+    } else {
+      element.classList.remove("highlight");
+    }
+    f++;
+
+  }
+}
+
+const loadDefaultCamera = (e) => {
+  const text = 'Canon EOS R';
+  const $select = document.querySelector('#camera');
+  const $options = Array.from($select.options);
+  const optionToSelect = $options.find(item => item.text ===text);
+  optionToSelect.selected = true;
+};
+
+window.onload = function() {
+  loadDefaultCamera();
+  updatePitch();
+};

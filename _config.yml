@@ -33,6 +33,7 @@ locale: "en-US"
 show_date: true # in posts
 date_format: "%Y-%B-%d" # https://www.shortcutfoo.com/app/dojos/ruby-date-format-strftime/cheatsheet
 timezone: America/Detroit
+markdown: kramdown
 
 #analytics:
 #  provider: "google-gtag"
@@ -44,6 +45,7 @@ timezone: America/Detroit
 #  search_engine_id: 60c6033163bd149ae
 
 head_scripts:
+  https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML
 #  - https://code.jquery.com/jquery-3.2.1.min.js
 #  - /assets/js/your-custom-head-script.js
 footer_scripts:

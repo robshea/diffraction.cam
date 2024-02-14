@@ -1,5 +1,17 @@
 cameras:
   - make: "Canon"
+    model: "EOS 5D Mark III"
+    pitch: 6.2
+  - make: "Canon"
+    model: "EOS R"
+    pitch: 5.4
+  - make: "Canon"
+    model: "EOS R5"
+    pitch: 4.4
+  - make: "Canon"
+    model: "EOS RP"
+    pitch: 5.8
+  - make: "Canon"
     model: "SL1"
     pitch: 4.29
   - make: "Fujifilm"
@@ -14,3 +26,15 @@ cameras:
   - make: "Fujifilm"
     model: "GFX 50S"
     pitch: 5.3
+  - make: "Nikon"
+    model: "Z 5"
+    pitch: 6.0
+  - make: "Olympus"
+    model: "OM-D E-M1"
+    pitch: 3.8
+  - make: "Sony"
+    model: "Alpha 6000"
+    pitch: 3.9
+  - make: "Sony"
+    model: "Alpha 7 III"
+    pitch: 5.9
