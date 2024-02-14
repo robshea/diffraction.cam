@@ -5,16 +5,26 @@ search: false
 
 @charset "utf-8";
 
+/* system typefaces */
+$serif      : Georgia, Times, serif;
+$sans-serif : "PT Sans", -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Segoe UI", "Roboto", "Lucida Grande", Arial, sans-serif;
+$monospace  : Monaco, Consolas, "Lucida Console", monospace;
+
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 
 input, label, select {
-  float:left;
-  margin:5px;
+  float: left;
+  margin: 5px;
+  font-size: 0.8em;
+}
+select {
+  background-color: #D6EAF8;
 }
 
 label {
-  margin-left: 20px;
+  margin-left: 10px;
+  margin-top: 8px;
 }
 
 form {
@@ -27,16 +37,31 @@ caption {
   font-style: italic;
 }
 
+a.site-title {
+  font-weight: 500;
+  &:visited {
+    color: $dark-gray;
+  }
+}
+
+.masthead__menu-item {
+  font-size: $type-size-6;
+}
+
+#top-fields {
+  display: flex;
+  margin-bottom: 25px;
+}
+.column {
+  flex: 33.33%;
+}
+
 #pitch {
-  width: 5em;
+  width: 4em;
 }
 
 #pitch-label {
   color:gray;
-}
-
-// table
-#diff-table {
 }
 
 // first & second column

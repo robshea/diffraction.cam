@@ -18,8 +18,10 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Visible Diffraction for Digital Cameras
-name: "Rob Shea"
+title: diffraction.cam
+subtitle: Visible Diffraction for Digital Cameras
+logo: https://photos.smugmug.com/photos/i-zwKSJCZ/0/8a283f55/O/i-zwKSJCZ.jpg
+name: "Rob Shea" #copyright
 email: diff@590.mozmail.com
 description: ""
 baseurl: "" # the subpath of your site, e.g. /blog
@@ -77,3 +79,30 @@ plugins:
 #   - vendor/ruby/
 
 include: ["_pages"]
+
+footer:
+  links:
+    - label: "YouTube"
+      icon: "fab fa-youtube"
+      url: "https://www.youtube.com/c/RobSheaPhotography"
+    - label: "Blog"
+      icon: "fas fa-blog"
+      url: "https://blog.robsheaphotography.com"
+    - label: "Instagram"
+      icon: "fab fa-instagram"
+      url: "https://www.instagram.com/rob_shea/"
+    - label: "Vero"
+      icon: fas fa-photo-video"
+      url: "https://vero.co/robshea"
+    - label: "Facebook"
+      icon: "fab fa-facebook"
+      url: "https://www.facebook.com/robsheaphotography"
+    - label: "TikTok"
+      icon: "fab fa-tiktok"
+      url: "https://www.tiktok.com/@rob.shea"
+    - label: "Gallery"
+      icon: "fas fa-image"
+      url: "https://www.robsheaphotography.com"
+    - label: "Email"
+      icon: "fas fa-envelope"
+      url: "mailto:diff@590.mozmail.com?subject=diffraction.cam"

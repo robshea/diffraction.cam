@@ -7,23 +7,33 @@ layout: splash
 
 <form>
 
-<label for="camera" id="camera-label">Camera</label>
-<select name="camera" id="camera" onchange="updatePitch()">
-  <option value="">- select camera -</option>
-  {% for camera in site.data.cameras.cameras %}
-  <option value="{{ camera.pitch }}">{{ camera.make }} {{ camera.model }}</option>
-  {% endfor %}
-</select>
+<div id="top-fields">
 
-<label for="pitch" id="pitch-label">Pixel Pitch (μm)</label>
-<input type="text" id="pitch" name="pitch" disabled>
+<div class="column">
+  <label for="camera" id="camera-label">Camera</label>
+  <select name="camera" id="camera" onchange="updatePitch()">
+    <option value="">- select camera -</option>
+    {% for camera in site.data.cameras.cameras %}
+    <option value="{{ camera.pitch }}">{{ camera.make }} {{ camera.model }}</option>
+    {% endfor %}
+  </select>
+</div>
 
-<label for="filter" id="filter-label">Filter</label>
-<select name="filter" id="filter" onchange="updateFilter(this)">
-  {% for filter in site.data.filters.filters %}
-  <option value="{{ filter.wavelengths }}">{{ filter.filter }}</option>
-  {% endfor %}
-</select>
+<div class="column">
+  <label for="pitch" id="pitch-label">Pixel Pitch (μm)</label>
+  <input type="text" id="pitch" name="pitch" disabled>
+</div>
+
+<div class="column">
+  <label for="filter" id="filter-label">Filter</label>
+  <select name="filter" id="filter" onchange="updateFilter(this)">
+    {% for filter in site.data.filters.filters %}
+    <option value="{{ filter.wavelengths }}">{{ filter.filter }}</option>
+    {% endfor %}
+  </select>
+</div>
+
+</div>
 
 <table id="diff-table">
 <caption>Airy Disk to Pixel Pitch ratio</caption>
@@ -60,12 +70,6 @@ layout: splash
 
 </form>
 
-### How To Use This Table
-
-- Select a camera. If your camera is not listed, [request to add it here](/cameras/).
-- Select a filter. If a column is dimmed, that wavelength of light will not be transmitted by the selected filter.
-- Select the row of the ƒ-number you wish to shoot at.
-
 <table id="legend-table">
 <caption>Airy Disk to Pixel Pitch ratio legend</caption>
 <colgroup>
@@ -85,3 +89,9 @@ layout: splash
   <td>Visible diffraction will impact image sharpness</td>
 </tr>
 </table>
+
+### How To Use This Table
+
+- Select a camera. If your camera is not listed, [request to add it here](/cameras/).
+- Select a filter. If a column is dimmed, that wavelength of light will not be transmitted by the selected filter.
+- Select the row of the ƒ-number you wish to shoot at.
