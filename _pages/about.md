@@ -52,7 +52,7 @@ Airy disk diameter = 2.44 * wavelength * ƒ-number
 
 ### Why compare to pixel pitch?
 
-Pixel pitch is the measurement from the center of a pixel to the center of an adjacent pixel. Digital camera specifications commonly publish pixel pitch. Pixel pitch is the best proxy that we have for sensor pixel diameter, since pixels are rectangular, and pixel sizes are not typically published.
+Pixel pitch is the measurement from the center of a pixel to the center of an adjacent pixel. Pixel pitch is the best proxy that we have for sensor pixel diameter, since pixels are rectangular, and pixel sizes are not typically published.
 
 Wavelength is measured in nanometers (nm). This results in the Airy disk size being measured in nanometers. Pixel pitch is measured in microns (μm). Multiply pixel pitch value by 1,000 to convert to nanometers for comparison.
 
