@@ -3,11 +3,43 @@ cameras:
     model: PowerShot ELPH 180
     pitch: 1.19
   - make: Canon
+    model: EOS 5D
+    pitch: 8.2
+  - make: Canon
     model: EOS 5D Mark II
     pitch: 6.41
   - make: Canon
     model: EOS 5D Mark III
     pitch: 6.22
+  - make: Canon
+    model: EOS 40D
+    pitch: 5.71
+  - make: Canon
+    model: EOS 6D
+    pitch: 6.5
+  - make: Canon
+    model: EOS 6D Mark II
+    pitch: 5.73
+  - make: Canon
+    model: EOS 60D
+    pitch: 4.29
+  - make: Canon
+    model: EOS 7D
+    pitch: 4.29
+  - make: Canon
+    model: EOS 70D
+    pitch: 4.09
+  - make: Canon
+    model: EOS 80D
+    pitch: 3.72
+
+  - make: Canon
+    model: EOS M5
+    pitch: 3.72
+  - make: Canon
+    model: EOS M50
+    pitch: 3.71
+
   - make: Canon
     model: EOS R
     pitch: 5.34
@@ -17,12 +49,72 @@ cameras:
   - make: Canon
     model: EOS RP
     pitch: 5.73
+
   - make: Canon
     model: SL1
     pitch: 4.29
+
+  - make: Fujifilm
+    model: FinePix X100
+    pitch: 5.50
+  - make: Fujifilm
+    model: X100S
+    pitch: 4.79
+  - make: Fujifilm
+    model: X100T
+    pitch: 4.76
+  - make: Fujifilm
+    model: X100F
+    pitch: 3.93
+  - make: Fujifilm
+    model: X100V
+    pitch: 3.74
+
+  - make: Fujifilm
+    model: X-E1
+    pitch: 4.76
+  - make: Fujifilm
+    model: X-E2
+    pitch: 4.76
+  - make: Fujifilm
+    model: X-E3
+    pitch: 3.88
+  - make: Fujifilm
+    model: X-E4
+    pitch: 3.74
+
+  - make: Fujifilm
+    model: X-H1
+    pitch: 3.88
+  - make: Fujifilm
+    model: X-H2
+    pitch: 3.02
+  - make: Fujifilm
+    model: X-Pro1
+    pitch: 4.76
+  - make: Fujifilm
+    model: X-Pro2
+    pitch: 3.9
+  - make: Fujifilm
+    model: X-Pro3
+    pitch: 3.74
+
+  - make: Fujifilm
+    model: X-T1
+    pitch: 4.76
   - make: Fujifilm
     model: X-T2
-    pitch: 3.9
+    pitch: 3.93
+  - make: Fujifilm
+    model: X-T3
+    pitch: 3.74
+  - make: Fujifilm
+    model: X-T4
+    pitch: 3.74
+  - make: Fujifilm
+    model: X-T5
+    pitch: 3.03
+
   - make: Fujifilm
     model: X-T20
     pitch: 3.93
@@ -32,15 +124,152 @@ cameras:
   - make: Fujifilm
     model: GFX 50S
     pitch: 5.3
+
+  - make: Leica
+    model: M8
+    pitch: 6.87
+
+  - make: Nikon
+    model: D200
+    pitch: 6.05
+  - make: Nikon
+    model: D300
+    pitch: 5.51
+  - make: Nikon
+    model: D3500
+    pitch: 3.89
+  - make: Nikon
+    model: D500
+    pitch: 4.2
+  - make: Nikon
+    model: D5100
+    pitch: 4.77
+  - make: Nikon
+    model: D610
+    pitch: 5.95
+  - make: Nikon
+    model: D70
+    pitch: 7.78
+  - make: Nikon
+    model: D7000
+    pitch: 4.77
+  - make: Nikon
+    model: D7100
+    pitch: 3.92
+  - make: Nikon
+    model: D7200
+    pitch: 3.89
+  - make: Nikon
+    model: D750
+    pitch: 5.95
+  - make: Nikon
+    model: D80
+    pitch: 6.05
+  - make: Nikon
+    model: D800
+    pitch: 4.87
+  - make: Nikon
+    model: D810
+    pitch: 4.87
+  - make: Nikon
+    model: D850
+    pitch: 4.34
+  - make: Nikon
+    model: D90
+    pitch: 5.51
   - make: Nikon
     model: Z 5
     pitch: 5.95
+  - make: Nikon
+    model: Z 50
+    pitch: 4.2
+  - make: Nikon
+    model: Z 6
+    pitch: 5.92
+  - make: Nikon
+    model: Z 6 II
+    pitch: 5.92
+  - make: Nikon
+    model: Z 7
+    pitch: 4.34
+  - make: Nikon
+    model: Z 7 II
+    pitch: 4.34
+  - make: Nikon
+    model: Z 8
+    pitch: 4.35
+  - make: Nikon
+    model: Z 9
+    pitch: 4.34
+
   - make: Olympus
     model: OM-D E-M1
     pitch: 3.72
+  - make: Olympus
+    model: OM-D E-M1 Mark II
+    pitch: 3.32
+  - make: Olympus
+    model: OM-D E-M1 Mark III
+    pitch: 3.32
+  - make: Olympus
+    model: OM-D E-M10
+    pitch: 3.74
+  - make: Olympus
+    model: OM-D E-M10 Mark II
+    pitch: 3.74
+  - make: Olympus
+    model: OM-D E-M10 Mark III
+    pitch: 3.74
+  - make: Olympus
+    model: OM-D E-M10 Mark IV
+    pitch: 3.33
+  - make: Olympus
+    model: OM-D E-M5
+    pitch: 3.74
+  - make: Olympus
+    model: OM-D E-M5 Mark II
+    pitch: 3.74
+  - make: Olympus
+    model: OM-D E-M5 Mark III
+    pitch: 3.32
+
+  - make: Panasonic
+    model: Lumix DC-S5
+    pitch: 5.91
+  - make: Panasonic
+    model: Lumix DMC-G1
+    pitch: 4.31
+  - make: Panasonic
+    model: Lumix DMC-G85
+    pitch: 3.75
+  - make: Panasonic
+    model: Lumix G9
+    pitch: 3.33
+  - make: Panasonic
+    model: Lumix DMC-GH2
+    pitch: 3.74
+  - make: Panasonic
+    model: Lumix DMC-GX8
+    pitch: 3.33
+  - make: Panasonic
+    model: Lumix DMC-GX85
+    pitch: 3.75
+
   - make: Sony
     model: α6000
     pitch: 3.88
+  - make: Sony
+    model: α6300
+    pitch: 3.89
+  - make: Sony
+    model: α6400
+    pitch: 3.89
+  - make: Sony
+    model: α6500
+    pitch: 3.89
+  - make: Sony
+    model: α6600
+    pitch: 3.89
   - make: Sony
     model: α7
     pitch: 5.93
@@ -51,9 +280,20 @@ cameras:
     model: α7 III
     pitch: 5.91
   - make: Sony
+    model: α7 IV
+    pitch: 5.1
+  - make: Sony
     model: α7R
     pitch: 4.88
-
-#  - make: 
-#    model: 
-#    pitch: 
+  - make: Sony
+    model: α7R II
+    pitch: 4.50
+  - make: Sony
+    model: α7R III
+    pitch: 4.51
+  - make: Sony
+    model: α7R IV
+    pitch: 3.73
+  - make: Sony
+    model: α7R V
+    pitch: 3.73
