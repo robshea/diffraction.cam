@@ -36,7 +36,7 @@ layout: splash
 </div>
 
 <table id="diff-table">
-<caption>Airy Disk to Pixel Pitch ratio</caption>
+<caption>Diffraction ratio</caption>
 <colgroup>
     <col span="2">
     <col span="11">
@@ -71,7 +71,7 @@ layout: splash
 </form>
 
 <table id="legend-table">
-<caption>Airy Disk to Pixel Pitch ratio legend</caption>
+<caption>Diffraction ratio legend</caption>
 <colgroup>
     <col style="width: 50px">
     <col>
