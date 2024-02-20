@@ -49,7 +49,7 @@ layout: splash
     <th colspan="4" id="ir">Infrared</th>
   </tr>
   <tr>
-    <th colspan="2"></th>
+    <th colspan="2" id="f-stop">ƒ-stop</th>
     {% for wavelength in site.data.wavelengths.wavelengths %}
       <th id="w{{ wavelength.wavelength }}">{{ wavelength.wavelength }}</th>
     {% endfor %}
