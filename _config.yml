@@ -37,11 +37,11 @@ date_format: "%Y-%B-%d" # https://www.shortcutfoo.com/app/dojos/ruby-date-format
 timezone: America/Detroit
 markdown: kramdown
 
-#analytics:
-#  provider: "google-gtag"
-#  google:
-#    tracking_id: ""
-#    anonymize_ip: false # default
+analytics:
+  provider: "google-gtag"
+  google:
+    tracking_id: "G-MCPPLEDRRY"
+    anonymize_ip: false # default
 
 #google:
 #  search_engine_id: 60c6033163bd149ae
