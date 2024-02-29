@@ -4,12 +4,18 @@ date: 2024-01-13 09:00:00:00 -0500
 permalink: /about/
 layout: single
 published: true
+
+toc: true
+toc_label: "FAQ"
+toc_icon: "fas fa-question-circle"
+toc_sticky: true
+
 ---
 
 ## What is diffraction?
 
 > Diffraction is a property of photographic systems that affects the sharpness of your images. At the highest f-stop values of a camera lens, diffraction will cause softness in your photos. When seeking the sharpest image in visible light photography, you may wish to avoid a couple of stops of the highest f-stop values on your lens. For example, if the maximum f-stop number on your lens is ƒ/22, you might avoid ƒ/22 and ƒ/16, which will soften your image due to diffraction. In this example, an f-stop value of ƒ/11 produces a sharp image without diffraction.
-> 
+>
 > In infrared photography, the impact of diffraction is more significant. With the same lens, you might also avoid using ƒ/11 and ƒ/8. The sharpest f-stop could be ƒ/5.6. You can see how dramatically diffraction impacts the settings you choose. This can be limiting, or it can be used for creative effect.
 
 _Excerpt from [Color Doesn’t Exist: A Practical Guide to Infrared Photography](https://www.colordoesntexist.com/)_
@@ -28,14 +34,14 @@ The diffraction ratio values were compared with visual diffraction tests for [AP
 
 ## What is an Airy Disk?
 
-> All photons coming from a single point on your subject do not produce a single point of light on your camera's sensor. Due to diffraction, each photon bends in a slightly different direction when passing through the aperture. Photons strike the sensor in a disk shape, surrounded by concentric light rings. This disk is called an *Airy disk*.
+> All photons coming from a single point on your subject do not produce a single point of light on your camera's sensor. Due to diffraction, each photon bends in a slightly different direction when passing through the aperture. Photons strike the sensor in a disk shape, surrounded by concentric light rings. This disk is called an _Airy disk_.
 
 _Excerpt from [Color Doesn’t Exist: A Practical Guide to Infrared Photography](https://www.colordoesntexist.com/)_
 
 ![Airy-pattern.svg](https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Airy-pattern.svg/1024px-Airy-pattern.svg.png)
 _Image credit: [Sakurambo](https://commons.wikimedia.org/wiki/File:Airy-pattern.svg)_
 
-## How do you calculate the size of an Airy disk?
+## How do you calculate Airy disk size?
 
 This formula is used to calculate the size of an Airy disk.
 
