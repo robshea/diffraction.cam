@@ -14,7 +14,6 @@ GEM
     faraday-net_http (3.1.0)
       net-http
     ffi (1.16.3)
-    ffi (1.16.3-x64-mingw-ucrt)
     forwardable-extended (2.6.0)
     google-protobuf (3.25.3-arm64-darwin)
     google-protobuf (3.25.3-x64-mingw-ucrt)
@@ -111,4 +110,4 @@ DEPENDENCIES
   wdm (~> 0.1.1)
 
 BUNDLED WITH
-   2.5.5
+   2.5.6

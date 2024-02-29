@@ -121,9 +121,19 @@ cameras:
   - make: Fujifilm
     model: X70
     pitch: 4.76
+
+  - make: Fujifilm
+    model: GFX 50R
+    pitch: 5.31
   - make: Fujifilm
     model: GFX 50S
-    pitch: 5.3
+    pitch: 5.31
+  - make: Fujifilm
+    model: GFX 100
+    pitch: 3.76
+  - make: Fujifilm
+    model: GFX 100S
+    pitch: 3.76
 
   - make: Leica
     model: M8
