@@ -19,7 +19,7 @@
 # in the templates via {{ site.myvariable }}.
 
 title: diffraction.cam
-subtitle: Visible Diffraction for Digital Cameras
+subtitle: Visible Diffraction Calculator for Digital Cameras
 logo: https://photos.smugmug.com/photos/i-zwKSJCZ/0/8a283f55/O/i-zwKSJCZ.jpg
 name: "Rob Shea" #copyright
 email: diff@590.mozmail.com

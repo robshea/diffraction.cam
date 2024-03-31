@@ -47,6 +47,9 @@ cameras:
     model: EOS R5
     pitch: 4.38
   - make: Canon
+    model: EOS R8
+    pitch: 5.98
+  - make: Canon
     model: EOS RP
     pitch: 5.73
 
