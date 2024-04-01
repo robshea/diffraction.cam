@@ -39,6 +39,9 @@ cameras:
   - make: Canon
     model: EOS M50
     pitch: 3.71
+  - make: Canon
+    model: EOS M200
+    pitch: 3.71
 
   - make: Canon
     model: EOS R
