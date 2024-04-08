@@ -313,3 +313,7 @@ cameras:
   - make: Sony
     model: α7R V
     pitch: 3.73
+
+  - make: Sony
+    model: Alpha SLT-A65
+    pitch: 3.88
