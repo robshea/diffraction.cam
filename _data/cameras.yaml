@@ -3,6 +3,15 @@ cameras:
     model: PowerShot ELPH 180
     pitch: 1.19
   - make: Canon
+    model: EOS 1D Mark III
+    pitch: 7.3
+  - make: Canon
+    model: EOS 1D Mark IV
+    pitch: 5.68
+  - make: Canon
+    model: EOS 1Ds Mark III
+    pitch: 6.41
+  - make: Canon
     model: EOS 5D
     pitch: 8.2
   - make: Canon
@@ -271,6 +280,13 @@ cameras:
     model: Lumix DMC-GX85
     pitch: 3.75
 
+  - make: Pentax
+    model: K-01
+    pitch: 4.78
+  - make: Pentax
+    model: K-70
+    pitch: 3.88
+
   - make: Sony
     model: α6000
     pitch: 3.88
@@ -313,6 +329,10 @@ cameras:
   - make: Sony
     model: α7R V
     pitch: 3.73
+
+  - make: Sony
+    model: Alpha NEX-7
+    pitch: 3.88
 
   - make: Sony
     model: Alpha SLT-A65
