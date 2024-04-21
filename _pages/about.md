@@ -32,6 +32,12 @@ A diffraction ratio lower than 3 will not result in visible diffraction. A diffr
 
 The diffraction ratio values were compared with visual diffraction tests for [APS-C](https://blog.robsheaphotography.com/2020/09/15/diffraction-in-infrared-photography.html) and [medium format](https://blog.robsheaphotography.com/2022/07/10/which-f-stop-sharpest-diffraction-gfx-50s.html) sensors to determine values where visual diffraction appears.
 
+## Why diffraction ratio of 3 or lower?
+
+Each sensor pixel contains the luminance information for a single color channel: red, green, or blue. In order to calculate the full RGB color of each pixel, the values of adjacent pixels are sampled. This process is call [demosaicing](https://en.wikipedia.org/wiki/Demosaicing).
+
+Since a pixel and it's adjacent pixels are sampled to determine it's color, an Airy disk that is three pixels wide will not result in diffraction. An Airy disk larger than three pixels wide can cause diffraction. In testing diffraction on both Bayer and X-Trans sensors, the diffraction ratio produces similar results regardless of demosaicing type.
+
 ## What is an Airy Disk?
 
 > All photons coming from a single point on your subject do not produce a single point of light on your camera's sensor. Due to diffraction, each photon bends in a slightly different direction when passing through the aperture. Photons strike the sensor in a disk shape, surrounded by concentric light rings. This disk is called an _Airy disk_.
@@ -66,10 +72,6 @@ Airy disk diameter = 2.44 * wavelength * ƒ-number
 Pixel pitch is the measurement from the center of a pixel to the center of an adjacent pixel. Pixel pitch is the best proxy that we have for sensor pixel diameter, since pixels are rectangular, and pixel sizes are not typically published.
 
 Wavelength is measured in nanometers (nm). This results in the Airy disk size being measured in nanometers. Pixel pitch is measured in microns (μm). Pixel pitch values are multiplied 1,000 to convert from microns to nanometers.
-
-## Does demosaicing affect diffraction?
-
-In testing diffraction on both Bayer and X-Trans sensors, the diffraction ratio produces similar results for the same value regardless of demosaicing type.
 
 ## Additional Reading
 
