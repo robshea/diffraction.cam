@@ -296,6 +296,13 @@ cameras:
     model: K-70
     pitch: 3.88
 
+  - make: Sigma
+    model: sd Quattro (see About)
+    pitch: 4.33
+  - make: Sigma
+    model: SD1 Merrill (see About)
+    pitch: 4.99
+
   - make: Sony
     model: α6000
     pitch: 3.88

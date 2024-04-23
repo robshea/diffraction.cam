@@ -67,6 +67,9 @@ Each sensor pixel contains the luminance information for a single color channel:
 
 Since a pixel and it's adjacent pixels are sampled to determine it's color, an Airy disk that is three pixels wide will not result in diffraction. An Airy disk larger than three pixels wide can cause diffraction. In testing diffraction on both Bayer and X-Trans sensors, the diffraction ratio produces similar results regardless of demosaicing type.
 
+{{ site.data.icons.warning }} **Warning:** I have not tested Sigma cameras to validate that a Diffraction Ratio of 3 is the right threshhold. Sigma Foveon sensors use stacked color sensors and do not use the same demosaicing as Bayer or X-Trans sensors.
+{: .notice--warning}
+
 ## Why compare to pixel pitch?
 
 Pixel pitch is the measurement from the center of a pixel to the center of an adjacent pixel. Pixel pitch is the best proxy that we have for sensor pixel diameter, since pixels are rectangular, and pixel sizes are not typically published.
@@ -75,6 +78,7 @@ Wavelength is measured in nanometers (nm). This results in the Airy disk size be
 
 ## Additional Reading
 
-- [Diffraction-limited imaging](https://en.wikipedia.org/wiki/Diffraction#Diffraction-limited_imaging)
 - [Airy disk](https://en.wikipedia.org/wiki/Airy_disk)
 - [Demosaicing](https://en.wikipedia.org/wiki/Demosaicing)
+- [Diffraction-limited imaging](https://en.wikipedia.org/wiki/Diffraction#Diffraction-limited_imaging)
+- [Foveon X3 Sensor](https://en.wikipedia.org/wiki/Foveon_X3_sensor)
