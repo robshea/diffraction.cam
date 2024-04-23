@@ -7,7 +7,7 @@ main:
     description: "A list of supported cameras"
   - title: "About"
     url: /about/
-    description: "About diffraction.cam"
+    description: "About diffraction.cAm"
   - title: "Videos"
     url: /videos/
     description: "Diffraction Videos"

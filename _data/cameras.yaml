@@ -1,8 +1,5 @@
 cameras:
   - make: Canon
-    model: PowerShot ELPH 180
-    pitch: 1.19
-  - make: Canon
     model: EOS 1D Mark III
     pitch: 7.3
   - make: Canon
@@ -66,8 +63,15 @@ cameras:
     pitch: 5.73
 
   - make: Canon
-    model: SL1
+    model: EOS SL1
     pitch: 4.29
+
+  - make: Canon
+    model: PowerShot ELPH 180
+    pitch: 1.19
+  - make: Canon
+    model: PowerShot G1 X
+    pitch: 4.27
 
   - make: Fujifilm
     model: FinePix X100
@@ -84,6 +88,9 @@ cameras:
   - make: Fujifilm
     model: X100V
     pitch: 3.74
+  - make: Fujifilm
+    model: X70
+    pitch: 4.76
 
   - make: Fujifilm
     model: X-E1
@@ -121,6 +128,9 @@ cameras:
     model: X-T2
     pitch: 3.93
   - make: Fujifilm
+    model: X-T20
+    pitch: 3.93
+  - make: Fujifilm
     model: X-T3
     pitch: 3.74
   - make: Fujifilm
@@ -129,13 +139,6 @@ cameras:
   - make: Fujifilm
     model: X-T5
     pitch: 3.03
-
-  - make: Fujifilm
-    model: X-T20
-    pitch: 3.93
-  - make: Fujifilm
-    model: X70
-    pitch: 4.76
 
   - make: Fujifilm
     model: GFX 50R
@@ -337,3 +340,7 @@ cameras:
   - make: Sony
     model: Alpha SLT-A65
     pitch: 3.88
+
+  - make: Sony
+    model: Cyber-Shot DSC-RX10 IV
+    pitch: 2.41

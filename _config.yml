@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: diffraction.cam
+title: diffraction.cAm
 subtitle: Visible Diffraction Calculator for Digital Cameras
 logo: https://photos.smugmug.com/photos/i-zwKSJCZ/0/8a283f55/O/i-zwKSJCZ.jpg
 name: "Rob Shea" #copyright
@@ -105,4 +105,4 @@ footer:
       url: "https://www.robsheaphotography.com"
     - label: "Email"
       icon: "fas fa-envelope"
-      url: "mailto:diff@590.mozmail.com?subject=diffraction.cam"
+      url: "mailto:diff@590.mozmail.com?subject=diffraction.cAm"

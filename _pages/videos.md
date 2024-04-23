@@ -1,10 +1,15 @@
 ---
 title: Diffraction Videos
-date: 2024-01-28 09:00:00:00 -0500
+date: 2024-04-23 09:00:00:00 -0500
 permalink: /videos/
 layout: single
 published: true
 ---
+
+## Diffraction Calculator
+
+{% assign video_id="DwhrqEMRH08" %}  
+{% include video id="DwhrqEMRH08" provider="youtube" %}
 
 ## Diffraction in Digital Infrared Photography
 
