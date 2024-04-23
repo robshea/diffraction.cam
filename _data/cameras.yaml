@@ -18,6 +18,12 @@ cameras:
     model: EOS 5D Mark III
     pitch: 6.22
   - make: Canon
+    model: EOS 5DS
+    pitch: 4.13
+  - make: Canon
+    model: EOS 5DS R
+    pitch: 4.13
+  - make: Canon
     model: EOS 40D
     pitch: 5.71
   - make: Canon
