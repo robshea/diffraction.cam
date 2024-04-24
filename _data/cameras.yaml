@@ -101,6 +101,9 @@ cameras:
     model: X100V
     pitch: 3.74
   - make: Fujifilm
+    model: X100VI
+    pitch: 3.04
+  - make: Fujifilm
     model: X70
     pitch: 4.76
 
@@ -168,6 +171,12 @@ cameras:
   - make: Leica
     model: M8
     pitch: 6.87
+  - make: Leica
+    model: SL2
+    pitch: 4.27
+  - make: Leica
+    model: SL3
+    pitch: 3.76
 
   - make: Nikon
     model: D200
@@ -308,11 +317,24 @@ cameras:
     pitch: 2.41
 
   - make: Pentax
+    model: 645D
+    pitch: 6.03
+  - make: Pentax
+    model: 645Z
+    pitch: 5.32
+  - make: Pentax
     model: K-01
     pitch: 4.78
   - make: Pentax
     model: K-70
     pitch: 3.88
+
+  - make: Ricoh
+    model: GR III
+    pitch: 3.88
+  - make: Ricoh
+    model: GR IIIx
+    pitch: 3.92
 
   - make: Sigma
     model: sd Quattro (see About)
