@@ -322,6 +322,9 @@ cameras:
     model: α6600
     pitch: 3.89
   - make: Sony
+    model: α6700
+    pitch: 3.79
+  - make: Sony
     model: α7
     pitch: 5.93
   - make: Sony
@@ -359,4 +362,7 @@ cameras:
 
   - make: Sony
     model: Cyber-Shot DSC-RX10 IV
+    pitch: 2.41
+  - make: Sony
+    model: Cyber-shot DSC-RX100 VI
     pitch: 2.41
