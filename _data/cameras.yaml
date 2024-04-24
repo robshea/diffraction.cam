@@ -288,6 +288,9 @@ cameras:
   - make: Panasonic
     model: Lumix DMC-GX85
     pitch: 3.75
+  - make: Panasonic
+    model: Lumix DMC-ZS100
+    pitch: 2.41
 
   - make: Pentax
     model: K-01
