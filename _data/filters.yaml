@@ -3,8 +3,6 @@ filters:
     wavelengths: 350, 400, 470, 550, 590, 665, 720, 780, 830, 930, 1000
   - filter: Hot mirror or UV/IR cut
     wavelengths: 470, 550, 590, 665, 720
-  - filter: UV Bandpass
-    wavelengths: 350, 400
   - filter: 470 nm high-pass
     wavelengths: 470, 550, 590, 665, 720, 780, 830, 930, 1000
   - filter: 550 nm high-pass
@@ -23,4 +21,7 @@ filters:
     wavelengths: 930, 1000
   - filter: 1000 nm high-pass
     wavelengths: 1000
-
+  - filter: IR Chrome
+    wavelengths: 470, 720, 780, 830, 930, 1000
+  - filter: UV Bandpass
+    wavelengths: 350, 400
