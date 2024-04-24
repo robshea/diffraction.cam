@@ -271,14 +271,20 @@ cameras:
     model: Lumix DC-S5
     pitch: 5.91
   - make: Panasonic
+    model: Lumix DC-G9
+    pitch: 3.33
+  - make: Panasonic
     model: Lumix DMC-G1
+    pitch: 4.31
+  - make: Panasonic
+    model: Lumix DMC-G2
     pitch: 4.31
   - make: Panasonic
     model: Lumix DMC-G85
     pitch: 3.75
   - make: Panasonic
-    model: Lumix G9
-    pitch: 3.33
+    model: Lumix DMC-GF3
+    pitch: 4.31
   - make: Panasonic
     model: Lumix DMC-GH2
     pitch: 3.74
