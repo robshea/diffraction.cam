@@ -176,6 +176,9 @@ cameras:
     model: D300
     pitch: 5.51
   - make: Nikon
+    model: D3200
+    pitch: 3.84
+  - make: Nikon
     model: D3500
     pitch: 3.89
   - make: Nikon
