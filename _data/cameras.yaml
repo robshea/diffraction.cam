@@ -44,6 +44,9 @@ cameras:
   - make: Canon
     model: EOS 80D
     pitch: 3.72
+  - make: Canon
+    model: EOS 90D
+    pitch: 3.23
 
   - make: Canon
     model: EOS M5
@@ -194,8 +197,14 @@ cameras:
     model: D500
     pitch: 4.2
   - make: Nikon
+    model: D5000
+    pitch: 5.53
+  - make: Nikon
     model: D5100
     pitch: 4.77
+  - make: Nikon
+    model: D5300
+    pitch: 3.91
   - make: Nikon
     model: D610
     pitch: 5.95
@@ -292,6 +301,9 @@ cameras:
     model: Lumix DC-G9
     pitch: 3.33
   - make: Panasonic
+    model: Lumix DC-G9 II
+    pitch: 3.00
+  - make: Panasonic
     model: Lumix DMC-G1
     pitch: 4.31
   - make: Panasonic
@@ -325,6 +337,9 @@ cameras:
   - make: Pentax
     model: K-01
     pitch: 4.78
+  - make: Pentax
+    model: K-20
+    pitch: 5.05
   - make: Pentax
     model: K-70
     pitch: 3.88
