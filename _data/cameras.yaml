@@ -548,6 +548,14 @@ cameras:
     pitch: 2.7
     size: 2/3-inch
   - make: Sony
+    model: Cyber-Shot DSC-RX0
+    pitch: 2.74
+    size: 1-inch
+  - make: Sony
+    model: Cyber-Shot DSC-RX0 II
+    pitch: 2.74
+    size: 1-inch
+  - make: Sony
     model: Cyber-Shot DSC-RX10 IV
     pitch: 2.41
     size: 1-inch
