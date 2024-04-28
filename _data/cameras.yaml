@@ -2,419 +2,552 @@ cameras:
   - make: Canon
     model: EOS 1D Mark III
     pitch: 7.3
+    size: Full Frame
   - make: Canon
     model: EOS 1D Mark IV
     pitch: 5.68
+    size: Full Frame
   - make: Canon
     model: EOS 1Ds Mark III
     pitch: 6.41
+    size: Full Frame
   - make: Canon
     model: EOS 5D
     pitch: 8.2
+    size: Full Frame
   - make: Canon
     model: EOS 5D Mark II
     pitch: 6.41
+    size: Full Frame
   - make: Canon
     model: EOS 5D Mark III
     pitch: 6.22
+    size: Full Frame
   - make: Canon
     model: EOS 5DS
     pitch: 4.13
+    size: Full Frame
   - make: Canon
     model: EOS 5DS R
     pitch: 4.13
+    size: Full Frame
   - make: Canon
     model: EOS 40D
     pitch: 5.71
+    size: APS-C
   - make: Canon
     model: EOS 6D
     pitch: 6.5
+    size: Full Frame
   - make: Canon
     model: EOS 6D Mark II
     pitch: 5.73
+    size: Full Frame
   - make: Canon
     model: EOS 60D
     pitch: 4.29
+    size: APS-C
   - make: Canon
     model: EOS 7D
     pitch: 4.29
+    size: APS-C
   - make: Canon
     model: EOS 70D
     pitch: 4.09
+    size: APS-C
   - make: Canon
     model: EOS 80D
     pitch: 3.72
+    size: APS-C
   - make: Canon
     model: EOS 90D
     pitch: 3.23
+    size: APS-C
 
   - make: Canon
     model: EOS M5
     pitch: 3.72
+    size: APS-C
   - make: Canon
     model: EOS M50
     pitch: 3.71
+    size: APS-C
   - make: Canon
     model: EOS M200
     pitch: 3.71
+    size: APS-C
 
   - make: Canon
     model: EOS R
     pitch: 5.34
+    size: Full Frame
   - make: Canon
     model: EOS R5
     pitch: 4.38
+    size: Full Frame
   - make: Canon
     model: EOS R6
     pitch: 6.56
+    size: Full Frame
   - make: Canon
     model: EOS R7
     pitch: 3.20
+    size: Full Frame
   - make: Canon
     model: EOS R8
     pitch: 5.98
+    size: Full Frame
   - make: Canon
     model: EOS RP
     pitch: 5.73
+    size: Full Frame
 
   - make: Canon
     model: EOS SL1
     pitch: 4.29
+    size: APS-C
 
   - make: Canon
     model: PowerShot ELPH 180
     pitch: 1.19
+    size: 1/2.3-inch
   - make: Canon
     model: PowerShot G1 X
     pitch: 4.27
+    size: 1.5-inch
 
   - make: Fujifilm
     model: FinePix X100
     pitch: 5.50
+    size: APS-C
   - make: Fujifilm
     model: X100S
     pitch: 4.79
+    size: APS-C
   - make: Fujifilm
     model: X100T
     pitch: 4.76
+    size: APS-C
   - make: Fujifilm
     model: X100F
     pitch: 3.93
+    size: APS-C
   - make: Fujifilm
     model: X100V
     pitch: 3.74
+    size: APS-C
   - make: Fujifilm
     model: X100VI
     pitch: 3.04
+    size: APS-C
   - make: Fujifilm
     model: X70
     pitch: 4.76
+    size: APS-C
 
   - make: Fujifilm
     model: X-E1
     pitch: 4.76
+    size: APS-C
   - make: Fujifilm
     model: X-E2
     pitch: 4.76
+    size: APS-C
   - make: Fujifilm
     model: X-E3
     pitch: 3.88
+    size: APS-C
   - make: Fujifilm
     model: X-E4
     pitch: 3.74
+    size: APS-C
 
   - make: Fujifilm
     model: X-H1
     pitch: 3.88
+    size: APS-C
   - make: Fujifilm
     model: X-H2
     pitch: 3.02
+    size: APS-C
   - make: Fujifilm
     model: X-Pro1
     pitch: 4.76
+    size: APS-C
   - make: Fujifilm
     model: X-Pro2
     pitch: 3.9
+    size: APS-C
   - make: Fujifilm
     model: X-Pro3
     pitch: 3.74
+    size: APS-C
 
   - make: Fujifilm
     model: X-T1
     pitch: 4.76
+    size: APS-C
   - make: Fujifilm
     model: X-T2
     pitch: 3.93
+    size: APS-C
   - make: Fujifilm
     model: X-T20
     pitch: 3.93
+    size: APS-C
   - make: Fujifilm
     model: X-T3
     pitch: 3.74
+    size: APS-C
   - make: Fujifilm
     model: X-T4
     pitch: 3.74
+    size: APS-C
   - make: Fujifilm
     model: X-T5
     pitch: 3.03
+    size: APS-C
 
   - make: Fujifilm
     model: GFX 50R
     pitch: 5.31
+    size: Medium Format
   - make: Fujifilm
     model: GFX 50S
     pitch: 5.31
+    size: Medium Format
   - make: Fujifilm
     model: GFX 100
     pitch: 3.76
+    size: Medium Format
   - make: Fujifilm
     model: GFX 100S
     pitch: 3.76
+    size: Medium Format
 
   - make: Leica
     model: M8
     pitch: 6.87
+    size: APS-H
   - make: Leica
     model: SL2
     pitch: 4.27
+    size: Full Frame
   - make: Leica
     model: SL3
     pitch: 3.76
+    size: Full Frame
 
   - make: Nikon
     model: D200
     pitch: 6.05
+    size: APS-C
   - make: Nikon
     model: D300
     pitch: 5.51
+    size: APS-C
   - make: Nikon
     model: D3200
     pitch: 3.84
+    size: APS-C
   - make: Nikon
     model: D3500
     pitch: 3.89
+    size: APS-C
   - make: Nikon
     model: D500
     pitch: 4.2
+    size: APS-C
   - make: Nikon
     model: D5000
     pitch: 5.53
+    size: APS-C
   - make: Nikon
     model: D5100
     pitch: 4.77
+    size: APS-C
   - make: Nikon
     model: D5300
     pitch: 3.91
+    size: APS-C
   - make: Nikon
     model: D610
     pitch: 5.95
+    size: APS-C
   - make: Nikon
     model: D70
     pitch: 7.78
+    size: APS-C
   - make: Nikon
     model: D7000
     pitch: 4.77
+    size: APS-C
   - make: Nikon
     model: D7100
     pitch: 3.92
+    size: APS-C
   - make: Nikon
     model: D7200
     pitch: 3.89
+    size: APS-C
   - make: Nikon
     model: D750
     pitch: 5.95
+    size: APS-C
   - make: Nikon
     model: D80
     pitch: 6.05
+    size: APS-C
   - make: Nikon
     model: D800
     pitch: 4.87
+    size: APS-C
   - make: Nikon
     model: D810
     pitch: 4.87
+    size: APS-C
   - make: Nikon
     model: D850
     pitch: 4.34
+    size: APS-C
   - make: Nikon
     model: D90
     pitch: 5.51
+    size: APS-C
   - make: Nikon
     model: Z 5
     pitch: 5.95
+    size: Full Frame
   - make: Nikon
     model: Z 50
     pitch: 4.2
+    size: APS-C
   - make: Nikon
     model: Z 6
     pitch: 5.92
+    size: Full Frame
   - make: Nikon
     model: Z 6 II
     pitch: 5.92
+    size: Full Frame
   - make: Nikon
     model: Z 7
     pitch: 4.34
+    size: Full Frame
   - make: Nikon
     model: Z 7 II
     pitch: 4.34
+    size: Full Frame
   - make: Nikon
     model: Z 8
     pitch: 4.35
+    size: Full Frame
   - make: Nikon
     model: Z 9
     pitch: 4.34
+    size: Full Frame
 
   - make: Olympus
     model: OM-D E-M1
     pitch: 3.72
+    size: Micro Four Thirds
   - make: Olympus
     model: OM-D E-M1 Mark II
     pitch: 3.32
+    size: Micro Four Thirds
   - make: Olympus
     model: OM-D E-M1 Mark III
     pitch: 3.32
+    size: Micro Four Thirds
   - make: Olympus
     model: OM-D E-M10
     pitch: 3.74
+    size: Micro Four Thirds
   - make: Olympus
     model: OM-D E-M10 Mark II
     pitch: 3.74
+    size: Micro Four Thirds
   - make: Olympus
     model: OM-D E-M10 Mark III
     pitch: 3.74
+    size: Micro Four Thirds
   - make: Olympus
     model: OM-D E-M10 Mark IV
     pitch: 3.33
+    size: Micro Four Thirds
   - make: Olympus
     model: OM-D E-M5
     pitch: 3.74
+    size: Micro Four Thirds
   - make: Olympus
     model: OM-D E-M5 Mark II
     pitch: 3.74
+    size: Micro Four Thirds
   - make: Olympus
     model: OM-D E-M5 Mark III
     pitch: 3.32
+    size: Micro Four Thirds
 
   - make: Panasonic
     model: Lumix DC-S5
     pitch: 5.91
+    size: Full Frame
   - make: Panasonic
     model: Lumix DC-G9
     pitch: 3.33
+    size: Full Frame
   - make: Panasonic
     model: Lumix DC-G9 II
     pitch: 3.00
+    size: Full Frame
   - make: Panasonic
     model: Lumix DMC-G1
     pitch: 4.31
+    size: Micro Four Thirds
   - make: Panasonic
     model: Lumix DMC-G2
     pitch: 4.31
+    size: Micro Four Thirds
   - make: Panasonic
     model: Lumix DMC-G85
     pitch: 3.75
+    size: Micro Four Thirds
   - make: Panasonic
     model: Lumix DMC-GF3
     pitch: 4.31
+    size: Micro Four Thirds
   - make: Panasonic
     model: Lumix DMC-GH2
     pitch: 3.74
+    size: Micro Four Thirds
   - make: Panasonic
     model: Lumix DMC-GX8
     pitch: 3.33
+    size: Micro Four Thirds
   - make: Panasonic
     model: Lumix DMC-GX85
     pitch: 3.75
+    size: Micro Four Thirds
   - make: Panasonic
     model: Lumix DMC-ZS100
     pitch: 2.41
+    size: 1-inch
 
   - make: Pentax
     model: 645D
     pitch: 6.03
+    size: Medium Format
   - make: Pentax
     model: 645Z
     pitch: 5.32
+    size: Medium Format
   - make: Pentax
     model: K-01
     pitch: 4.78
+    size: APS-C
   - make: Pentax
     model: K-20
     pitch: 5.05
+    size: APS-C
   - make: Pentax
     model: K-70
     pitch: 3.88
+    size: APS-C
 
   - make: Ricoh
     model: GR III
     pitch: 3.88
+    size: APS-C
   - make: Ricoh
     model: GR IIIx
     pitch: 3.92
+    size: APS-C
 
   - make: Sigma
     model: sd Quattro (see About)
     pitch: 4.33
+    size: ASP-C
   - make: Sigma
     model: SD1 Merrill (see About)
     pitch: 4.99
+    size: APS-C
 
   - make: Sony
     model: α6000
     pitch: 3.88
+    size: APS-C
   - make: Sony
     model: α6300
     pitch: 3.89
+    size: APS-C
   - make: Sony
     model: α6400
     pitch: 3.89
+    size: APS-C
   - make: Sony
     model: α6500
     pitch: 3.89
+    size: APS-C
   - make: Sony
     model: α6600
     pitch: 3.89
+    size: APS-C
   - make: Sony
     model: α6700
     pitch: 3.79
+    size: APS-C
   - make: Sony
     model: α7
     pitch: 5.93
+    size: Full Frame
   - make: Sony
     model: α7 II
     pitch: 5.93
+    size: Full Frame
   - make: Sony
     model: α7 III
     pitch: 5.91
+    size: Full Frame
   - make: Sony
     model: α7 IV
     pitch: 5.1
+    size: Full Frame
   - make: Sony
     model: α7R
     pitch: 4.88
+    size: Full Frame
   - make: Sony
     model: α7R II
     pitch: 4.50
+    size: Full Frame
   - make: Sony
     model: α7R III
     pitch: 4.51
+    size: Full Frame
   - make: Sony
     model: α7R IV
     pitch: 3.73
+    size: Full Frame
   - make: Sony
     model: α7R V
     pitch: 3.73
+    size: Full Frame
 
   - make: Sony
     model: Alpha NEX-7
     pitch: 3.88
+    size: APS-C
 
   - make: Sony
     model: Alpha SLT-A65
     pitch: 3.88
+    size: APS-C
 
   - make: Sony
     model: Cyber-Shot DSC-RX10 IV
     pitch: 2.41
+    size: 1-inch
   - make: Sony
     model: Cyber-shot DSC-RX100 VI
     pitch: 2.41
+    size: 1-inch

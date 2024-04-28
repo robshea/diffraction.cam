@@ -2,7 +2,7 @@ main:
   - title: "Diffraction"
     url: /
     description: "Home"
-  - title: "Supported Cameras"
+  - title: "Cameras"
     url: /cameras/
     description: "A list of supported cameras"
   - title: "About"

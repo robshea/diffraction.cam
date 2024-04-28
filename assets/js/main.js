@@ -1,13 +1,17 @@
-// f-numbers
 const f_numbers = [1.4, 2, 2.8, 4, 5.6, 8, 11, 16, 22, 32];
-// wavelengths
 const wavelengths = [350, 400, 470, 550, 590, 665, 720, 780, 830, 930, 1000]
 
 function updatePitch() {
 
-  // Get the selected value from the "camera" select field
+  // update query string parameter from selected field
+  let urlParams = new URLSearchParams(window.location.search);
+  const selectedCamera = document.querySelector('#camera option:checked').label;
+  urlParams.set("camera", selectedCamera);
+  history.replaceState(null, null, "?"+urlParams.toString());
+
+  // get the selected value from the "camera" select field
   const pitch_micron = document.querySelector('#camera').value;
-  // Update the value of the "pitch" input field
+  // update the value of the "pitch" input field
   document.getElementById("pitch").value = pitch_micron;
 
   let cell_id = '';
@@ -86,10 +90,14 @@ function highlightRow(input) {
 }
 
 const loadDefaultCamera = (e) => {
-  const text = 'Canon EOS R';
+  let urlParams = new URLSearchParams(window.location.search);
+  let camera = 'Canon EOS R';
+  if (urlParams.get('camera')) {
+    camera = urlParams.get('camera');
+  }
   const $select = document.querySelector('#camera');
   const $options = Array.from($select.options);
-  const optionToSelect = $options.find(item => item.text ===text);
+  const optionToSelect = $options.find(item => item.text === camera);
   optionToSelect.selected = true;
 };
 
