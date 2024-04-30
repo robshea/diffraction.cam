@@ -421,6 +421,14 @@ cameras:
     pitch: 3.74
     size: Micro Four Thirds
   - make: Panasonic
+    model: Lumix DMC-GH3
+    pitch: 3.74
+    size: Micro Four Thirds
+  - make: Panasonic
+    model: Lumix DMC-GH4
+    pitch: 3.74
+    size: Micro Four Thirds
+  - make: Panasonic
     model: Lumix DMC-GX8
     pitch: 3.33
     size: Micro Four Thirds
