@@ -348,6 +348,10 @@ cameras:
     size: Full Frame
 
   - make: Olympus
+    model: OM-1
+    pitch: 3.32
+    size: Micro Four Thirds
+  - make: Olympus
     model: OM-D E-M1
     pitch: 3.72
     size: Micro Four Thirds
