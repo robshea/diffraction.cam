@@ -346,6 +346,14 @@ cameras:
     model: Z 9
     pitch: 4.34
     size: Full Frame
+  - make: Nikon
+    model: Z f
+    pitch: 5.94
+    size: Full Frame
+  - make: Nikon
+    model: Z fc
+    pitch: 4.2
+    size: APS-C
 
   - make: Olympus
     model: OM-1
