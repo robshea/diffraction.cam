@@ -90,6 +90,10 @@ cameras:
     pitch: 6.56
     size: Full Frame
   - make: Canon
+    model: EOS R6 Mark II
+    pitch: 5.96
+    size: Full Frame
+  - make: Canon
     model: EOS R7
     pitch: 3.20
     size: Full Frame
