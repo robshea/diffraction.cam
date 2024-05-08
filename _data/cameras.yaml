@@ -24,6 +24,10 @@ cameras:
     pitch: 6.22
     size: Full Frame
   - make: Canon
+    model: EOS 5D Mark IV
+    pitch: 5.36
+    size: Full Frame
+  - make: Canon
     model: EOS 5DS
     pitch: 4.13
     size: Full Frame
@@ -474,6 +478,10 @@ cameras:
     pitch: 5.05
     size: APS-C
   - make: Pentax
+    model: K-3 II
+    pitch: 3.88
+    size: APS-C
+  - make: Pentax
     model: K-70
     pitch: 3.88
     size: APS-C
@@ -557,6 +565,10 @@ cameras:
     pitch: 3.73
     size: Full Frame
 
+  - make: Sony
+    model: Alpha NEX-5R
+    pitch: 4.78
+    size: APS-C
   - make: Sony
     model: Alpha NEX-7
     pitch: 3.88
