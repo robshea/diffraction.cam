@@ -12,6 +12,14 @@ cameras:
     pitch: 6.41
     size: Full Frame
   - make: Canon
+    model: EOS 20D
+    pitch: 6.42
+    size: APS-C
+  - make: Canon
+    model: EOS 40D
+    pitch: 5.71
+    size: APS-C
+  - make: Canon
     model: EOS 5D
     pitch: 8.2
     size: Full Frame
@@ -35,10 +43,6 @@ cameras:
     model: EOS 5DS R
     pitch: 4.13
     size: Full Frame
-  - make: Canon
-    model: EOS 40D
-    pitch: 5.71
-    size: APS-C
   - make: Canon
     model: EOS 6D
     pitch: 6.5
