@@ -106,6 +106,10 @@ cameras:
     pitch: 5.98
     size: Full Frame
   - make: Canon
+    model: EOS R100
+    pitch: 3.72
+    size: APS-C
+  - make: Canon
     model: EOS RP
     pitch: 5.73
     size: Full Frame
