@@ -295,6 +295,10 @@ cameras:
     pitch: 7.78
     size: APS-C
   - make: Nikon
+    model: D700
+    pitch: 8.42
+    size: Full Frame
+  - make: Nikon
     model: D7000
     pitch: 4.77
     size: APS-C
