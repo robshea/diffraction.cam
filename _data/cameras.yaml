@@ -335,6 +335,11 @@ cameras:
     pitch: 5.51
     size: APS-C
   - make: Nikon
+    model: Df
+    pitch: 7.28
+    size: Full Frame
+
+  - make: Nikon
     model: Z 5
     pitch: 5.95
     size: Full Frame
@@ -575,6 +580,18 @@ cameras:
   - make: Sony
     model: α7R V
     pitch: 3.73
+    size: Full Frame
+  - make: Sony
+    model: α7S
+    pitch: 8.40
+    size: Full Frame
+  - make: Sony
+    model: α7S II
+    pitch: 8.40
+    size: Full Frame
+  - make: Sony
+    model: α7S III
+    pitch: 8.40
     size: Full Frame
 
   - make: Sony
