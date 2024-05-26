@@ -25,6 +25,7 @@ Pixel pitch values may be published by the manufacturer or calculated based sens
   <th>Model</th>
   <th>Sensor Size</th>
   <th>Pixel Pitch (μm)</th>
+  <th>Megapixels</th>
 </tr>
 {% for camera in site.data.cameras.cameras %}
 <tr>
@@ -32,11 +33,14 @@ Pixel pitch values may be published by the manufacturer or calculated based sens
   <td><a href="/?camera={{ camera.make }} {{ camera.model }}">{{ camera.model }}</a></td>
   <td>{{ camera.size }}</td>
   <td>{{ camera.pitch }}</td>
+  <td>{{ camera.megapixels }}</td>
 </tr>
 {% endfor %}
 </table>
 
 ## Cameras by Pitch
+
+If you are looking for a camera with the greatest depth of field, start at the top of this list and work your way down.
 
 {% assign cameras_by_pitch = site.data.cameras.cameras | sort: "pitch" | reverse %}
 
@@ -47,6 +51,7 @@ Pixel pitch values may be published by the manufacturer or calculated based sens
   <th>Model</th>
   <th>Sensor Size</th>
   <th>Pixel Pitch (μm)</th>
+  <th>Megapixels</th>
 </tr>
 {% for camera in cameras_by_pitch %}
 <tr>
@@ -54,6 +59,7 @@ Pixel pitch values may be published by the manufacturer or calculated based sens
   <td><a href="/?camera={{ camera.make }} {{ camera.model }}">{{ camera.model }}</a></td>
   <td>{{ camera.size }}</td>
   <td>{{ camera.pitch }}</td>
+  <td>{{ camera.megapixels }}</td>
 </tr>
 {% endfor %}
 </table>

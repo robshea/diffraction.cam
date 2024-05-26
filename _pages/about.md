@@ -1,6 +1,6 @@
 ---
 title: About
-date: 2024-01-13 09:00:00:00 -0500
+date: 2024-05-25 09:00:00:00 -0500
 permalink: /about/
 layout: single
 published: true
@@ -31,22 +31,31 @@ _Image credit: [Sakurambo](https://commons.wikimedia.org/wiki/File:Airy-pattern.
 
 ## How do you calculate Airy disk size?
 
-This formula is used to calculate the size of an Airy disk.
+This formula is used to calculate the radius of an Airy disk.
 
 $$
 Δx = 1.22ƛN
 $$
 
-Δx is the radius of the Airy disk from the center to the first null. The first null is the gap between the central dot and the first ring. Double this value to get the diameter of the Airy disk from null to null.
+Δx is the radius of the Airy disk from the center to the first null. The first null is the gap between the central dot and the first ring. Double this value to get the diameter of the Airy disk from null to null. This diameter is measured in nanometers (nm).
 
-ƛ is the wavelength of the light.
+ƛ is the wavelength of the light, measured in nanometers (nm).
 
-*N* is the ƒ-number or ƒ-stop of the imaging optics. ƒ-number is the lens focal length divided by the lens aperture diameter.
+*N* is the ƒ-number or ƒ-stop of the imaging optics. ƒ-number is a ratio of the focal length in millimeters (mm) divided by the aperture diameter in millimeters (mm).
 
 This gives us the following formula.
 
 ```jsx
 Airy disk diameter = 2.44 * wavelength * ƒ-number
+```
+
+## Does focal length impact diffraction?
+
+Focal length is used to calculate ƒ-number. ƒ-number is a ratio of the focal length divided by the aperture diameter. The formula for Airy disk diameter could also be written as:
+
+```jsx
+Airy disk diameter =
+2.44 * wavelength * focal length / aperture diameter
 ```
 
 ## What is the diffraction ratio?
