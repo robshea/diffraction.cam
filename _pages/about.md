@@ -68,7 +68,7 @@ diffraction ratio = Airy disk diameter / pixel pitch
 
 A diffraction ratio lower than 3 will not result in visible diffraction. A diffraction ratio of 3 to 4.5 results in mild visible diffraction. A diffraction ratio greater than 4.5 will visibly impact image sharpness.
 
-The diffraction ratio values were compared with visual diffraction tests for [APS-C](https://blog.robsheaphotography.com/2020/09/15/diffraction-in-infrared-photography.html) and [medium format](https://blog.robsheaphotography.com/2022/07/10/which-f-stop-sharpest-diffraction-gfx-50s.html) sensors to determine values where visual diffraction appears.
+The diffraction ratio values were compared with visual diffraction tests for [APS-C](https://www.robsheaphotography.com/2020/09/15/diffraction-in-infrared-photography.html) and [medium format](https://www.robsheaphotography.com/2022/07/10/which-f-stop-sharpest-diffraction-gfx-50s.html) sensors to determine values where visual diffraction appears.
 
 ## Why diffraction ratio of 3 or lower?
 
