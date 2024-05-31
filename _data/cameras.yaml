@@ -698,6 +698,11 @@ cameras:
     size: Full Frame
     megapixels: 33
   - make: Sony
+    model: α7CR
+    pitch: 3.76
+    size: Full Frame
+    megapixels: 61.0
+  - make: Sony
     model: α7R
     pitch: 4.88
     size: Full Frame
