@@ -33,7 +33,7 @@ Pixel pitch values may be published by the manufacturer or calculated based sens
   <td><a href="/?camera={{ camera.make }} {{ camera.model }}">{{ camera.model }}</a></td>
   <td>{{ camera.size }}</td>
   <td>{{ camera.pitch }}</td>
-  <td>{{ camera.megapixels }}</td>
+  <td style="text-align: right;">{{ camera.megapixels }}</td>
 </tr>
 {% endfor %}
 </table>
@@ -59,7 +59,7 @@ If you are looking for a camera with the greatest depth of field, start at the t
   <td><a href="/?camera={{ camera.make }} {{ camera.model }}">{{ camera.model }}</a></td>
   <td>{{ camera.size }}</td>
   <td>{{ camera.pitch }}</td>
-  <td>{{ camera.megapixels }}</td>
+  <td style="text-align: right;">{{ camera.megapixels }}</td>
 </tr>
 {% endfor %}
 </table>
