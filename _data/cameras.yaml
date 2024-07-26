@@ -584,6 +584,11 @@ cameras:
     size: Micro Four Thirds
     megapixels: 16.05
   - make: Panasonic
+    model: Lumix DMC-GH5S
+    pitch: 4.68
+    size: Micro Four Thirds
+    megapixels: 10.28
+  - make: Panasonic
     model: Lumix DMC-GX8
     pitch: 3.33
     size: Micro Four Thirds
