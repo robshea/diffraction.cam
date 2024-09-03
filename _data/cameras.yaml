@@ -336,6 +336,11 @@ cameras:
     size: APS-C
     megapixels: 24.2
   - make: Nikon
+    model: D40
+    pitch: 7.78
+    size: APS-C
+    megapixels: 6.1
+  - make: Nikon
     model: D500
     pitch: 4.2
     size: APS-C
