@@ -304,6 +304,12 @@ cameras:
     size: Medium Format
     megapixels: 102
 
+  - make: Hasselblad
+    model: CFV 100C
+    pitch: 3.76
+    size: Medium Format
+    megapixels: 100
+
   - make: Leica
     model: M8
     pitch: 6.87
