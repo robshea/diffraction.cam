@@ -117,6 +117,11 @@ cameras:
     size: Full Frame
     megapixels: 45.0
   - make: Canon
+    model: EOS R50
+    pitch: 3.7
+    size: APS-C
+    megapixels: 24.2
+  - make: Canon
     model: EOS R6
     pitch: 6.56
     size: Full Frame
@@ -487,6 +492,11 @@ cameras:
     pitch: 3.32
     size: Micro Four Thirds
     megapixels: 20.4
+  - make: Olympus
+    model: OM-5
+    pitch: 3.32
+    size: Micro Four Thirds
+    megapixels: 20.2
   - make: Olympus
     model: OM-D E-M1
     pitch: 3.72
