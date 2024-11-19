@@ -15,6 +15,16 @@ cameras:
     size: Full Frame
     megapixels: 21.1
   - make: Canon
+    model: EOS 100D Rebel SL1
+    pitch: 4.29
+    size: APS-C
+    megapixels: 18.0
+  - make: Canon
+    model: EOS 1100D Rebel T3
+    pitch: 5.19
+    size: APS-C
+    megapixels: 12.2
+  - make: Canon
     model: EOS 20D
     pitch: 6.42
     size: APS-C
@@ -79,6 +89,11 @@ cameras:
     pitch: 4.09
     size: APS-C
     megapixels: 20.2
+  - make: Canon
+    model: EOS 760D Rebel T6s
+    pitch: 3.7
+    size: APS-C
+    megapixels: 24.2
   - make: Canon
     model: EOS 80D
     pitch: 3.72
@@ -151,12 +166,6 @@ cameras:
     pitch: 5.73
     size: Full Frame
     megapixels: 26.2
-
-  - make: Canon
-    model: EOS SL1
-    pitch: 4.29
-    size: APS-C
-    megapixels: 18.0
 
   - make: Canon
     model: PowerShot ELPH 180
