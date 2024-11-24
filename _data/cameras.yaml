@@ -629,6 +629,11 @@ cameras:
     size: Micro Four Thirds
     megapixels: 16.0
   - make: Panasonic
+    model: Lumix DMC-ZS25
+    pitch: 1.31
+    size: 1/2.33 inch
+    megapixels: 16.1
+  - make: Panasonic
     model: Lumix DMC-ZS100
     pitch: 2.41
     size: 1-inch
