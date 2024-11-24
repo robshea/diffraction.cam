@@ -579,6 +579,11 @@ cameras:
     size: Full Frame
     megapixels: 25.2
   - make: Panasonic
+    model: Lumix DMC-FZ70
+    pitch: 1.33
+    size: Micro Four Thirds
+    megapixels: 16.1
+  - make: Panasonic
     model: Lumix DMC-G1
     pitch: 4.31
     size: Micro Four Thirds
@@ -628,6 +633,11 @@ cameras:
     pitch: 3.75
     size: Micro Four Thirds
     megapixels: 16.0
+  - make: Panasonic
+    model: Lumix DMC-LX2
+    pitch: 2.12
+    size: Micro Four Thirds
+    megapixels: 10 
   - make: Panasonic
     model: Lumix DMC-ZS25
     pitch: 1.31
