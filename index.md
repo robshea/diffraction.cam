@@ -10,7 +10,7 @@ layout: splash
 <div id="top-fields">
 
 <div class="column">
-  <label for="camera" id="camera-label">Camera</label>
+  <label for="camera" id="camera-label"><i class="fa-duotone fa-light fa-camera-retro"></i> Camera</label>
   <select name="camera" id="camera" onchange="updatePitch()">
     <option value="">- select camera -</option>
     {% for camera in site.data.cameras.cameras %}
@@ -20,12 +20,12 @@ layout: splash
 </div>
 
 <div class="column">
-  <label for="pitch" id="pitch-label">Pixel Pitch (μm)</label>
+  <label for="pitch" id="pitch-label"><i class="fa-light fa-ruler-horizontal"></i> Pixel Pitch (μm)</label>
   <input type="text" id="pitch" name="pitch" disabled>
 </div>
 
 <div class="column">
-  <label for="filter" id="filter-label">Filter</label>
+  <label for="filter" id="filter-label"><i class="fa-duotone fa-light fa-waveform"></i> Filter</label>
   <select name="filter" id="filter" onchange="updateFilter(this)">
     {% for filter in site.data.filters.filters %}
     <option value="{{ filter.wavelengths }}">{{ filter.filter }}</option>
@@ -49,7 +49,7 @@ layout: splash
     <th colspan="4" id="ir">Infrared</th>
   </tr>
   <tr>
-    <th colspan="2" id="f-stop">ƒ-stop</th>
+    <th colspan="2" id="f-stop"><i class="fa-duotone fa-light fa-aperture"></i> ƒ-stop</th>
     {% for wavelength in site.data.wavelengths.wavelengths %}
       <th id="w{{ wavelength.wavelength }}">{{ wavelength.wavelength }}</th>
     {% endfor %}
@@ -92,6 +92,6 @@ layout: splash
 
 ### How To Use This Table
 
-- Select a camera. If your camera is not listed, [request to add it here](/cameras/).
-- Select a filter. If a column is dimmed, that wavelength of light will not be transmitted by the selected filter.
-- Select the row of the ƒ-number you wish to shoot at.
+- Select a <i class="fa-duotone fa-light fa-camera-retro"></i> Camera. If your camera is not listed, [request to add it here](/cameras/).
+- Select a <i class="fa-duotone fa-light fa-waveform"></i> Filter. If a column is dimmed, that wavelength of light will not be transmitted by the selected filter.
+- Select the row of the <i class="fa-duotone fa-light fa-aperture"></i> ƒ-stop you wish to shoot at.

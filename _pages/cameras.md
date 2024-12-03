@@ -1,18 +1,18 @@
 ---
 title: Cameras
-date: 2024-04-27 09:00:00:00 -0500
+date: 2024-12-03 09:00:00:00 -0500
 permalink: /cameras/
 layout: single
 published: true
 
 toc: true
-toc_label: "Cameras"
-toc_icon: "fas fa-camera-retro"
+toc_label: Cameras
+toc_icon: fa-duotone fa-light fa-camera-retro
 toc_sticky: true
 
 ---
 
-<a href="mailto:diff@590.mozmail.com?subject=diffraction.cAm Add a Camera">Add a Camera</a>
+<a href="mailto:diff@590.mozmail.com?subject=diffraction.cAm Add a Camera"><i class="fa-duotone fa-light fa-camera-viewfinder"></i> Add a Camera</a>{: .btn .btn--success}
 
 Pixel pitch values may be published by the manufacturer or calculated based sensor dimensions and megapixels. Each value is validated from multiple sources when available. If you find any errors, please <a href="mailto:diff@590.mozmail.com?subject=diffraction.cAm Correction">send a correction</a>.
 
