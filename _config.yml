@@ -47,7 +47,7 @@ analytics:
 #  search_engine_id: 60c6033163bd149ae
 
 head_scripts:
-  https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML
+  https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML
 #  - https://code.jquery.com/jquery-3.2.1.min.js
 #  - /assets/js/your-custom-head-script.js
 footer_scripts:
