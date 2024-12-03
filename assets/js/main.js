@@ -101,7 +101,14 @@ const loadDefaultCamera = (e) => {
   optionToSelect.selected = true;
 };
 
+function runIfIdExists(id, func) {
+  const element = document.getElementById(id);
+  if (element) {
+    func(element); 
+  }
+}
+
 window.onload = function() {
-  loadDefaultCamera();
-  updatePitch();
+  runIfIdExists("diff-table", loadDefaultCamera);
+  runIfIdExists("diff-table", updatePitch);
 };
