@@ -804,6 +804,11 @@ cameras:
     size: APS-C
     megapixels: 14.2
   - make: Sony
+    model: Alpha NEX-5
+    pitch: 5.07
+    size: APS-C
+    megapixels: 14.2
+  - make: Sony
     model: Alpha NEX-5R
     pitch: 4.78
     size: APS-C
