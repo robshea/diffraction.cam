@@ -262,6 +262,17 @@ cameras:
     megapixels: 26.1
 
   - make: Fujifilm
+    model: X-S10
+    pitch: 3.74
+    size: APS-C
+    megapixels: 26.1
+  - make: Fujifilm
+    model: X-S20
+    pitch: 3.74
+    size: APS-C
+    megapixels: 26.1 
+
+  - make: Fujifilm
     model: X-T1
     pitch: 4.76
     size: APS-C
@@ -674,6 +685,11 @@ cameras:
     pitch: 3.88
     size: APS-C
     megapixels: 24.35
+  - make: Pentax
+    model: K-7
+    pitch: 5
+    size: APS-C
+    megapixels: 14.6
   - make: Pentax
     model: K-70
     pitch: 3.88
