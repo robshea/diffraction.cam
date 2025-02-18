@@ -88,6 +88,9 @@ footer:
     - label: "Blog"
       icon: "fas fa-blog"
       url: "https://www.robsheaphotography.com"
+    - label: Bluesky
+      icon: fa-brands fa-bluesky
+      url: https://bsky.app/profile/infrarob.com
     - label: "Instagram"
       icon: "fab fa-instagram"
       url: "https://www.instagram.com/rob_shea/"

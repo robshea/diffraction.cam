@@ -5,12 +5,9 @@ main:
   - title: "Cameras"
     url: /cameras/
     description: "A list of supported cameras"
-  - title: "About"
-    url: /about/
-    description: "About diffraction.cAm"
   - title: "Videos"
     url: /videos/
     description: "Diffraction Videos"
-  - title: "Infrared Book"
-    url: https://www.colordoesntexist.com
-    description: "Color Doesn't Exist: A Practical Guide to Infrared Photography print and eBook editions"
+  - title: "About"
+    url: /about/
+    description: "About diffraction.cAm"
