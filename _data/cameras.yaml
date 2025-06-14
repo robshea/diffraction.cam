@@ -718,6 +718,12 @@ cameras:
     size: APS-C
     megapixels: 14.8
 
+  - make: Pharsighted
+    model: E9
+    pitch: 52
+    size: Full Frame
+    megapixels: .3
+
   - make: Sony
     model: α6000
     pitch: 3.88
