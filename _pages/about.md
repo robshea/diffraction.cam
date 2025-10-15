@@ -18,13 +18,13 @@ toc_sticky: true
 >
 > In infrared photography, the impact of diffraction is more significant. With the same lens, you might also avoid using ƒ/11 and ƒ/8. The sharpest f-stop could be ƒ/5.6. You can see how dramatically diffraction impacts the settings you choose. This can be limiting, or it can be used for creative effect.
 
-<i class="fa-duotone fa-light fa-book"></i> _Excerpt from [Color Doesn’t Exist: A Practical Guide to Infrared Photography](https://www.colordoesntexist.com/)_
+{{ site.data.icons.book }} _Excerpt from [Color Doesn’t Exist: A Practical Guide to Infrared Photography](https://www.colordoesntexist.com/)_
 
 ## What is an Airy Disk?
 
 > All photons coming from a single point on your subject do not produce a single point of light on your camera's sensor. Due to diffraction, each photon bends in a slightly different direction when passing through the aperture. Photons strike the sensor in a disk shape, surrounded by concentric light rings. This disk is called an _Airy disk_.
 
-<i class="fa-duotone fa-light fa-book"></i> _Excerpt from [Color Doesn’t Exist: A Practical Guide to Infrared Photography](https://www.colordoesntexist.com/)_
+{{ site.data.icons.book }} _Excerpt from [Color Doesn’t Exist: A Practical Guide to Infrared Photography](https://www.colordoesntexist.com/)_
 
 ![Airy-pattern.svg](https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Airy-pattern.svg/1024px-Airy-pattern.svg.png)
 _Image credit: [Sakurambo](https://commons.wikimedia.org/wiki/File:Airy-pattern.svg)_
@@ -87,7 +87,7 @@ Wavelength is measured in nanometers (nm). This results in the Airy disk size be
 
 ## Additional Reading
 
-- [Airy disk](https://en.wikipedia.org/wiki/Airy_disk)
-- [Demosaicing](https://en.wikipedia.org/wiki/Demosaicing)
-- [Diffraction-limited imaging](https://en.wikipedia.org/wiki/Diffraction#Diffraction-limited_imaging)
-- [Foveon X3 Sensor](https://en.wikipedia.org/wiki/Foveon_X3_sensor)
+{{ site.data.icons.wikipedia }} [Airy disk](https://en.wikipedia.org/wiki/Airy_disk)  
+{{ site.data.icons.wikipedia }} [Demosaicing](https://en.wikipedia.org/wiki/Demosaicing)  
+{{ site.data.icons.wikipedia }} [Diffraction-limited imaging](https://en.wikipedia.org/wiki/Diffraction#Diffraction-limited_imaging)  
+{{ site.data.icons.wikipedia }} [Foveon X3 Sensor](https://en.wikipedia.org/wiki/Foveon_X3_sensor)  

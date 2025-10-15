@@ -468,6 +468,11 @@ cameras:
     size: Full Frame
     megapixels: 24.3
   - make: Nikon
+    model: Z 5 II
+    pitch: 5.92
+    size: Full Frame
+    megapixels: 24.3
+  - make: Nikon
     model: Z 50
     pitch: 4.2
     size: APS-C

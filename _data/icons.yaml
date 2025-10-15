@@ -1,7 +1,11 @@
 aperture: '<i class="fa-duotone fa-light fa-aperture"></i>'
-book: '<i class="fa-duotone fa-light fa-book" style="color: White;"></i>'
+book: '<i class="fa-duotone fa-light fa-book"></i>'
+book-white: '<i class="fa-duotone fa-light fa-book" style="color: White;"></i>'
+coach: '<i class="fa-duotone fa-light fa-chalkboard-user"></i>'
 diffraction: '<i class="fa-duotone fa-light fa-circle-o"></i>'
 email: '<i class="fa-duotone fa-light fa-envelope"></i>'
+faq: '<i class="fa-duotone fa-light fa-messages-question"></i>'
 palette: '<i class="fa-duotone fa-light fa-palette"></i>'
-warning: "<i class='fas fa-exclamation-triangle' style='color: Orange;'></i>"
+warning: '<i class="fas fa-exclamation-triangle" style="color: Orange;"></i>'
 youtube: '<i class="fa-brands fa-youtube" style="color: White;"></i>'
+wikipedia: '<i class="fa-brands fa-wikipedia-w"></i>'
