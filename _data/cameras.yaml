@@ -329,6 +329,11 @@ cameras:
     pitch: 3.76
     size: Medium Format
     megapixels: 100
+  - make: Hasselblad
+    model: X2D 100C
+    pitch: 3.76
+    size: Medium Format
+    megapixels: 100
 
   - make: Leica
     model: M8
