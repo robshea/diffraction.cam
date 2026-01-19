@@ -1,5 +1,14 @@
-const f_numbers = [1.4, 2, 2.8, 4, 5.6, 8, 11, 16, 22, 32];
-const wavelengths = [350, 400, 470, 550, 590, 665, 720, 780, 830, 930, 1000]
+const wavelengths = [350, 400, 470, 550, 590, 665, 720, 780, 830, 930, 1000];
+
+if (window.location.href.includes('thirds')) {
+  // if viewing the thirds f-stop page "/thirds/"
+  var f_numbers = [1, 1.1, 1.3, 1.4, 1.6, 1.8, 2, 2.2, 2.5, 2.8, 3.2, 3.6, 4, 4.5, 5, 5.6, 6.3, 7.1, 8, 9, 10.1, 11, 12.7, 14.3, 16, 18, 20.2, 22, 25.4, 28.5, 32];
+  var togglepath = "/?camera=";
+} else {
+  // if viewing the whole f-stop page "/"
+  var f_numbers = [1.4, 2, 2.8, 4, 5.6, 8, 11, 16, 22, 32];
+  var togglepath = "/thirds/?camera=";
+}
 
 function updatePitch() {
 
@@ -8,6 +17,10 @@ function updatePitch() {
   const selectedCamera = document.querySelector('#camera option:checked').label;
   urlParams.set("camera", selectedCamera);
   history.replaceState(null, null, "?"+urlParams.toString());
+
+  // add query string to toggle link
+  const a = document.getElementById('thirds-toggle');
+  a.href = togglepath + selectedCamera;
 
   // get the selected value from the "camera" select field
   const pitch_micron = document.querySelector('#camera').value;
@@ -85,7 +98,6 @@ function highlightRow(input) {
       element.classList.remove("highlight");
     }
     f++;
-
   }
 }
 

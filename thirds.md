@@ -1,4 +1,6 @@
 ---
+date: 2026-01-18 09:00:00:00 -0500
+permalink: /thirds/
 layout: splash
 published: true
 ---
@@ -13,7 +15,7 @@ published: true
   </colgroup>
   <thead>
     <tr>
-      <th colspan="2" rowspan="2" id="f-stop"><i class="fa-duotone fa-light fa-aperture"></i> ƒ-stops<br /> (<a id="thirds-toggle" href="">thirds</a>)</th>
+      <th colspan="2" rowspan="2" id="f-stop"><i class="fa-duotone fa-light fa-aperture"></i> ƒ-stops<br /> (<a id="thirds-toggle" href="">whole</a>)</th>
       <th colspan="2" id="uv">Ultraviolet</th>
       <th colspan="5" id="visible">Visible Light</th>
       <th colspan="4" id="ir">Infrared</th>
@@ -25,7 +27,7 @@ published: true
     </tr>
   </thead>
   <tbody>
-    {% for f-number in site.data.f-numbers.f-number %}
+    {% for f-number in site.data.f-numbers-thirds.f-number %}
       <tr id="row{{ f-number.f-stop }}">
         <td><input type="radio" id="rf-number-{{ f-number.f-stop }}" name="rf-number" value="{{ f-number.f-stop }}" onchange="highlightRow(this)"></td>
         <td>ƒ/{{ f-number.f-stop }}</td>
