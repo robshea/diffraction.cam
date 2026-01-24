@@ -302,6 +302,11 @@ cameras:
     pitch: 3.03
     size: APS-C
     megapixels: 40.2
+  - make: Fujifilm
+    model: X-T50
+    pitch: 3.04
+    size: APS-C
+    megapixels: 39.8
 
   - make: Fujifilm
     model: GFX 50R
@@ -493,6 +498,11 @@ cameras:
     size: Full Frame
     megapixels: 24.5
   - make: Nikon
+    model: Z 6 III
+    pitch: 5.94
+    size: Full Frame
+    megapixels: 24.3
+  - make: Nikon
     model: Z 7
     pitch: 4.34
     size: Full Frame
@@ -523,12 +533,17 @@ cameras:
     size: APS-C
     megapixels: 20.9
 
-  - make: Olympus
+  - make: OM System
     model: OM-1
     pitch: 3.32
     size: Micro Four Thirds
     megapixels: 20.4
-  - make: Olympus
+  - make: OM System
+    model: OM-3
+    pitch: 3.34
+    size: Micro Four Thirds
+    megapixels: 20.2
+  - make: OM System
     model: OM-5
     pitch: 3.32
     size: Micro Four Thirds
@@ -583,6 +598,12 @@ cameras:
     pitch: 3.32
     size: Micro Four Thirds
     megapixels: 20.4
+
+  - make: Olympus
+    model: PEN E-P7
+    pitch: 3.34
+    size: Micro Four Thirds
+    megapixels: 20.2
 
   - make: Panasonic
     model: Lumix DC-S5
