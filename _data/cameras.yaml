@@ -402,6 +402,11 @@ cameras:
     size: APS-C
     megapixels: 24.2
   - make: Nikon
+    model: D600
+    pitch: 5.95
+    size: APS-C
+    megapixels: 24.3
+  - make: Nikon
     model: D610
     pitch: 5.95
     size: APS-C
