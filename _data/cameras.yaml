@@ -759,6 +759,12 @@ cameras:
     size: APS-C
     megapixels: 24.24
 
+  - make: Samsung
+    model: NX1100
+    pitch: 4.29
+    size: APS-C
+    megapixels: 20.3
+
   - make: Sigma
     model: sd Quattro (see About)
     pitch: 4.33
