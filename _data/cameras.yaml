@@ -857,6 +857,12 @@ cameras:
     size: Full Frame
     megapixels: 61.0
   - make: Sony
+    model: α7R VI
+    pitch: 3.60
+    size: Full Frame
+    megapixels: 66.8
+
+  - make: Sony
     model: α7S
     pitch: 8.40
     size: Full Frame
