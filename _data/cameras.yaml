@@ -95,6 +95,11 @@ cameras:
     size: APS-C
     megapixels: 24.2
   - make: Canon
+    model: EOS 77D
+    pitch: 3.72
+    size: APS-C
+    megapixels: 24.2
+  - make: Canon
     model: EOS 80D
     pitch: 3.72
     size: APS-C
