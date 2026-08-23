@@ -75,7 +75,11 @@ cameras:
     model: EOS 5D Mark II
     pitch: 6.41
     size: Full Frame
+    hpixels: 5616
+    vpixels: 3744
     megapixels: 21.0
+    hsensor: 36.0
+    vsensor: 24.0
   - make: Canon
     model: EOS 5D Mark III
     pitch: 6.25
@@ -98,7 +102,11 @@ cameras:
     model: EOS 5DS
     pitch: 4.13
     size: Full Frame
+    hpixels: 8688
+    vpixels: 5792
     megapixels: 50.6
+    hsensor: 36.0
+    vsensor: 24.0
   - make: Canon
     model: EOS 5DS R
     pitch: 4.14
@@ -212,7 +220,11 @@ cameras:
     model: EOS M50
     pitch: 3.71
     size: APS-C
+    hpixels: 6000
+    vpixels: 4000
     megapixels: 24.1
+    hsensor: 22.3
+    vsensor: 14.9
   - make: Canon
     model: EOS M200
     pitch: 3.72
@@ -263,22 +275,38 @@ cameras:
     model: EOS R6 Mark II
     pitch: 5.96
     size: Full Frame
+    hpixels: 6000
+    vpixels: 4000
     megapixels: 24.2
+    hsensor: 36.0
+    vsensor: 24.0
   - make: Canon
     model: EOS R7
     pitch: 3.20
-    size: Full Frame
+    size: APS-C
+    hpixels: 6960
+    vpixels: 4640
     megapixels: 32.5
+    hsensor: 22.3
+    vsensor: 14.8
   - make: Canon
     model: EOS R8
     pitch: 5.98
     size: Full Frame
+    hpixels: 6000
+    vpixels: 4000
     megapixels: 24.2
+    hsensor: 36.0
+    vsensor: 24.0
   - make: Canon
     model: EOS R100
     pitch: 3.72
     size: APS-C
+    hpixels: 6000
+    vpixels: 4000
     megapixels: 24.1
+    hsensor: 22.3
+    vsensor: 14.9
   - make: Canon
     model: EOS RP
     pitch: 5.75
@@ -302,7 +330,11 @@ cameras:
     model: PowerShot G1 X
     pitch: 4.27
     size: 1.5-inch
+    hpixels: 4352
+    vpixels: 3264
     megapixels: 14.3
+    hsensor: 18.7
+    vsensor: 14.0
 
   - make: Fujifilm
     model: FinePix X100
@@ -344,7 +376,11 @@ cameras:
     model: X100V
     pitch: 3.74
     size: APS-C
+    hpixels: 6240
+    vpixels: 4160
     megapixels: 26.1
+    hsensor: 23.5
+    vsensor: 15.6
   - make: Fujifilm
     model: X100VI
     pitch: 3.04
@@ -479,7 +515,11 @@ cameras:
     model: X-T2
     pitch: 3.93
     size: APS-C
+    hpixels: 6000
+    vpixels: 4000
     megapixels: 24.3
+    hsensor: 23.6
+    vsensor: 15.6
   - make: Fujifilm
     model: X-T20
     pitch: 3.92
@@ -566,7 +606,11 @@ cameras:
     model: GFX 100S
     pitch: 3.76
     size: Medium Format
+    hpixels: 11648
+    vpixels: 8736
     megapixels: 102
+    hsensor: 43.8
+    vsensor: 32.9
 
   - make: Hasselblad
     model: CFV 100C
@@ -617,9 +661,13 @@ cameras:
 
   - make: Nikon
     model: D200
-    pitch: 6.05
+    pitch: 6.10
     size: APS-C
+    hpixels: 3872
+    vpixels: 2592
     megapixels: 10.20
+    hsensor: 23.6
+    vsensor: 15.8
   - make: Nikon
     model: D300
     pitch: 5.50
@@ -631,14 +679,22 @@ cameras:
     vsensor: 15.8
   - make: Nikon
     model: D3200
-    pitch: 3.84
+    pitch: 3.86
     size: APS-C
+    hpixels: 6016
+    vpixels: 4000
     megapixels: 24.2
+    hsensor: 23.2
+    vsensor: 15.4
   - make: Nikon
     model: D3500
-    pitch: 3.89
+    pitch: 3.92
     size: APS-C
+    hpixels: 6000
+    vpixels: 4000
     megapixels: 24.2
+    hsensor: 23.5
+    vsensor: 15.6
   - make: Nikon
     model: D40
     pitch: 7.88
@@ -677,9 +733,13 @@ cameras:
     vsensor: 15.6
   - make: Nikon
     model: D5300
-    pitch: 3.91
+    pitch: 3.92
     size: APS-C
+    hpixels: 6000
+    vpixels: 4000
     megapixels: 24.2
+    hsensor: 23.5
+    vsensor: 15.6
   - make: Nikon
     model: D600
     pitch: 5.97
@@ -691,9 +751,13 @@ cameras:
     vsensor: 24.0
   - make: Nikon
     model: D610
-    pitch: 5.95
-    size: APS-C
+    pitch: 5.97
+    size: Full Frame
+    hpixels: 6016
+    vpixels: 4016
     megapixels: 24.3
+    hsensor: 35.9
+    vsensor: 24.0
   - make: Nikon
     model: D70
     pitch: 7.88
@@ -777,9 +841,13 @@ cameras:
     vsensor: 24.0
   - make: Nikon
     model: D810
-    pitch: 4.87
-    size: APS-C
+    pitch: 4.88
+    size: Full Frame
+    hpixels: 7360
+    vpixels: 4912
     megapixels: 36.3
+    hsensor: 35.9
+    vsensor: 24.0
   - make: Nikon
     model: D850
     pitch: 4.35
@@ -791,9 +859,13 @@ cameras:
     vsensor: 23.9
   - make: Nikon
     model: D90
-    pitch: 5.51
+    pitch: 5.50
     size: APS-C
+    hpixels: 4288
+    vpixels: 2848
     megapixels: 12.3
+    hsensor: 23.6
+    vsensor: 15.8
   - make: Nikon
     model: Df
     pitch: 7.31
@@ -880,7 +952,11 @@ cameras:
     model: Z 8
     pitch: 4.35
     size: Full Frame
+    hpixels: 8256
+    vpixels: 5504
     megapixels: 45.7
+    hsensor: 35.9
+    vsensor: 23.9
   - make: Nikon
     model: Z 9
     pitch: 4.35
@@ -1058,8 +1134,12 @@ cameras:
   - make: Panasonic
     model: Lumix DC-G9 II
     pitch: 3.00
-    size: Full Frame
+    size: Micro Four Thirds
+    hpixels: 5776
+    vpixels: 4336
     megapixels: 25.2
+    hsensor: 17.3
+    vsensor: 13.0
   - make: Panasonic
     model: Lumix DMC-FZ70
     pitch: 1.34
@@ -1071,9 +1151,13 @@ cameras:
     vsensor: 4.55
   - make: Panasonic
     model: Lumix DMC-G1
-    pitch: 4.31
+    pitch: 4.33
     size: Micro Four Thirds
+    hpixels: 4000
+    vpixels: 3000
     megapixels: 12.1
+    hsensor: 17.3
+    vsensor: 13.0
   - make: Panasonic
     model: Lumix DMC-G2
     pitch: 4.33
@@ -1166,9 +1250,13 @@ cameras:
     vsensor: 13.0
   - make: Panasonic
     model: Lumix DMC-LX2
-    pitch: 2.12
-    size: Micro Four Thirds
-    megapixels: 10 
+    pitch: 1.84
+    size: 1/1.65-inch
+    hpixels: 4224
+    vpixels: 2376
+    megapixels: 10
+    hsensor: 7.76
+    vsensor: 4.37
   - make: Panasonic
     model: Lumix DMC-ZS25
     pitch: 1.24
@@ -1208,9 +1296,13 @@ cameras:
     vsensor: 32.8
   - make: Pentax
     model: K-01
-    pitch: 4.78
+    pitch: 4.81
     size: APS-C
+    hpixels: 4928
+    vpixels: 3264
     megapixels: 16.3
+    hsensor: 23.7
+    vsensor: 15.7
   - make: Pentax
     model: K-20
     pitch: 5.01
@@ -1252,7 +1344,11 @@ cameras:
     model: E9
     pitch: 52
     size: Full Frame
+    hpixels: 640
+    vpixels: 480
     megapixels: .3
+    hsensor: 33.28
+    vsensor: 24.96
 
   - make: Ricoh
     model: GR III
@@ -1277,7 +1373,11 @@ cameras:
     model: NX1100
     pitch: 4.29
     size: APS-C
+    hpixels: 5472
+    vpixels: 3648
     megapixels: 20.3
+    hsensor: 23.5
+    vsensor: 15.7
 
   - make: Sigma
     model: sd Quattro (see About)
@@ -1354,9 +1454,13 @@ cameras:
     vsensor: 15.5
   - make: Sony
     model: α7
-    pitch: 5.93
+    pitch: 5.97
     size: Full Frame
+    hpixels: 6000
+    vpixels: 4000
     megapixels: 24.3
+    hsensor: 35.8
+    vsensor: 23.9
   - make: Sony
     model: α7 II
     pitch: 5.92
@@ -1388,7 +1492,11 @@ cameras:
     model: α7CR
     pitch: 3.76
     size: Full Frame
+    hpixels: 9504
+    vpixels: 6336
     megapixels: 61.0
+    hsensor: 35.7
+    vsensor: 23.8
   - make: Sony
     model: α7R
     pitch: 4.88
@@ -1474,9 +1582,13 @@ cameras:
 
   - make: Sony
     model: Alpha NEX-3
-    pitch: 5.07
+    pitch: 5.10
     size: APS-C
+    hpixels: 4592
+    vpixels: 3056
     megapixels: 14.2
+    hsensor: 23.4
+    vsensor: 15.6
   - make: Sony
     model: Alpha NEX-5
     pitch: 5.10
@@ -1488,9 +1600,13 @@ cameras:
     vsensor: 15.6
   - make: Sony
     model: Alpha NEX-5R
-    pitch: 4.78
+    pitch: 4.76
     size: APS-C
+    hpixels: 4912
+    vpixels: 3264
     megapixels: 16.1
+    hsensor: 23.4
+    vsensor: 15.6
   - make: Sony
     model: Alpha NEX-7
     pitch: 3.90
@@ -1503,9 +1619,13 @@ cameras:
 
   - make: Sony
     model: Alpha SLT-A65
-    pitch: 3.88
+    pitch: 3.92
     size: APS-C
+    hpixels: 6000
+    vpixels: 4000
     megapixels: 24.3
+    hsensor: 23.5
+    vsensor: 15.6
 
   - make: Sony
     model:  Cyber-Shot DSC-F828
