@@ -12,28 +12,30 @@ toc_sticky: true
 
 ---
 
-<a href="mailto:diff@590.mozmail.com?subject=diffraction.cAm Add a Camera"><i class="fa-duotone fa-light fa-camera-viewfinder"></i> Add a Camera</a>{: .btn .btn--success}
+Pixel pitch values are sourced from manufacturer specifications or calculated based sensor dimensions and megapixels. Each value is validated from multiple sources when available. If you find any errors, please [send a correction](mailto:diff@590.mozmail.com?subject=diffraction.cAm Correction).
 
-Pixel pitch values may be published by the manufacturer or calculated based sensor dimensions and megapixels. Each value is validated from multiple sources when available. If you find any errors, please <a href="mailto:diff@590.mozmail.com?subject=diffraction.cAm Correction">send a correction</a>.
+[{{ site.data.icons.viewfinder }} Add a Camera](mailto:diff@590.mozmail.com?subject=diffraction.cAm Add a Camera){: .btn .btn--success}
 
 ## Supported Cameras
 
 <table id="supported-cameras">
 <caption>{{ site.data.cameras.cameras.size }} Supported Cameras</caption>
 <tr>
-  <th>Make</th>
-  <th>Model</th>
+  <th>Camera</th>
   <th>Sensor Size</th>
-  <th>Pixel Pitch (μm)</th>
-  <th>Megapixels</th>
+  <th style="text-align: right;">Pixel Pitch (μm)</th>
+  <th style="text-align: right;">Megapixels</th>
+  <th style="text-align: right;">Sensor Pixels</th>
+  <th style="text-align: right;">Sensor Size (mm)</th>
 </tr>
 {% for camera in site.data.cameras.cameras %}
 <tr>
-  <td>{{ camera.make }}</td>
-  <td><a href="/?camera={{ camera.make }} {{ camera.model }}">{{ camera.model }}</a></td>
+  <td><a href="/?camera={{ camera.make }} {{ camera.model }}">{{ camera.make }} {{ camera.model }}</a></td>
   <td>{{ camera.size }}</td>
-  <td>{{ camera.pitch }}</td>
+  <td style="text-align: right;">{{ camera.pitch }}</td>
   <td style="text-align: right;">{{ camera.megapixels }}</td>
+  <td style="text-align: right;">{{ camera.hpixels }} × {{ camera.vpixels }}</td>
+  <td style="text-align: right;">{{ camera.hsensor }} × {{ camera.vsensor }}</td>
 </tr>
 {% endfor %}
 </table>
@@ -47,19 +49,21 @@ If you are looking for a camera with the greatest depth of field, start at the t
 <table id="cameras-by-pitch">
 <caption>{{ cameras_by_pitch.size }} Supported Cameras</caption>
 <tr>
-  <th>Make</th>
-  <th>Model</th>
+  <th>Camera</th>
   <th>Sensor Size</th>
-  <th>Pixel Pitch (μm)</th>
-  <th>Megapixels</th>
+  <th style="text-align: right;">Pixel Pitch (μm)</th>
+  <th style="text-align: right;">Megapixels</th>
+  <th style="text-align: right;">Sensor Pixels</th>
+  <th style="text-align: right;">Sensor Size (mm)</th>
 </tr>
 {% for camera in cameras_by_pitch %}
 <tr>
-  <td>{{ camera.make }}</td>
-  <td><a href="/?camera={{ camera.make }} {{ camera.model }}">{{ camera.model }}</a></td>
+  <td><a href="/?camera={{ camera.make }} {{ camera.model }}">{{ camera.make }} {{ camera.model }}</a></td>
   <td>{{ camera.size }}</td>
-  <td>{{ camera.pitch }}</td>
+  <td style="text-align: right;">{{ camera.pitch }}</td>
   <td style="text-align: right;">{{ camera.megapixels }}</td>
+  <td style="text-align: right;">{{ camera.hpixels }} × {{ camera.vpixels }}</td>
+  <td style="text-align: right;">{{ camera.hsensor }} × {{ camera.vsensor }}</td>
 </tr>
 {% endfor %}
 </table>

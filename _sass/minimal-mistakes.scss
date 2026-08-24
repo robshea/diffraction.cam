@@ -1,0 +1,100 @@
+/*!
+ * Minimal Mistakes Jekyll Theme 4.24.0 by Michael Rose
+ * Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+ * Licensed under MIT (https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE)
+*/
+
+/* Rob custom remove author/nav sidebar https://github.com/mmistakes/minimal-mistakes/issues/1322  */
+article.page, div.page__related, div.archive {
+  float: left;
+  width: 100%;
+}
+
+/* system typefaces */
+$serif      : Georgia, Times, serif;
+$sans-serif : "PT Sans", -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Segoe UI", "Roboto", "Lucida Grande", Arial, sans-serif;
+$monospace  : Monaco, Consolas, "Lucida Console", monospace;
+
+/* Variables */
+@import "minimal-mistakes/variables";
+
+/* Mixins and functions */
+@import "minimal-mistakes/vendor/breakpoint/breakpoint";
+@include breakpoint-set("to ems", true);
+@import "minimal-mistakes/vendor/magnific-popup/magnific-popup"; // Magnific Popup
+@import "minimal-mistakes/vendor/susy/susy";
+@import "minimal-mistakes/mixins";
+
+/* Core CSS */
+@import "minimal-mistakes/reset";
+@import "minimal-mistakes/base";
+@import "minimal-mistakes/forms";
+@import "minimal-mistakes/tables";
+@import "minimal-mistakes/animations";
+
+/* Components */
+@import "minimal-mistakes/buttons";
+@import "minimal-mistakes/notices";
+@import "minimal-mistakes/masthead";
+@import "minimal-mistakes/navigation";
+@import "minimal-mistakes/footer";
+@import "minimal-mistakes/search";
+@import "minimal-mistakes/syntax";
+
+/* Utility classes */
+@import "minimal-mistakes/utilities";
+
+/* Layout specific */
+@import "minimal-mistakes/page";
+@import "minimal-mistakes/archive";
+@import "minimal-mistakes/sidebar";
+@import "minimal-mistakes/print";
+
+/* Rob custom https://github.com/mmistakes/minimal-mistakes/issues/1322 */
+.wide2 {
+  .page {
+    float: left;
+    width: 100%;
+    @include breakpoint($large) {
+      padding-left: 0;
+    }
+    @include breakpoint($x-large) {
+      padding-left: 0;
+    }
+  }
+  .page__related {
+    @include breakpoint($large) {
+      padding-left: 0;
+    }
+    @include breakpoint($x-large) {
+      padding-left: 0;
+    }
+  }
+}
+
+a.site-title {
+  font-weight: 500;
+  &:visited {
+    color: $dark-gray;
+  }
+}
+
+.masthead__menu-item {
+  font-size: $type-size-6;
+}
+
+.sitewide {
+  background-color: #FADBD8;
+  color: #566573;
+  font-weight: 500;
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
+
+h1 {
+  margin: 0;
+}
+
+.page__lead {
+  margin: 0;
+}
