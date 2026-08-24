@@ -40,3 +40,5 @@ published: true
 </form>
 
 {% include legend.md %}
+
+{% include instructions.md %}
