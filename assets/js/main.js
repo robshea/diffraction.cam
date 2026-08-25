@@ -124,3 +124,109 @@ window.onload = function() {
   runIfIdExists("diff-table", loadDefaultCamera);
   runIfIdExists("diff-table", updatePitch);
 };
+
+function initializeCameraTable() {
+  const table = document.getElementById("camera-table");
+  const controls = document.getElementById("camera-controls");
+  if (!table || !controls) return;
+
+  const rows = Array.from(table.tBodies[0].rows);
+  const search = document.getElementById("camera-search");
+  const format = document.getElementById("camera-format");
+  const resetButton = document.getElementById("camera-reset");
+  const results = document.getElementById("camera-results");
+  const sortButtons = Array.from(document.querySelectorAll(".camera-sort-button"));
+  let sortField = "camera";
+  let direction = "asc";
+
+  const getRowValue = (row, field) => row.dataset[field];
+
+  function updateSortHeaders() {
+    sortButtons.forEach((button) => {
+      const isActive = button.dataset.sort === sortField;
+      button.setAttribute("aria-pressed", isActive ? "true" : "false");
+      button.parentElement.setAttribute("aria-sort", isActive ? (direction === "asc" ? "ascending" : "descending") : "none");
+    });
+  }
+
+  function updateUrl() {
+    const url = new URL(window.location.href);
+    const values = {
+      q: search.value.trim(),
+      format: format.value,
+      sort: sortField === "camera" ? "" : sortField,
+      direction: direction === "asc" ? "" : direction
+    };
+
+    Object.entries(values).forEach(([key, value]) => {
+      if (value) {
+        url.searchParams.set(key, value);
+      } else {
+        url.searchParams.delete(key);
+      }
+    });
+    ["megapixels-min", "megapixels-max", "pitch-min", "pitch-max"].forEach((key) => url.searchParams.delete(key));
+    history.replaceState(null, "", `${url.pathname}${url.search}${url.hash}`);
+  }
+
+  function applyControls() {
+    const searchTerm = search.value.trim().toLocaleLowerCase();
+    let visible = 0;
+
+    rows.forEach((row) => {
+      const matches = (!searchTerm || row.dataset.camera.toLocaleLowerCase().includes(searchTerm))
+        && (!format.value || row.dataset.format === format.value);
+      row.hidden = !matches;
+      if (matches) visible += 1;
+    });
+
+    rows.sort((first, second) => {
+      let comparison;
+      if (sortField === "camera" || sortField === "format") {
+        comparison = getRowValue(first, sortField).localeCompare(getRowValue(second, sortField), undefined, { numeric: true });
+      } else {
+        comparison = Number(getRowValue(first, sortField)) - Number(getRowValue(second, sortField));
+      }
+      if (comparison === 0) comparison = Number(first.dataset.index) - Number(second.dataset.index);
+      return direction === "asc" ? comparison : -comparison;
+    });
+    rows.forEach((row) => table.tBodies[0].appendChild(row));
+
+    results.textContent = `${visible} ${visible === 1 ? "camera" : "cameras"}${visible === rows.length ? "" : " matching filters"}`;
+    updateSortHeaders();
+    updateUrl();
+  }
+
+  function loadUrlState() {
+    const params = new URLSearchParams(window.location.search);
+    search.value = params.get("q") || "";
+    format.value = params.get("format") || "";
+    sortField = params.get("sort") || "camera";
+    direction = params.get("direction") === "desc" ? "desc" : "asc";
+  }
+
+  controls.addEventListener("submit", (event) => event.preventDefault());
+  controls.addEventListener("input", applyControls);
+  controls.addEventListener("change", applyControls);
+  sortButtons.forEach((button) => button.addEventListener("click", () => {
+    direction = button.dataset.sort === sortField && direction === "asc" ? "desc" : "asc";
+    sortField = button.dataset.sort;
+    applyControls();
+  }));
+  resetButton.addEventListener("click", () => {
+    window.setTimeout(() => {
+      sortField = "camera";
+      direction = "asc";
+      applyControls();
+    });
+  });
+
+  loadUrlState();
+  applyControls();
+}
+
+if (document.readyState === "loading") {
+  document.addEventListener("DOMContentLoaded", initializeCameraTable);
+} else {
+  initializeCameraTable();
+}
