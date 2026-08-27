@@ -78,6 +78,11 @@ plugins:
 #   - vendor/gems/
 #   - vendor/ruby/
 
+exclude:
+  - PRODUCT.md
+  - DESIGN.md
+  - .impeccable/
+
 include: ["_pages"]
 
 footer:

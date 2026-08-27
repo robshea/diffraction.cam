@@ -1,0 +1,135 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-08-27T02:04:39Z",
+  "title": "Design System: diffraction.cAm",
+  "extensions": {
+    "colorMeta": {
+      "primary": { "role": "primary", "displayName": "Instrument Teal", "canonical": "#2f7d95", "tonalRamp": ["#0f2a32", "#173e49", "#1f5260", "#276677", "#2f7d95", "#5a97ab", "#8bb7c5", "#c3dbe3"] },
+      "primary-hover": { "role": "primary", "displayName": "Deep Teal", "canonical": "#235e70" },
+      "primary-visited": { "role": "primary", "displayName": "Faded Teal", "canonical": "#4e91a5" },
+      "neutral-text": { "role": "neutral", "displayName": "Ink", "canonical": "#3d4144", "tonalRamp": ["#1a1c1d", "#26282a", "#333537", "#3d4144", "#5a5e61", "#7c8083", "#a5a8ab", "#d4d6d7"] },
+      "neutral-bg": { "role": "neutral", "displayName": "Paper", "canonical": "#ffffff" },
+      "neutral-border": { "role": "neutral", "displayName": "Hairline", "canonical": "#f2f3f3" },
+      "form-bg": { "role": "neutral", "displayName": "Panel Mist", "canonical": "#f4f6f6" },
+      "form-border": { "role": "neutral", "displayName": "Panel Edge", "canonical": "#d5dbdb" },
+      "field-fill": { "role": "neutral", "displayName": "Gauge Blue", "canonical": "#d6eaf8", "tonalRamp": ["#0d3752", "#154360", "#1c5a80", "#3379a0", "#6ba7c8", "#a3c9e0", "#d6eaf8", "#eff7fc"] },
+      "field-text": { "role": "neutral", "displayName": "Gauge Navy", "canonical": "#154360" },
+      "band-uv-bg": { "role": "semantic", "displayName": "Dusty Violet", "canonical": "#e8daef", "tonalRamp": ["#2b1636", "#4a235a", "#6b3380", "#8b4ba3", "#ab72c0", "#c99fd8", "#e8daef", "#f6eff9"] },
+      "band-uv-text": { "role": "semantic", "displayName": "Deep Violet Ink", "canonical": "#4a235a" },
+      "band-visible-bg": { "role": "semantic", "displayName": "Sea-Glass Teal", "canonical": "#d1f2eb", "tonalRamp": ["#052e26", "#0b5345", "#127a63", "#1fa384", "#5ec6ab", "#a0e2cd", "#d1f2eb", "#eefaf6"] },
+      "band-visible-text": { "role": "semantic", "displayName": "Deep Emerald Ink", "canonical": "#0b5345" },
+      "band-ir-bg": { "role": "semantic", "displayName": "Muted Terracotta", "canonical": "#f2d7d5", "tonalRamp": ["#3d100c", "#78281f", "#a5392c", "#c85644", "#dd8477", "#ecb1a8", "#f2d7d5", "#faeeed"] },
+      "band-ir-text": { "role": "semantic", "displayName": "Deep Terracotta Ink", "canonical": "#78281f" },
+      "rating-good-bg": { "role": "semantic", "displayName": "Sage", "canonical": "#82e0aa", "tonalRamp": ["#0a2e17", "#145a32", "#1f8449", "#33ac63", "#5fca85", "#82e0aa", "#b3edc9", "#dcf7e5"] },
+      "rating-good-text": { "role": "semantic", "displayName": "Deep Sage Ink", "canonical": "#145a32" },
+      "rating-maybe-bg": { "role": "semantic", "displayName": "Gold", "canonical": "#f7dc6f", "tonalRamp": ["#403302", "#7d6608", "#a88b0d", "#d1af17", "#eecb3e", "#f7dc6f", "#fbecab", "#fdf6d9"] },
+      "rating-maybe-text": { "role": "semantic", "displayName": "Deep Gold Ink", "canonical": "#7d6608" },
+      "rating-bad-bg": { "role": "semantic", "displayName": "Rust", "canonical": "#d98880", "tonalRamp": ["#2d0b08", "#641e16", "#93362a", "#bd5142", "#d98880", "#e4a49e", "#eec3bf", "#f6e0de"] },
+      "rating-bad-text": { "role": "semantic", "displayName": "Deep Rust Ink", "canonical": "#641e16" },
+      "success": { "role": "status", "displayName": "Theme Success", "canonical": "#3fa63f" },
+      "warning": { "role": "status", "displayName": "Theme Warning", "canonical": "#d67f05" },
+      "danger": { "role": "status", "displayName": "Theme Danger", "canonical": "#ee5f5b" },
+      "info": { "role": "status", "displayName": "Theme Info", "canonical": "#3b9cba" }
+    },
+    "typographyMeta": {
+      "body": { "displayName": "Body", "purpose": "All prose, table cells, and form values." },
+      "label": { "displayName": "Label", "purpose": "Form field labels, control labels, button text, notice text." },
+      "monospace-data": { "displayName": "Monospace Data", "purpose": "Theme fallback monospace stack; not actively used for data display today, carried from theme variables." }
+    },
+    "shadows": [
+      { "name": "ambient-notice", "value": "0 1px 1px rgba(0,0,0,0.125)", "purpose": "Stock soft shadow under notice boxes and boxed theme elements, tinted to the notice's status color." }
+    ],
+    "motion": [
+      { "name": "global-transition", "value": "all 0.2s ease-in-out", "purpose": "Theme default transition, e.g. link and button hover color changes." }
+    ],
+    "breakpoints": [
+      { "name": "camera-controls-stack", "value": "37.5em" },
+      { "name": "small", "value": "600px" },
+      { "name": "medium", "value": "768px" },
+      { "name": "medium-wide", "value": "900px" },
+      { "name": "large", "value": "1024px" },
+      { "name": "x-large", "value": "1280px" }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "The single high-intent call to action on the site (\"Add a Camera\"), styled as a mailto link.",
+      "html": "<a href=\"mailto:example@example.com?subject=Add a Camera\" class=\"ds-btn-primary\">Add a Camera</a>",
+      "css": ".ds-btn-primary { display: inline-block; padding: 0.5em 1em; font-family: 'PT Sans', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', 'Segoe UI', 'Roboto', 'Lucida Grande', Arial, sans-serif; font-size: 0.75em; font-weight: bold; text-align: center; text-decoration: none; color: #fff; background-color: #3fa63f; border: 0; border-radius: 4px; cursor: pointer; transition: background-color 0.2s ease-in-out; } .ds-btn-primary:visited { color: #fff; background-color: #3fa63f; } .ds-btn-primary:hover, .ds-btn-primary:focus-visible { background-color: #328532; outline: none; } .ds-btn-primary:focus-visible { box-shadow: 0 0 0 2px #fff, 0 0 0 4px #2f7d95; }"
+    },
+    {
+      "name": "Instrument Input (Select)",
+      "kind": "input",
+      "refersTo": "input-field",
+      "description": "The calculator's live-readout fields (Camera, Filter selects; Pixel Pitch is the same style but disabled).",
+      "html": "<div class=\"ds-field\"><label for=\"ds-camera\">Camera</label><select id=\"ds-camera\" class=\"ds-select\"><option>- select camera -</option></select></div>",
+      "css": ".ds-field { display: flex; flex-direction: column; gap: 0.25em; } .ds-field label { font-family: 'PT Sans', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', 'Segoe UI', 'Roboto', 'Lucida Grande', Arial, sans-serif; font-size: 0.8em; font-weight: bold; } .ds-select { background-color: #d6eaf8; color: #154360; border: 0; border-radius: 4px; padding: 0.3em 0.45em; min-height: 2.25em; font: inherit; } .ds-select:focus-visible { outline: 2px solid #2f7d95; outline-offset: 1px; }"
+    },
+    {
+      "name": "Camera Filter Panel",
+      "kind": "custom",
+      "refersTo": null,
+      "description": "Boxed search/filter panel above the cameras table — search input, format select, reset button.",
+      "html": "<form class=\"ds-camera-controls\"><div class=\"ds-camera-controls__filters\"><p class=\"ds-camera-control ds-camera-control--search\"><label for=\"ds-search\">Search</label><input id=\"ds-search\" type=\"search\" placeholder=\"Camera\"></p><p class=\"ds-camera-control\"><label for=\"ds-format\">Format</label><select id=\"ds-format\"><option>All formats</option></select></p><p class=\"ds-camera-control\"><button type=\"reset\" class=\"ds-btn-inverse\">Reset filters</button></p></div></form>",
+      "css": ".ds-camera-controls { display: flex; flex-wrap: wrap; align-items: end; gap: 0.75em 1em; padding: 1em; background-color: #f4f6f6; border: 1px solid #d5dbdb; border-radius: 4px; } .ds-camera-controls__filters { display: flex; flex-wrap: wrap; align-items: end; gap: 0.75em 1em; flex: 1 1 36em; } .ds-camera-control { display: flex; flex-direction: column; gap: 0.25em; margin: 0; } .ds-camera-control label { font-size: 0.75em; font-weight: bold; } .ds-camera-control input, .ds-camera-control select { min-height: 2.25em; padding: 0.3em 0.45em; border: 1px solid #d5dbdb; border-radius: 4px; font: inherit; } .ds-camera-control--search { flex: 0 1 10.5em; } .ds-camera-control--search input { width: 100%; } .ds-btn-inverse { padding: 0.5em 1em; font-size: 0.75em; font-weight: bold; color: #2f7d95; background: #fff; border: 1px solid #2f7d95; border-radius: 4px; cursor: pointer; } .ds-btn-inverse:hover, .ds-btn-inverse:focus-visible { background: #2f7d95; color: #fff; }"
+    },
+    {
+      "name": "Wavelength Band Header Cell",
+      "kind": "custom",
+      "refersTo": null,
+      "description": "Table header cell colored by spectral band (UV / Visible / IR) — the locked semantic band palette.",
+      "html": "<table><tr><th class=\"ds-band-uv\">Ultraviolet</th><th class=\"ds-band-visible\">Visible Light</th><th class=\"ds-band-ir\">Infrared</th></tr></table>",
+      "css": ".ds-band-uv { background-color: #e8daef; color: #4a235a; text-align: center; padding: 0.25em; } .ds-band-visible { background-color: #d1f2eb; color: #0b5345; text-align: center; padding: 0.25em; } .ds-band-ir { background-color: #f2d7d5; color: #78281f; text-align: center; padding: 0.25em; }"
+    },
+    {
+      "name": "Diffraction Rating Cell",
+      "kind": "custom",
+      "refersTo": null,
+      "description": "Data table cell colored by computed diffraction ratio — the locked good/maybe/bad rating palette.",
+      "html": "<table><tr><td class=\"ds-rating-good\">2.1</td><td class=\"ds-rating-maybe\">3.8</td><td class=\"ds-rating-bad\">5.4</td></tr></table>",
+      "css": ".ds-rating-good { background-color: #82e0aa; color: #145a32; text-align: right; padding: 0.25em; width: 105px; } .ds-rating-maybe { background-color: #f7dc6f; color: #7d6608; text-align: right; padding: 0.25em; width: 105px; } .ds-rating-bad { background-color: #d98880; color: #641e16; text-align: right; padding: 0.25em; width: 105px; }"
+    },
+    {
+      "name": "Notice — Warning",
+      "kind": "custom",
+      "refersTo": null,
+      "description": "Theme-default warning callout, e.g. the Sigma Foveon validation caveat on the About page.",
+      "html": "<div class=\"ds-notice-warning\"><p>I have not tested Sigma cameras to validate that a Diffraction Ratio of 3 is the right threshold.</p></div>",
+      "css": ".ds-notice-warning { margin: 2em 0; padding: 1em; color: #3d4144; font-size: 0.75em; background-color: #f7e5cd; border-radius: 4px; box-shadow: 0 1px 1px rgba(214, 127, 5, 0.25); }"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Field Instrument",
+    "overview": "diffraction.cAm reads like precision gear a photographer trusts in the field — a light meter or a data plate on a lens, not a marketing page. Voice: quiet utility. The system is content to run on an almost-unmodified Jekyll theme (minimal-mistakes, default skin) and spend its actual design effort in one place: the color-coded data itself. Nothing here competes with the grid of numbers the photographer came to read.\n\nThe look is functional-first: system sans-serif body text, a plain white canvas, one muted teal accent for links and structure, and a restrained, deliberate palette of pastel-background/dark-text pairs used only to encode meaning — which wavelength band a column belongs to, and whether a given aperture is diffraction-safe. Nothing is decorative. Every color on the page is either the neutral theme chrome or a data label.\n\nThe theme's own default touches (soft shadows on notices and buttons, 4px corners, a hairline masthead border) are kept as-is rather than overridden — the instrument's housing is generic; the instrument face (the diffraction table) is where the custom work lives.",
+    "keyCharacteristics": [
+      "One quiet brand accent (muted teal), never used decoratively — only for links, structure, and the site title",
+      "A locked semantic palette: three wavelength-band colors (UV / visible / IR) and three diffraction-rating colors (good / maybe / bad), each a pastel background with a matching dark text color for contrast",
+      "System sans-serif throughout (\"PT Sans\" stack); no display or headline font distinct from body",
+      "Flat, theme-default surfaces; shadows are the stock minimal-mistakes soft 1px ambient shadow, never dramatic",
+      "4px corner radius used everywhere a radius appears — buttons, form controls, notices, camera-controls panel"
+    ],
+    "rules": [
+      { "name": "The Band Rule", "body": "A wavelength's background/text pair is fixed by its band — UV, visible, or IR — regardless of which specific wavelength column it is; do not introduce a fourth band color or vary these per-wavelength.", "section": "colors" },
+      { "name": "The Three-Ratio Rule", "body": "Diffraction ratio has exactly three visual states — good, maybe, bad — mapped to fixed thresholds (< 3, 3–4.5, > 4.5); never add a fourth gradient step or a continuous color scale here.", "section": "colors" },
+      { "name": "The Data-Only Color Rule", "body": "Color outside the neutral chrome and the single teal accent is reserved for encoding data (band or rating). If a future component wants a new hue, ask first whether it's decorating or encoding — decoration should reuse Instrument Teal or a neutral, not invent a new pastel.", "section": "colors" },
+      { "name": "The No-Display-Face Rule", "body": "Do not introduce a second, larger display typeface for hero or marketing-style headlines. This is an instrument face, not an editorial one — hierarchy comes from weight and size within the one sans-serif family, plus the occasional serif caption.", "section": "typography" },
+      { "name": "The Flat Instrument Rule", "body": "Surfaces are flat. If a new component needs to stand apart from the page, reach for a background tint (like Panel Mist) or a hairline border before reaching for a shadow.", "section": "elevation" },
+      { "name": "The 4px Rule", "body": "Every rounded corner in the system — buttons, the camera-controls panel, notice boxes, form inputs — uses the same 4px radius. There is no larger \"card\" radius and no sharp-cornered exception.", "section": "colors" }
+    ],
+    "dos": [
+      "Do reuse Instrument Teal (#2f7d95) for any new link or structural accent — it is the system's only brand color and should stay singular.",
+      "Do keep the wavelength-band and diffraction-rating colors locked to their documented hex pairs (band-uv/visible/ir, rating-good/maybe/bad) wherever the site encodes those same two concepts elsewhere.",
+      "Do use the 4px radius on any new rounded element; don't introduce a second radius scale.",
+      "Do default new surfaces to flat with the theme's stock ambient shadow if any depth is needed at all."
+    ],
+    "donts": [
+      "Don't add a display/headline typeface distinct from the PT Sans body stack — hierarchy comes from weight/size, not a second family.",
+      "Don't introduce new decorative colors outside Instrument Teal and the neutrals; if a new hue appears, it should be encoding data (a new band or rating), not decorating.",
+      "Don't turn the diffraction rating scale into a continuous gradient or add a fourth state — it is a fixed three-value good/maybe/bad system tied to the 3 / 4.5 thresholds in PRODUCT.md.",
+      "Don't add hover-lift or shadow-on-hover interactions; this system conveys state through color and border, never elevation change."
+    ]
+  }
+}
