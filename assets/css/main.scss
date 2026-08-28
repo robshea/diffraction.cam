@@ -137,7 +137,8 @@ th {
   visibility: visible;
 }
 .hide {
-  visibility: hidden;
+  background-color: #d5dbdb;
+  color: transparent;
 }
 
 .camera-details {
@@ -145,7 +146,7 @@ th {
   flex-wrap: wrap;
   gap: 0.75em 1.5em;
   margin: 1em 0 1.5em;
-  padding: 1em;
+  padding: 0.5em 1em;
   background-color: #f4f6f6;
   border: 1px solid #d5dbdb;
   border-radius: 4px;

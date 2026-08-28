@@ -7,6 +7,37 @@ published: true
 
 {% include form.md %}
 
+<div id="camera-details" class="camera-details">
+  <div class="camera-details__item">
+    <span class="camera-details__label">{{ site.data.icons.camera-retro }} Camera</span>
+    <span id="detail-camera" class="camera-details__value">—</span>
+  </div>
+  <div class="camera-details__item">
+    <span class="camera-details__label">{{ site.data.icons.waveform }} Filter</span>
+    <span id="detail-filter" class="camera-details__value">—</span>
+  </div>
+  <div class="camera-details__item">
+    <span class="camera-details__label">{{ site.data.icons.aperture }} Safe ƒ-stop</span>
+    <span id="detail-safe-fstop" class="camera-details__value">—</span>
+  </div>
+  <div class="camera-details__item">
+    <span class="camera-details__label">{{ site.data.icons.ruler-horizontal }} Pixel Pitch</span>
+    <span id="detail-pitch" class="camera-details__value">—</span>
+  </div>
+  <div class="camera-details__item">
+    <span class="camera-details__label">{{ site.data.icons.grid-2 }} Megapixels</span>
+    <span id="detail-megapixels" class="camera-details__value">—</span>
+  </div>
+  <div class="camera-details__item">
+    <span class="camera-details__label">{{ site.data.icons.ruler-combined }} Pixel Dimensions</span>
+    <span id="detail-pixels" class="camera-details__value">—</span>
+  </div>
+  <div class="camera-details__item">
+    <span class="camera-details__label">{{ site.data.icons.crop-simple }} Sensor Size</span>
+    <span id="detail-sensor" class="camera-details__value">—</span>
+  </div>
+</div>
+
 <table id="diff-table">
   <caption>Diffraction ratio</caption>
   <colgroup>
@@ -38,29 +69,6 @@ published: true
     {% endfor %}
   </tbody>
 </table>
-
-<div id="camera-details" class="camera-details">
-  <div class="camera-details__item">
-    <span class="camera-details__label">{{ site.data.icons.camera-retro }} Camera</span>
-    <span id="detail-camera" class="camera-details__value">—</span>
-  </div>
-  <div class="camera-details__item">
-    <span class="camera-details__label">{{ site.data.icons.ruler-horizontal }} Pixel Pitch</span>
-    <span id="detail-pitch" class="camera-details__value">—</span>
-  </div>
-  <div class="camera-details__item">
-    <span class="camera-details__label">{{ site.data.icons.grid-2 }} Megapixels</span>
-    <span id="detail-megapixels" class="camera-details__value">—</span>
-  </div>
-  <div class="camera-details__item">
-    <span class="camera-details__label">{{ site.data.icons.ruler-combined }} Pixel Dimensions</span>
-    <span id="detail-pixels" class="camera-details__value">—</span>
-  </div>
-  <div class="camera-details__item">
-    <span class="camera-details__label">{{ site.data.icons.crop-simple }} Sensor Size</span>
-    <span id="detail-sensor" class="camera-details__value">—</span>
-  </div>
-</div>
 
 </form>
 

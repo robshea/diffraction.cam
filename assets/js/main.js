@@ -27,6 +27,8 @@ function updatePitch() {
   const pitch_micron = document.querySelector('#camera').value;
 
   updateCameraDetails(selectedOption, pitch_micron);
+  updateFilterDetail();
+  updateSafeFStop();
 
   let cell_id = '';
   // loop over f-numbers
@@ -100,6 +102,47 @@ function airyPitchRatio(f_number, wavelength, pitch_micron) {
   return rounded;
 }
 
+// Highest f-stop where every wavelength a filter passes stays "good" (<=3).
+// f_numbers is ascending, so walk from the narrowest aperture down.
+// Returns null if even the widest aperture fails.
+function getSafeFStop(pitch_micron, activeWavelengths, threshold = 3) {
+  if (!pitch_micron) return null;
+
+  for (let f = f_numbers.length - 1; f >= 0; f--) {
+    const allGood = activeWavelengths.every(
+      w => airyPitchRatio(f_numbers[f], w, pitch_micron) <= threshold
+    );
+    if (allGood) return f_numbers[f];
+  }
+  return null;
+}
+
+function updateFilterDetail() {
+  const detailFilter = document.getElementById("detail-filter");
+  if (!detailFilter) return; // filter-detail block not present on this page
+
+  const filterSelect = document.querySelector('#filter');
+  const selectedOption = filterSelect ? filterSelect.options[filterSelect.selectedIndex] : null;
+  detailFilter.textContent = selectedOption ? selectedOption.label : "—";
+}
+
+function updateSafeFStop() {
+  const detailSafe = document.getElementById("detail-safe-fstop");
+  if (!detailSafe) return; // safe-fstop block not present on this page
+
+  const pitch_micron = document.querySelector('#camera').value;
+  const filterSelect = document.querySelector('#filter');
+
+  if (!pitch_micron || !filterSelect || !filterSelect.value) {
+    detailSafe.textContent = "—";
+    return;
+  }
+
+  const activeWavelengths = filterSelect.value.split(",").map(s => parseInt(s.trim(), 10));
+  const bestFStop = getSafeFStop(pitch_micron, activeWavelengths);
+  detailSafe.textContent = bestFStop === null ? "None" : `ƒ/${bestFStop}`;
+}
+
 function updateFilter(input) {
   let wavelengthsList = input.value;
   let w = 0;
@@ -115,11 +158,13 @@ function updateFilter(input) {
         // hide column
         elements[i].classList.remove("hide", "show");
         elements[i].classList.add("hide");
-      }     
+      }
     }
     w++;
 
   }
+  updateFilterDetail();
+  updateSafeFStop();
 }
 
 function highlightRow(input) {
