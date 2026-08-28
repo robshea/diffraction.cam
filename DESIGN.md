@@ -21,9 +21,9 @@ colors:
   rating-good-bg: "#82e0aa"
   rating-good-text: "#145a32"
   rating-maybe-bg: "#f7dc6f"
-  rating-maybe-text: "#7d6608"
+  rating-maybe-text: "#705b07"
   rating-bad-bg: "#d98880"
-  rating-bad-text: "#641e16"
+  rating-bad-text: "#5a1b13"
   success: "#3fa63f"
   warning: "#d67f05"
   danger: "#ee5f5b"
@@ -110,8 +110,8 @@ The diffraction table's column headers and cells are colored by which part of th
 ### Semantic — Diffraction Ratings (locked)
 Each data cell in the diffraction grid is colored by its computed ratio, independent of the wavelength-band coloring above. **The Three-Ratio Rule.** Diffraction ratio has exactly three visual states — good, maybe, bad — mapped to fixed thresholds (< 3, 3–4.5, > 4.5); never add a fourth gradient step or a continuous color scale here.
 - **Sage** (bg `#82e0aa` / text `#145a32`): ratio below 3 — no visible diffraction.
-- **Gold** (bg `#f7dc6f` / text `#7d6608`): ratio 3–4.5 — mild visible diffraction.
-- **Rust** (bg `#d98880` / text `#641e16`): ratio above 4.5 — visible diffraction impacts sharpness.
+- **Gold** (bg `#f7dc6f` / text `#705b07`): ratio 3–4.5 — mild visible diffraction.
+- **Rust** (bg `#d98880` / text `#5a1b13`): ratio above 4.5 — visible diffraction impacts sharpness.
 
 ### Theme Status Colors (inherited, unmodified)
 - **Success** (`#3fa63f`): the "Add a Camera" button.
@@ -143,7 +143,7 @@ The page is a single-column content well (the theme's default `single`/`splash` 
 
 The Cameras page's filter panel (`.camera-controls`) is a wrapped flex row (search input + format select + reset button) with `gap: 0.75em 1em`, padded and boxed in Panel Mist. Below `37.5em` its children switch from row-wrapped to full-width stacked (`flex: 1 1 100%`) — the only place in the codebase with a custom mobile breakpoint; everything else relies on the theme's own breakpoints (`600px` / `768px` / `900px` / `1024px` / `1280px`).
 
-Data tables (`#diff-table`, `#camera-table`, `#legend-table`, `#filters`) scroll horizontally inside a `.camera-table-wrapper` (`overflow-x: auto`) on the Cameras page rather than reflowing columns — appropriate for dense tabular data that shouldn't be truncated. Spacing throughout is em-based and small: `0.25em`–`1.5em` steps, no larger rhythm unit in use.
+Data tables (`#diff-table`, `#camera-table`, `#legend-table`, `#filters`) scroll horizontally inside a `.camera-table-wrapper` (`overflow-x: auto`) rather than reflowing columns — appropriate for dense tabular data that shouldn't be truncated. `#diff-table` additionally sets an explicit `min-width` (sum of its column widths) since the theme's own `table { display: block; width: 100% }` would otherwise let columns silently compress to fit instead of triggering the scroll; this can put a horizontal scrollbar on the calculator even at some desktop widths, not only mobile — an intentional trade for columns that are always legible at their intended size. Spacing throughout is em-based and small: `0.25em`–`1.5em` steps, no larger rhythm unit in use.
 
 ## Elevation & Depth
 
@@ -174,11 +174,12 @@ Flat by default. The only shadows in the system are the theme's stock ambient on
 - Pixel Pitch is no longer a visible field here — its value comes straight off the selected Camera `<option>` and is read (and displayed, in the Camera Details Panel below) from there; a hidden `#pitch` input is not needed since nothing reads it back.
 
 ### Camera Details Panel
-- **Style:** boxed panel below the diffraction table (Panel Mist background `#f4f6f6`, Panel Edge border `#d5dbdb`, 4px radius, `1em` padding, same treatment as the Camera Filter Panel below) showing the selected camera's name, Pixel Pitch, Megapixels, Pixel Dimensions, and Sensor Size.
+- **Style:** boxed panel below the diffraction table (Panel Mist background `#f4f6f6`, Panel Edge border `#d5dbdb`, 4px radius, `1em` padding, same treatment as the Camera Filter Panel below) showing nine label/value pairs, in order: Camera, Filter, Safe, Caution, Avoid, Pitch, Megapixels, Pixels, Sensor.
 - **Values:** normal weight, Gauge Blue navy (`#154360`) — the same readout color as the calculator's own input fields, marking these as live instrument data rather than static prose; color alone carries the emphasis, not weight.
-- **Labels:** normal weight, 0.75em, plain text; the Pixel Pitch label carries the ruler-horizontal icon relocated from the old top-of-form field.
+- **Labels:** normal weight, 0.75em, plain text, each preceded by a FontAwesome icon. Safe / Caution / Avoid each carry an aperture icon tinted with that exact rating's color (`.icon-rating-good` / `-maybe` / `-bad`, sharing the same `$color-rating-*` tokens as the table's good/maybe/bad cells) — the panel echoes the table's own semantic palette rather than inventing a separate one.
+- **Safe / Caution / Avoid values:** computed at thirds-stop precision regardless of whether the whole or thirds table is on screen (`getSafeFStop/getAvoidFStop` in `main.js`), so the recommendation doesn't jump around depending on which page you're viewing. Safe uses the ratio-3 threshold, Caution a more permissive 3.75, Avoid the ratio-4.5 threshold; each shows "None" if no ƒ-stop qualifies.
 - **Layout:** a wrapped flex row of label/value pairs, stacking to one per row below `37.5em`.
-- **Empty state:** shows an em dash (—) in each value when no camera is selected, consistent with the calculator's own empty-state handling.
+- **Empty state:** shows an em dash (—) in each value when no camera or filter is selected, consistent with the calculator's own empty-state handling.
 
 ### Camera Filter Panel (signature component)
 - **Style:** boxed panel (Panel Mist background `#f4f6f6`, Panel Edge border `#d5dbdb`, 4px radius, `1em` padding) containing a search input, a format `<select>`, and a "Reset filters" button (theme's `.btn--inverse .btn--small`).
@@ -187,7 +188,7 @@ Flat by default. The only shadows in the system are the theme's stock ambient on
 
 ### Diffraction Data Table (signature component)
 - **Structure:** two frozen leading columns (ƒ-stop radio + ƒ-stop label, Gauge Blue) followed by one column per wavelength, grouped under three merged band headers (Ultraviolet / Visible Light / Infrared) colored per the Semantic — Wavelength Bands palette above.
-- **Cells:** each data cell is colored per the Semantic — Diffraction Ratings palette (good/maybe/bad) once a camera and filter are selected; unfiltered wavelength columns for the active filter are dimmed to 25% opacity (`.hide` class) rather than hidden, so the grid shape never changes.
+- **Cells:** each data cell is colored per the Semantic — Diffraction Ratings palette (good/maybe/bad) once a camera and filter are selected; unfiltered wavelength columns for the active filter get the `.hide` treatment (solid `#d5dbdb` gray fill, transparent text) rather than being removed, so the grid shape never changes and the ratio values stay in the DOM for assistive tech even though they're not visually legible.
 - **Row selection:** the active ƒ-stop row gets a 2px solid Gauge-Blue-navy (`#154360`) border (`.highlight`) — the only border-as-emphasis pattern in the system.
 - **Caption:** italic, positioned below the table (`caption-side: bottom`), in the theme's serif caption face.
 

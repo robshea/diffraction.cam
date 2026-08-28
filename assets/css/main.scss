@@ -10,6 +10,27 @@ $serif      : Georgia, Times, serif;
 $sans-serif : "PT Sans", -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Segoe UI", "Roboto", "Lucida Grande", Arial, sans-serif;
 $monospace  : Monaco, Consolas, "Lucida Console", monospace;
 
+// Design tokens — locked semantic colors from DESIGN.md's frontmatter `colors:`
+// block. Names match 1:1 so the two stay checkable against each other; update
+// both together if a value ever needs to change.
+$color-field-fill:        #D6EAF8; // Gauge Blue — calculator inputs, diff-table leading columns
+$color-field-text:        #154360; // Gauge Blue text — also the highlight-border / focus-outline navy
+$color-form-bg:           #f4f6f6; // Panel Mist — camera-details / camera-controls panel background
+$color-form-border:       #d5dbdb; // Panel Edge — same panels' border, and the .hide (filtered-column) fill
+$color-band-uv-bg:        #E8DAEF;
+$color-band-uv-text:      #4A235A;
+$color-band-visible-bg:   #D1F2EB;
+$color-band-visible-text: #0B5345;
+$color-band-ir-bg:        #F2D7D5;
+$color-band-ir-text:      #78281F;
+$color-rating-good-bg:    #82E0AA;
+$color-rating-good-text:  #145A32;
+$color-rating-maybe-bg:   #F7DC6F;
+$color-rating-maybe-text: #705B07;
+$color-rating-bad-bg:     #D98880;
+$color-rating-bad-text:   #5A1B13;
+$color-warning:           #d67f05;
+
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 
@@ -19,7 +40,7 @@ input, label, select {
   font-size: 0.8em;
 }
 select {
-  background-color: #D6EAF8;
+  background-color: $color-field-fill;
 }
 
 label {
@@ -63,53 +84,91 @@ a.site-title {
   margin-bottom: 0;
 }
 
-// first & second column
-#diff-table td:first-child, #diff-table td:nth-child(2) {
-  background-color: #D6EAF8;
-  color: #154360;
+// a clean 44x44px touch target regardless of the icon's own rendered size
+// (measured ~27.5x33px before this)
+.help-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  text-decoration: none;
+}
+
+// the toggle sits inline inside running text ("(thirds)") — padding grows its
+// invisible hit area (measured ~40.8x19.5px before this) and the matching
+// negative margin cancels the padding's visual footprint, so "(" and ")"
+// don't visibly drift apart.
+#thirds-toggle {
+  display: inline-block;
+  padding: 0.4em 0.35em;
+  margin: -0.4em -0.35em;
+}
+
+// first & second column (ƒ-stop label cell is a <th scope="row">, not a <td>,
+// so screen readers get the row's ƒ-stop announced alongside each data cell).
+// Sticky-pinned during the table's horizontal scroll (.camera-table-wrapper's
+// overflow-x: auto) so the row's ƒ-stop stays on screen while reading across
+// to the IR columns — this is what DESIGN.md's "frozen leading columns" means.
+// padding bumped beyond the theme/th defaults so the row's clickable height
+// clears the 44px touch-target guideline (measured ~42.75px before this).
+#diff-table td:first-child, #diff-table th:nth-child(2) {
+  background-color: $color-field-fill;
+  color: $color-field-text;
   text-align: right;
   font-weight: bold;
   width: 75px;
+  padding: 0.7em 0.5em;
+  position: sticky;
+  z-index: 1;
 }
 
-// first column
+// first column — widened from 25px so the radio's own hit area (measured
+// ~29.5px wide before this) gets closer to a usable touch-target width.
 #diff-table td:first-child {
-  width: 25px;
+  width: 36px;
+  left: 0;
 }
 
 // second column
-#diff-table td:nth-child(2) {
+#diff-table th:nth-child(2) {
   width: 50px;
+  left: 36px;
 }
 
-// header row
+// header row (colspan=2 over the same two frozen columns above; needs its own
+// opaque background and sticky offset so it stays pinned in lockstep with them)
 #f-stop {
   text-align: center;
+  background-color: $color-field-fill;
+  position: sticky;
+  left: 0;
+  z-index: 2;
 }
 #uv, #w350, #w400 {
-  background-color: #E8DAEF;
-  color: #4A235A;
+  background-color: $color-band-uv-bg;
+  color: $color-band-uv-text;
   text-align: center;
 }
 #visible, #w470, #w550, #w590, #w665, #w720  {
-  background-color: #D1F2EB;
-  color: #0B5345;
+  background-color: $color-band-visible-bg;
+  color: $color-band-visible-text;
   text-align: center;
 }
 #ir, #w780, #w830, #w930, #w1000 {
-  background-color: #F2D7D5;
-  color: #78281F;
+  background-color: $color-band-ir-bg;
+  color: $color-band-ir-text;
   text-align: center;
 }
 
 // highlight row
 .highlight {
-  border: 2px solid #154360 ;
+  border: 2px solid $color-field-text;
 }
 
 // visible keyboard focus for the f-stop radios (theme suppresses the default outline)
 #diff-table input[type="radio"]:focus-visible {
-  outline: 2px solid #154360;
+  outline: 2px solid $color-field-text;
   outline-offset: 2px;
 }
 
@@ -117,39 +176,90 @@ a.site-title {
 th {
   padding: 0.25em
 }
+// theme tables are `display: block; width: 100%; overflow-x: auto` (see
+// minimal-mistakes/_tables.scss), so table-layout/column widths alone won't stop
+// columns from being squeezed to fit — an explicit min-width (36px + 50px leading
+// columns + 11 * 105px wavelength columns) is what actually forces the table wider
+// than its container and makes .camera-table-wrapper's overflow-x: auto engage
+// instead of the columns silently compressing. The theme's own overflow-x: auto on
+// the table itself has to be overridden back to visible, though — left as-is, it
+// makes the table an intermediate scroll-container ancestor between the sticky
+// leading columns below and .camera-table-wrapper (the intended scrollport), which
+// silently breaks their `position: sticky` (confirmed live: without this override
+// the sticky columns scroll away with everything else instead of staying pinned).
+#diff-table {
+  min-width: 1241px;
+  overflow: visible;
+}
 #diff-table td {
   text-align: right;
   width: 105px;
 }
 .good {
-  background-color: #82E0AA;
-  color: #145A32;
+  background-color: $color-rating-good-bg;
+  color: $color-rating-good-text;
 }
 .maybe {
-  background-color: #F7DC6F;
-  color: #705B07;
+  background-color: $color-rating-maybe-bg;
+  color: $color-rating-maybe-text;
 }
 .bad {
-  background-color: #D98880;
-  color: #5A1B13;
+  background-color: $color-rating-bad-bg;
+  color: $color-rating-bad-text;
 }
 .show {
   visibility: visible;
 }
 .hide {
-  background-color: #d5dbdb;
+  background-color: $color-form-border;
   color: transparent;
 }
 
+.icon-rating-good {
+  color: $color-rating-good-bg;
+}
+.icon-rating-maybe {
+  color: $color-rating-maybe-bg;
+}
+.icon-rating-bad {
+  color: $color-rating-bad-bg;
+}
+.icon-warning {
+  color: $color-warning;
+}
+
+.footer-cta {
+  color: #fff;
+}
+
+// The panel groups three different kinds of information — the visitor's own
+// selections, the computed recommendation (the single most decision-relevant
+// line on the page), and raw spec trivia. Each group is its own full-width
+// band, stacked vertically and separated by a hairline rule — deliberately
+// simpler than a side-by-side layout, which breaks unpredictably once a
+// group's own items wrap (nested flex-wrap has no reliable "first item in
+// this line" selector, so a vertical divider ends up orphaned on whichever
+// group happens to wrap to a new row at a given width). Hierarchy otherwise
+// comes only from the recommendation group's larger/bolder values, never a
+// new color or font, per DESIGN.md's own typography and color rules.
 .camera-details {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+  margin: 1em 0 1.5em;
+  padding: 0.5em 1em;
+  background-color: $color-form-bg;
+  border: 1px solid $color-form-border;
+  border-radius: 4px;
+}
+.camera-details__group {
   display: flex;
   flex-wrap: wrap;
   gap: 0.75em 1.5em;
-  margin: 1em 0 1.5em;
-  padding: 0.5em 1em;
-  background-color: #f4f6f6;
-  border: 1px solid #d5dbdb;
-  border-radius: 4px;
+}
+.camera-details__group:not(:first-child) {
+  padding-top: 0.5em;
+  border-top: 1px solid $color-form-border;
 }
 .camera-details__item {
   display: flex;
@@ -159,8 +269,19 @@ th {
   font-size: 0.75em;
 }
 .camera-details__value {
-  color: #154360;
+  color: $color-field-text;
   font-size: 0.9em;
+}
+// the recommendation is what a visitor came here for — larger and bolder
+// than the surrounding spec readouts, weight/size carrying the emphasis.
+.camera-details__group--recommendation .camera-details__value {
+  font-size: 1.05em;
+  font-weight: 700;
+}
+// the spec readouts are reference trivia, not the answer — sized down
+// slightly to sit clearly below the recommendation and selection groups.
+.camera-details__group--spec .camera-details__value {
+  font-size: 0.8em;
 }
 @media (max-width: 37.5em) {
   .camera-details__item {
@@ -179,8 +300,8 @@ th {
   gap: 0.75em 1em;
   margin: 1.5em 0 0.5em;
   padding: 1em;
-  background-color: #f4f6f6;
-  border: 1px solid #d5dbdb;
+  background-color: $color-form-bg;
+  border: 1px solid $color-form-border;
   border-radius: 4px;
 }
 

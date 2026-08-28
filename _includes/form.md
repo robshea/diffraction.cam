@@ -1,5 +1,9 @@
 <form>
 
+<div id="camera-not-found-notice" class="notice--warning" role="alert" hidden>
+  <p>{{ site.data.icons.warning }} <strong>Camera not found:</strong> "<span id="camera-not-found-name"></span>" isn't in the camera list. Pick one below, or <a href="/cameras/">request it be added</a>.</p>
+</div>
+
 <div id="top-fields">
 
   <div class="column">
@@ -22,7 +26,7 @@
   </div>
 
   <div class="column">
-    <a href="#how-to-use" aria-label="Help">{{ site.data.icons.help }}</a>
+    <a href="#how-to-use" aria-label="Help" class="help-link">{{ site.data.icons.help }}</a>
   </div>
 
 </div>

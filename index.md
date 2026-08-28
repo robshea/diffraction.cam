@@ -7,7 +7,8 @@ published: true
 
 {% include camera-details.md %}
 
-<table id="diff-table">
+<div class="camera-table-wrapper" tabindex="0">
+<table id="diff-table" aria-describedby="legend-table">
   <caption>Diffraction ratio</caption>
   <colgroup>
       <col span="2">
@@ -15,7 +16,7 @@ published: true
   </colgroup>
   <thead>
     <tr>
-      <th colspan="2" rowspan="2" id="f-stop" scope="colgroup"><i class="fa-duotone fa-light fa-aperture"></i> ƒ-stops<br /> (<a id="thirds-toggle" href="">thirds</a>)</th>
+      <th colspan="2" rowspan="2" id="f-stop" scope="colgroup"><i class="fa-duotone fa-light fa-aperture" aria-hidden="true"></i> ƒ-stops<br /> (<a id="thirds-toggle" href="">thirds</a>)</th>
       <th colspan="2" id="uv" scope="colgroup">Ultraviolet</th>
       <th colspan="5" id="visible" scope="colgroup">Visible Light</th>
       <th colspan="4" id="ir" scope="colgroup">Infrared</th>
@@ -30,7 +31,7 @@ published: true
     {% for f-number in site.data.f-numbers.f-number %}
       <tr id="row{{ f-number.f-stop }}">
         <td><input type="radio" id="rf-number-{{ f-number.f-stop }}" name="rf-number" value="{{ f-number.f-stop }}" onchange="highlightRow(this)"></td>
-        <td><label for="rf-number-{{ f-number.f-stop }}">ƒ/{{ f-number.f-stop }}</label></td>
+        <th scope="row"><label for="rf-number-{{ f-number.f-stop }}">ƒ/{{ f-number.f-stop }}</label></th>
         {% for wavelength in site.data.wavelengths.wavelengths %}
           <td id="{{ f-number.f-stop }}-{{ wavelength.wavelength }}" class="w{{ wavelength.wavelength }}"></td>
         {% endfor %}
@@ -38,6 +39,7 @@ published: true
     {% endfor %}
   </tbody>
 </table>
+</div>
 
 </form>
 

@@ -9,33 +9,45 @@ if (window.location.href.includes('thirds')) {
   // if viewing the thirds f-stop page "/thirds/"
   var f_numbers = f_numbers_thirds;
   var togglepath = "/?camera=";
+  var toggleBasePath = "/";
 } else {
   // if viewing the whole f-stop page "/"
   var f_numbers = [1.4, 2, 2.8, 4, 5.6, 8, 11, 16, 22, 32];
   var togglepath = "/thirds/?camera=";
+  var toggleBasePath = "/thirds/";
 }
 
 function updatePitch() {
 
-  // update query string parameter from selected field
-  let urlParams = new URLSearchParams(window.location.search);
-  const selectedCamera = document.querySelector('#camera option:checked').label;
-  urlParams.set("camera", selectedCamera);
-  history.replaceState(null, null, "?"+urlParams.toString());
-
-  // add query string to toggle link
-  const a = document.getElementById('thirds-toggle');
-  a.href = togglepath + selectedCamera;
-
   // get the selected value from the "camera" select field
   const selectedOption = document.querySelector('#camera option:checked');
   const pitch_micron = document.querySelector('#camera').value;
+
+  // update query string parameter and toggle link from the selected field —
+  // skip writing "camera" entirely when the placeholder ("- select camera -",
+  // value="") is selected, so clearing the camera never writes that literal
+  // placeholder text into the shareable/bookmarkable URL.
+  let urlParams = new URLSearchParams(window.location.search);
+  const a = document.getElementById('thirds-toggle');
+  if (pitch_micron) {
+    urlParams.set("camera", selectedOption.label);
+    a.href = togglepath + selectedOption.label;
+    // a real camera is now selected — clear any "camera not found" notice
+    // left over from a stale/mistyped ?camera= link.
+    const notice = document.getElementById('camera-not-found-notice');
+    if (notice) notice.hidden = true;
+  } else {
+    urlParams.delete("camera");
+    a.href = toggleBasePath;
+  }
+  history.replaceState(null, null, "?"+urlParams.toString());
 
   updateCameraDetails(selectedOption, pitch_micron);
   updateFilterDetail();
   updateSafeFStop();
   updateCautionFStop();
   updateAvoidFStop();
+  updateCalcStatus();
 
   let cell_id = '';
   // loop over f-numbers
@@ -231,6 +243,27 @@ function updateFilter(input) {
   updateSafeFStop();
   updateCautionFStop();
   updateAvoidFStop();
+  updateCalcStatus();
+}
+
+// Announces the recomputed recommendation to screen readers — the visible
+// grid and Camera Details panel update instantly for sighted mouse users on
+// every camera/filter change, but nothing was previously exposed to
+// assistive tech when ~110 cells and 9 detail fields recompute silently.
+function updateCalcStatus() {
+  const status = document.getElementById('calc-status');
+  if (!status) return; // not present on this page
+
+  const camera = document.getElementById('detail-camera');
+  if (!camera || camera.textContent === '—') {
+    status.textContent = '';
+    return;
+  }
+
+  const safe = document.getElementById('detail-safe-fstop').textContent;
+  const caution = document.getElementById('detail-caution-fstop').textContent;
+  const avoid = document.getElementById('detail-avoid-fstop').textContent;
+  status.textContent = `${camera.textContent}: Safe ${safe}, Caution ${caution}, Avoid ${avoid}.`;
 }
 
 function highlightRow(input) {
@@ -249,24 +282,29 @@ function highlightRow(input) {
 
 const loadDefaultCamera = (e) => {
   let urlParams = new URLSearchParams(window.location.search);
-  let camera = 'Canon EOS R';
-  if (urlParams.get('camera')) {
-    camera = urlParams.get('camera');
-  }
+  const explicitCamera = urlParams.get('camera');
+  let camera = explicitCamera || 'Canon EOS R';
   const $select = document.querySelector('#camera');
   const $options = Array.from($select.options);
   const optionToSelect = $options.find(item => item.text === camera);
+  const notice = document.getElementById('camera-not-found-notice');
   if (optionToSelect) {
     optionToSelect.selected = true;
-  } else if (!urlParams.get('camera') && $options.length > 1) {
+    if (notice) notice.hidden = true;
+  } else if (!explicitCamera && $options.length > 1) {
     // hardcoded default camera missing from cameras.yaml (e.g. renamed) —
     // fall back to the first real camera so first-time visitors still see
     // a populated example table instead of an empty one.
     $options[1].selected = true;
+    if (notice) notice.hidden = true;
+  } else if (explicitCamera && notice) {
+    // an explicit ?camera= URL didn't match anything — leave "- select
+    // camera -" selected so updatePitch() renders the empty state instead
+    // of crashing, and tell the visitor why: a stale or mistyped shared
+    // link is the most likely cause.
+    document.getElementById('camera-not-found-name').textContent = explicitCamera;
+    notice.hidden = false;
   }
-  // else: an explicit ?camera= URL didn't match anything — leave
-  // "- select camera -" selected so updatePitch() renders the empty
-  // state instead of crashing.
 };
 
 function runIfIdExists(id, func) {

@@ -8,7 +8,7 @@ published: true
 
 toc: true
 toc_label: FAQ
-toc_icon: fa-duotone fa-light fa-message-question
+toc_icon: circle-question
 toc_sticky: true
 
 ---

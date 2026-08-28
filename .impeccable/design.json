@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-08-27T02:04:39Z",
+  "generatedAt": "2026-08-28T00:00:00Z",
   "title": "Design System: diffraction.cAm",
   "extensions": {
     "colorMeta": {
@@ -23,9 +23,9 @@
       "rating-good-bg": { "role": "semantic", "displayName": "Sage", "canonical": "#82e0aa", "tonalRamp": ["#0a2e17", "#145a32", "#1f8449", "#33ac63", "#5fca85", "#82e0aa", "#b3edc9", "#dcf7e5"] },
       "rating-good-text": { "role": "semantic", "displayName": "Deep Sage Ink", "canonical": "#145a32" },
       "rating-maybe-bg": { "role": "semantic", "displayName": "Gold", "canonical": "#f7dc6f", "tonalRamp": ["#403302", "#7d6608", "#a88b0d", "#d1af17", "#eecb3e", "#f7dc6f", "#fbecab", "#fdf6d9"] },
-      "rating-maybe-text": { "role": "semantic", "displayName": "Deep Gold Ink", "canonical": "#7d6608" },
+      "rating-maybe-text": { "role": "semantic", "displayName": "Deep Gold Ink", "canonical": "#705b07" },
       "rating-bad-bg": { "role": "semantic", "displayName": "Rust", "canonical": "#d98880", "tonalRamp": ["#2d0b08", "#641e16", "#93362a", "#bd5142", "#d98880", "#e4a49e", "#eec3bf", "#f6e0de"] },
-      "rating-bad-text": { "role": "semantic", "displayName": "Deep Rust Ink", "canonical": "#641e16" },
+      "rating-bad-text": { "role": "semantic", "displayName": "Deep Rust Ink", "canonical": "#5a1b13" },
       "success": { "role": "status", "displayName": "Theme Success", "canonical": "#3fa63f" },
       "warning": { "role": "status", "displayName": "Theme Warning", "canonical": "#d67f05" },
       "danger": { "role": "status", "displayName": "Theme Danger", "canonical": "#ee5f5b" },
@@ -90,7 +90,15 @@
       "refersTo": null,
       "description": "Data table cell colored by computed diffraction ratio — the locked good/maybe/bad rating palette.",
       "html": "<table><tr><td class=\"ds-rating-good\">2.1</td><td class=\"ds-rating-maybe\">3.8</td><td class=\"ds-rating-bad\">5.4</td></tr></table>",
-      "css": ".ds-rating-good { background-color: #82e0aa; color: #145a32; text-align: right; padding: 0.25em; width: 105px; } .ds-rating-maybe { background-color: #f7dc6f; color: #7d6608; text-align: right; padding: 0.25em; width: 105px; } .ds-rating-bad { background-color: #d98880; color: #641e16; text-align: right; padding: 0.25em; width: 105px; }"
+      "css": ".ds-rating-good { background-color: #82e0aa; color: #145a32; text-align: right; padding: 0.25em; width: 105px; } .ds-rating-maybe { background-color: #f7dc6f; color: #705b07; text-align: right; padding: 0.25em; width: 105px; } .ds-rating-bad { background-color: #d98880; color: #5a1b13; text-align: right; padding: 0.25em; width: 105px; }"
+    },
+    {
+      "name": "Camera Details Panel",
+      "kind": "custom",
+      "refersTo": null,
+      "description": "Boxed readout panel below the diffraction table — nine label/value pairs (Camera, Filter, Safe, Caution, Avoid, Pitch, Megapixels, Pixels, Sensor). Safe/Caution/Avoid reuse the table's own rating icon tints, tying the panel's recommendation back to the same locked palette as the grid.",
+      "html": "<div class=\"ds-camera-details\"><div class=\"ds-camera-details__item\"><span class=\"ds-camera-details__label\">Camera</span><span class=\"ds-camera-details__value\">Canon EOS R</span></div><div class=\"ds-camera-details__item\"><span class=\"ds-camera-details__label\"><i class=\"ds-icon-rating-good\">&#9673;</i> Safe</span><span class=\"ds-camera-details__value\">ƒ/6.3</span></div><div class=\"ds-camera-details__item\"><span class=\"ds-camera-details__label\"><i class=\"ds-icon-rating-maybe\">&#9673;</i> Caution</span><span class=\"ds-camera-details__value\">ƒ/8</span></div><div class=\"ds-camera-details__item\"><span class=\"ds-camera-details__label\"><i class=\"ds-icon-rating-bad\">&#9673;</i> Avoid</span><span class=\"ds-camera-details__value\">ƒ/10.1</span></div></div>",
+      "css": ".ds-camera-details { display: flex; flex-wrap: wrap; gap: 0.75em 1.5em; padding: 0.5em 1em; background-color: #f4f6f6; border: 1px solid #d5dbdb; border-radius: 4px; } .ds-camera-details__item { display: flex; flex-direction: column; } .ds-camera-details__label { font-size: 0.75em; } .ds-camera-details__value { color: #154360; font-size: 0.9em; } .ds-icon-rating-good { color: #82e0aa; font-style: normal; } .ds-icon-rating-maybe { color: #f7dc6f; font-style: normal; } .ds-icon-rating-bad { color: #d98880; font-style: normal; }"
     },
     {
       "name": "Notice — Warning",
