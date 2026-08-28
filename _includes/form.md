@@ -3,27 +3,26 @@
 <div id="top-fields">
 
   <div class="column">
-    <label for="camera" id="camera-label"><i class="fa-duotone fa-light fa-camera-retro"></i> Camera</label>
+    <label for="camera" id="camera-label">{{ site.data.icons.camera-retro }} Camera</label>
     <select name="camera" id="camera" onchange="updatePitch()">
       <option value="">- select camera -</option>
       {% for camera in site.data.cameras.cameras %}
-      <option value="{{ camera.pitch }}">{{ camera.make }} {{ camera.model }}</option>
+      <option value="{{ camera.pitch }}" data-megapixels="{{ camera.megapixels }}" data-hpixels="{{ camera.hpixels }}" data-vpixels="{{ camera.vpixels }}" data-hsensor="{{ camera.hsensor }}" data-vsensor="{{ camera.vsensor }}">{{ camera.make }} {{ camera.model }}</option>
       {% endfor %}
     </select>
   </div>
 
   <div class="column">
-    <label for="pitch" id="pitch-label"><i class="fa-light fa-ruler-horizontal"></i> Pixel Pitch (μm)</label>
-    <input type="text" id="pitch" name="pitch" disabled>
-  </div>
-
-  <div class="column">
-    <label for="filter" id="filter-label"><i class="fa-duotone fa-light fa-waveform"></i> Filter</label>
+    <label for="filter" id="filter-label">{{ site.data.icons.waveform }} Filter</label>
     <select name="filter" id="filter" onchange="updateFilter(this)">
       {% for filter in site.data.filters.filters %}
       <option value="{{ filter.wavelengths }}">{{ filter.filter }}</option>
       {% endfor %}
     </select>
+  </div>
+
+  <div class="column">
+    <a href="#how-to-use" aria-label="Help">{{ site.data.icons.help }}</a>
   </div>
 
 </div>

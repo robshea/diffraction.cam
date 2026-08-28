@@ -50,14 +50,17 @@ a.site-title {
 
 #top-fields {
   display: flex;
+  gap: 2em;
   margin-bottom: 25px;
 }
 .column {
-  flex: 33.33%;
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
 }
-
-#pitch {
-  width: 4em;
+.column label {
+  margin-bottom: 0;
 }
 
 // first & second column
@@ -136,6 +139,34 @@ th {
 .hide {
   visibility: hidden;
 }
+
+.camera-details {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75em 1.5em;
+  margin: 1em 0 1.5em;
+  padding: 1em;
+  background-color: #f4f6f6;
+  border: 1px solid #d5dbdb;
+  border-radius: 4px;
+}
+.camera-details__item {
+  display: flex;
+  flex-direction: column;
+}
+.camera-details__label {
+  font-size: 0.75em;
+}
+.camera-details__value {
+  color: #154360;
+  font-size: 0.9em;
+}
+@media (max-width: 37.5em) {
+  .camera-details__item {
+    flex: 1 1 100%;
+  }
+}
+
 #legend-table {
   margin-left: 40px;
 }

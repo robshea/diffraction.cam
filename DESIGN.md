@@ -139,7 +139,7 @@ Each data cell in the diffraction grid is colored by its computed ratio, indepen
 
 ## Layout
 
-The page is a single-column content well (the theme's default `single`/`splash` layouts, max-width 1280px on wide viewports) with no sidebar in active use. The calculator's own controls form a horizontal three-column flex row (`#top-fields` — Camera / Pixel Pitch / Filter) above the data table, collapsing naturally on narrow viewports since each `.column` is `flex: 33.33%` with no explicit breakpoint override.
+The page is a single-column content well (the theme's default `single`/`splash` layouts, max-width 1280px on wide viewports) with no sidebar in active use. The calculator's own controls form a horizontal two-column flex row (`#top-fields` — Camera / Filter) above the data table, each `.column` sharing the row evenly (`flex: 1`) with a stacking breakpoint below `37.5em`.
 
 The Cameras page's filter panel (`.camera-controls`) is a wrapped flex row (search input + format select + reset button) with `gap: 0.75em 1em`, padded and boxed in Panel Mist. Below `37.5em` its children switch from row-wrapped to full-width stacked (`flex: 1 1 100%`) — the only place in the codebase with a custom mobile breakpoint; everything else relies on the theme's own breakpoints (`600px` / `768px` / `900px` / `1024px` / `1280px`).
 
@@ -168,9 +168,17 @@ Flat by default. The only shadows in the system are the theme's stock ambient on
 - There is no secondary/ghost button variant in the current implementation — every button-like control is either this primary style or the plain camera-sort buttons below.
 
 ### Form Fields (Calculator inputs)
-- **Style:** Camera/Filter `<select>` and the disabled Pixel Pitch `<input>` share a **Gauge Blue** fill (`#d6eaf8`) with dark navy text (`#154360`) — visually distinct from ordinary theme inputs, marking them as the instrument's live readouts rather than generic form controls.
+- **Style:** the Camera/Filter `<select>` fields share a **Gauge Blue** fill (`#d6eaf8`) with dark navy text (`#154360`) — visually distinct from ordinary theme inputs, marking them as the instrument's live controls rather than generic form fields.
 - **Labels:** bold, 0.75em, left-floated with a small icon (FontAwesome duotone-light) preceding the label text — e.g. a camera-retro icon before "Camera".
-- **Layout:** three fields in a row (`#top-fields`, flex columns), each `flex: 33.33%`.
+- **Layout:** two fields in a row (`#top-fields`, flex columns), each `flex: 1`.
+- Pixel Pitch is no longer a visible field here — its value comes straight off the selected Camera `<option>` and is read (and displayed, in the Camera Details Panel below) from there; a hidden `#pitch` input is not needed since nothing reads it back.
+
+### Camera Details Panel
+- **Style:** boxed panel below the diffraction table (Panel Mist background `#f4f6f6`, Panel Edge border `#d5dbdb`, 4px radius, `1em` padding, same treatment as the Camera Filter Panel below) showing the selected camera's name, Pixel Pitch, Megapixels, Pixel Dimensions, and Sensor Size.
+- **Values:** normal weight, Gauge Blue navy (`#154360`) — the same readout color as the calculator's own input fields, marking these as live instrument data rather than static prose; color alone carries the emphasis, not weight.
+- **Labels:** normal weight, 0.75em, plain text; the Pixel Pitch label carries the ruler-horizontal icon relocated from the old top-of-form field.
+- **Layout:** a wrapped flex row of label/value pairs, stacking to one per row below `37.5em`.
+- **Empty state:** shows an em dash (—) in each value when no camera is selected, consistent with the calculator's own empty-state handling.
 
 ### Camera Filter Panel (signature component)
 - **Style:** boxed panel (Panel Mist background `#f4f6f6`, Panel Edge border `#d5dbdb`, 4px radius, `1em` padding) containing a search input, a format `<select>`, and a "Reset filters" button (theme's `.btn--inverse .btn--small`).

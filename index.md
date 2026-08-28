@@ -37,6 +37,29 @@ published: true
   </tbody>
 </table>
 
+<div id="camera-details" class="camera-details">
+  <div class="camera-details__item">
+    <span class="camera-details__label">{{ site.data.icons.camera-retro }} Camera</span>
+    <span id="detail-camera" class="camera-details__value">—</span>
+  </div>
+  <div class="camera-details__item">
+    <span class="camera-details__label">{{ site.data.icons.ruler-horizontal }} Pixel Pitch</span>
+    <span id="detail-pitch" class="camera-details__value">—</span>
+  </div>
+  <div class="camera-details__item">
+    <span class="camera-details__label">{{ site.data.icons.grid-2 }} Megapixels</span>
+    <span id="detail-megapixels" class="camera-details__value">—</span>
+  </div>
+  <div class="camera-details__item">
+    <span class="camera-details__label">{{ site.data.icons.ruler-combined }} Pixel Dimensions</span>
+    <span id="detail-pixels" class="camera-details__value">—</span>
+  </div>
+  <div class="camera-details__item">
+    <span class="camera-details__label">{{ site.data.icons.crop-simple }} Sensor Size</span>
+    <span id="detail-sensor" class="camera-details__value">—</span>
+  </div>
+</div>
+
 </form>
 
 {% include legend.md %}

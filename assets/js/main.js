@@ -23,9 +23,10 @@ function updatePitch() {
   a.href = togglepath + selectedCamera;
 
   // get the selected value from the "camera" select field
+  const selectedOption = document.querySelector('#camera option:checked');
   const pitch_micron = document.querySelector('#camera').value;
-  // update the value of the "pitch" input field
-  document.getElementById("pitch").value = pitch_micron;
+
+  updateCameraDetails(selectedOption, pitch_micron);
 
   let cell_id = '';
   // loop over f-numbers
@@ -65,6 +66,31 @@ function updatePitch() {
     }
     f++;
   }
+}
+
+function updateCameraDetails(selectedOption, pitch_micron) {
+  const detailCamera = document.getElementById("detail-camera");
+  if (!detailCamera) return; // camera-details block not present on this page
+
+  const detailPitch = document.getElementById("detail-pitch");
+  const detailMegapixels = document.getElementById("detail-megapixels");
+  const detailPixels = document.getElementById("detail-pixels");
+  const detailSensor = document.getElementById("detail-sensor");
+
+  if (!pitch_micron) {
+    detailCamera.textContent = "—";
+    detailPitch.textContent = "—";
+    detailMegapixels.textContent = "—";
+    detailPixels.textContent = "—";
+    detailSensor.textContent = "—";
+    return;
+  }
+
+  detailCamera.textContent = selectedOption.label;
+  detailPitch.textContent = pitch_micron + " μm";
+  detailMegapixels.textContent = selectedOption.dataset.megapixels;
+  detailPixels.textContent = selectedOption.dataset.hpixels + " × " + selectedOption.dataset.vpixels;
+  detailSensor.textContent = selectedOption.dataset.hsensor + " × " + selectedOption.dataset.vsensor + " mm";
 }
 
 function airyPitchRatio(f_number, wavelength, pitch_micron) {
