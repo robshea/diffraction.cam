@@ -34,6 +34,8 @@ function updatePitch() {
   updateCameraDetails(selectedOption, pitch_micron);
   updateFilterDetail();
   updateSafeFStop();
+  updateCautionFStop();
+  updateAvoidFStop();
 
   let cell_id = '';
   // loop over f-numbers
@@ -125,6 +127,23 @@ function getSafeFStop(pitch_micron, activeWavelengths, threshold = 3) {
   return null;
 }
 
+// Lowest f-stop where at least one wavelength a filter passes is already
+// "bad" (>=4.5). Unlike getSafeFStop, only one wavelength needs to cross the
+// threshold, not all of them. Walks from the widest aperture up and returns
+// the first (i.e. lowest) f-number that qualifies.
+// Returns null if even the narrowest aperture stays under the threshold.
+function getAvoidFStop(pitch_micron, activeWavelengths, threshold = 4.5) {
+  if (!pitch_micron) return null;
+
+  for (let f = 0; f < f_numbers_thirds.length; f++) {
+    const anyBad = activeWavelengths.some(
+      w => airyPitchRatio(f_numbers_thirds[f], w, pitch_micron) >= threshold
+    );
+    if (anyBad) return f_numbers_thirds[f];
+  }
+  return null;
+}
+
 function updateFilterDetail() {
   const detailFilter = document.getElementById("detail-filter");
   if (!detailFilter) return; // filter-detail block not present on this page
@@ -151,6 +170,43 @@ function updateSafeFStop() {
   detailSafe.textContent = bestFStop === null ? "None" : `ƒ/${bestFStop}`;
 }
 
+// Highest f-stop where every wavelength a filter passes stays "caution" (<=3.75).
+// Same logic as updateSafeFStop but with the more permissive threshold.
+function updateCautionFStop() {
+  const detailCaution = document.getElementById("detail-caution-fstop");
+  if (!detailCaution) return; // caution-fstop block not present on this page
+
+  const pitch_micron = document.querySelector('#camera').value;
+  const filterSelect = document.querySelector('#filter');
+
+  if (!pitch_micron || !filterSelect || !filterSelect.value) {
+    detailCaution.textContent = "—";
+    return;
+  }
+
+  const activeWavelengths = filterSelect.value.split(",").map(s => parseInt(s.trim(), 10));
+  const bestFStop = getSafeFStop(pitch_micron, activeWavelengths, 3.75);
+  detailCaution.textContent = bestFStop === null ? "None" : `ƒ/${bestFStop}`;
+}
+
+// Highest f-stop where any wavelength a filter passes has already gone "bad" (>=4.5).
+function updateAvoidFStop() {
+  const detailAvoid = document.getElementById("detail-avoid-fstop");
+  if (!detailAvoid) return; // avoid-fstop block not present on this page
+
+  const pitch_micron = document.querySelector('#camera').value;
+  const filterSelect = document.querySelector('#filter');
+
+  if (!pitch_micron || !filterSelect || !filterSelect.value) {
+    detailAvoid.textContent = "—";
+    return;
+  }
+
+  const activeWavelengths = filterSelect.value.split(",").map(s => parseInt(s.trim(), 10));
+  const worstFStop = getAvoidFStop(pitch_micron, activeWavelengths);
+  detailAvoid.textContent = worstFStop === null ? "None" : `ƒ/${worstFStop}`;
+}
+
 function updateFilter(input) {
   let wavelengthsList = input.value;
   let w = 0;
@@ -173,6 +229,8 @@ function updateFilter(input) {
   }
   updateFilterDetail();
   updateSafeFStop();
+  updateCautionFStop();
+  updateAvoidFStop();
 }
 
 function highlightRow(input) {
