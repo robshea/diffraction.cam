@@ -1,8 +1,13 @@
 const wavelengths = [350, 400, 470, 550, 590, 665, 720, 780, 830, 930, 1000];
 
+// Always used for the Safe f-stop calculation, regardless of which f-stop
+// table (whole or thirds) is on screen, so the recommendation has thirds-stop
+// precision everywhere instead of jumping around depending on the page.
+const f_numbers_thirds = [1, 1.1, 1.3, 1.4, 1.6, 1.8, 2, 2.2, 2.5, 2.8, 3.2, 3.6, 4, 4.5, 5, 5.6, 6.3, 7.1, 8, 9, 10.1, 11, 12.7, 14.3, 16, 18, 20.2, 22, 25.4, 28.5, 32];
+
 if (window.location.href.includes('thirds')) {
   // if viewing the thirds f-stop page "/thirds/"
-  var f_numbers = [1, 1.1, 1.3, 1.4, 1.6, 1.8, 2, 2.2, 2.5, 2.8, 3.2, 3.6, 4, 4.5, 5, 5.6, 6.3, 7.1, 8, 9, 10.1, 11, 12.7, 14.3, 16, 18, 20.2, 22, 25.4, 28.5, 32];
+  var f_numbers = f_numbers_thirds;
   var togglepath = "/?camera=";
 } else {
   // if viewing the whole f-stop page "/"
@@ -103,16 +108,19 @@ function airyPitchRatio(f_number, wavelength, pitch_micron) {
 }
 
 // Highest f-stop where every wavelength a filter passes stays "good" (<=3).
-// f_numbers is ascending, so walk from the narrowest aperture down.
+// Always evaluated at thirds-stop precision (f_numbers_thirds), independent
+// of whether the whole or thirds table is currently on screen, so the value
+// doesn't change depending on which page you're viewing.
+// f_numbers_thirds is ascending, so walk from the narrowest aperture down.
 // Returns null if even the widest aperture fails.
 function getSafeFStop(pitch_micron, activeWavelengths, threshold = 3) {
   if (!pitch_micron) return null;
 
-  for (let f = f_numbers.length - 1; f >= 0; f--) {
+  for (let f = f_numbers_thirds.length - 1; f >= 0; f--) {
     const allGood = activeWavelengths.every(
-      w => airyPitchRatio(f_numbers[f], w, pitch_micron) <= threshold
+      w => airyPitchRatio(f_numbers_thirds[f], w, pitch_micron) <= threshold
     );
-    if (allGood) return f_numbers[f];
+    if (allGood) return f_numbers_thirds[f];
   }
   return null;
 }

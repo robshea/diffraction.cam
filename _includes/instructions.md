@@ -7,4 +7,4 @@
   - If you add a filter to an unconverted camera, select that filter. This should be a 720 nm or higher filter.
 - {{ site.data.icons.aperture }}  **ƒ-stops** switch between (whole) and (third) values.
   - Select the row of the ƒ-stop you wish to shoot at.
-  - The **Safe ƒ-stop** shows the highest ƒ-stop that you can use to safely avoid diffraction. Toggle to third ƒ-stops for a more accurate value. You may be able to use slightly higher values than the Safe ƒ-stop with minimal diffraction.
+  - The **Safe ƒ-stop** shows the highest ƒ-stop that you can use to safely avoid diffraction. This is calculated to the safest one-third ƒ-stop regardless of whether you are viewing the whole stop or one-third ƒ-stop table.
