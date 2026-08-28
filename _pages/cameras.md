@@ -48,10 +48,10 @@ Pixel pitch values are sourced from manufacturer specifications or calculated ba
   <tr>
     <th scope="col"><button type="button" class="camera-sort-button" data-sort="camera">Camera</button></th>
     <th scope="col"><button type="button" class="camera-sort-button" data-sort="format">Format</button></th>
-    <th scope="col" class="camera-number"><button type="button" class="camera-sort-button" data-sort="pitch">Pixel Pitch (μm)</button></th>
+    <th scope="col" class="camera-number"><button type="button" class="camera-sort-button" data-sort="pitch">Pitch (μm)</button></th>
     <th scope="col" class="camera-number"><button type="button" class="camera-sort-button" data-sort="megapixels">Megapixels</button></th>
-    <th scope="col" class="camera-number">Sensor Pixels</th>
-    <th scope="col" class="camera-number">Sensor Size (mm)</th>
+    <th scope="col" class="camera-number">Pixels</th>
+    <th scope="col" class="camera-number">Sensor (mm)</th>
   </tr>
   </thead>
   <tbody>

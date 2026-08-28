@@ -1,0 +1,20 @@
+{
+  "detector": {
+    "ignoreRules": [],
+    "ignoreFiles": [],
+    "ignoreValues": [
+      {
+        "rule": "design-system-color",
+        "value": "#705b07",
+        "createdAt": "2026-08-28T00:00:55.154Z",
+        "reason": "user confirmed: WCAG AA contrast fix for .maybe text, darkened from #7D6608 (4.08:1) to 4.84:1 against unchanged #F7DC6F background"
+      },
+      {
+        "rule": "design-system-color",
+        "value": "#5a1b13",
+        "createdAt": "2026-08-28T00:00:55.193Z",
+        "reason": "user confirmed: WCAG AA contrast fix for .bad text, darkened from #641E16 (4.48:1) to 4.86:1 against unchanged #D98880 background"
+      }
+    ]
+  }
+}

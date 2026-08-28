@@ -60,10 +60,6 @@ a.site-title {
   width: 4em;
 }
 
-#pitch-label {
-  color:gray;
-}
-
 // first & second column
 #diff-table td:first-child, #diff-table td:nth-child(2) {
   background-color: #D6EAF8;
@@ -108,6 +104,12 @@ a.site-title {
   border: 2px solid #154360 ;
 }
 
+// visible keyboard focus for the f-stop radios (theme suppresses the default outline)
+#diff-table input[type="radio"]:focus-visible {
+  outline: 2px solid #154360;
+  outline-offset: 2px;
+}
+
 // cells
 th {
   padding: 0.25em
@@ -122,17 +124,17 @@ th {
 }
 .maybe {
   background-color: #F7DC6F;
-  color: #7D6608;
+  color: #705B07;
 }
 .bad {
   background-color: #D98880;
-  color: #641E16;
+  color: #5A1B13;
 }
 .show {
-  opacity: 1;
+  visibility: visible;
 }
 .hide {
-  opacity: .25;
+  visibility: hidden;
 }
 #legend-table {
   margin-left: 40px;
@@ -246,6 +248,14 @@ th {
   }
 
   .camera-control {
+    flex: 1 1 100%;
+  }
+
+  #top-fields {
+    flex-wrap: wrap;
+  }
+
+  #top-fields .column {
     flex: 1 1 100%;
   }
 }

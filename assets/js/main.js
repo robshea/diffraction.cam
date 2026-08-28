@@ -38,8 +38,18 @@ function updatePitch() {
     while (w < wavelengths.length) {
 
       cell_id = f_numbers[f] + "-"+wavelengths[w];
+      let element = document.getElementById(cell_id);
+
+      if (!pitch_micron) {
+        // no camera selected — show an empty cell instead of Infinity
+        element.innerHTML = "";
+        element.classList.remove("good", "maybe", "bad");
+        w++;
+        continue;
+      }
+
       ratio = airyPitchRatio(f_numbers[f], wavelengths[w], pitch_micron);
-      document.getElementById(cell_id).innerHTML = ratio;
+      element.innerHTML = ratio;
 
       if (ratio <= 3) {
         cell_class = "good";
@@ -49,7 +59,6 @@ function updatePitch() {
         cell_class = "maybe";
       }
 
-      let element = document.getElementById(cell_id);
       element.classList.remove("good", "maybe", "bad");
       element.classList.add(cell_class);
       w++;
@@ -110,7 +119,17 @@ const loadDefaultCamera = (e) => {
   const $select = document.querySelector('#camera');
   const $options = Array.from($select.options);
   const optionToSelect = $options.find(item => item.text === camera);
-  optionToSelect.selected = true;
+  if (optionToSelect) {
+    optionToSelect.selected = true;
+  } else if (!urlParams.get('camera') && $options.length > 1) {
+    // hardcoded default camera missing from cameras.yaml (e.g. renamed) —
+    // fall back to the first real camera so first-time visitors still see
+    // a populated example table instead of an empty one.
+    $options[1].selected = true;
+  }
+  // else: an explicit ?camera= URL didn't match anything — leave
+  // "- select camera -" selected so updatePitch() renders the empty
+  // state instead of crashing.
 };
 
 function runIfIdExists(id, func) {
