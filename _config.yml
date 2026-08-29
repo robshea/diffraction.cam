@@ -21,8 +21,9 @@
 title: diffraction.cAm
 subtitle: Visible Diffraction Calculator for Digital Cameras
 logo: https://photos.smugmug.com/photos/i-zwKSJCZ/0/8a283f55/O/i-zwKSJCZ.jpg
-name: "Rob Shea" #copyright
+name: "Rob Shea"
 email: diff@590.mozmail.com
+copyright: Rob Shea Photography
 description: ""
 baseurl: "" # the subpath of your site, e.g. /blog
 url: https://diffraction.cam
