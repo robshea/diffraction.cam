@@ -1,6 +1,7 @@
 ---
 title: Cameras
 date: 2024-12-15 09:00:00:00 -0500
+last_modified_at: 2026-08-28 11:01:00:00 -0400
 permalink: /cameras/
 layout: single
 published: true
