@@ -8,6 +8,8 @@ cameras:
     megapixels: 10.1
     hsensor: 28.1
     vsensor: 18.7
+    keh: https://tidd.ly/4wXHPgO
+    adorama: https://prf.hn/l/OqQPmWm/
   - make: Canon
     model: EOS 1D Mark IV
     pitch: 5.70
@@ -17,6 +19,8 @@ cameras:
     megapixels: 16.1
     hsensor: 27.9
     vsensor: 18.6
+    keh: https://tidd.ly/4iCwNdm
+    adorama: https://prf.hn/l/YL9QbDg/
   - make: Canon
     model: EOS 1Ds Mark III
     pitch: 6.41
@@ -26,6 +30,7 @@ cameras:
     megapixels: 21.1
     hsensor: 36.0
     vsensor: 24.0
+    keh: https://tidd.ly/4i3rhAj
   - make: Canon
     model: EOS 100D Rebel SL1
     pitch: 4.30
@@ -35,6 +40,7 @@ cameras:
     megapixels: 18.0
     hsensor: 22.3
     vsensor: 14.9
+    keh: https://tidd.ly/4qOWiui
   - make: Canon
     model: EOS 1100D Rebel T3
     pitch: 5.20
@@ -44,6 +50,8 @@ cameras:
     megapixels: 12.2
     hsensor: 22.2
     vsensor: 14.7
+    keh: https://tidd.ly/46uJu2F
+    adorama: https://prf.hn/l/deMEJ4Z/
   - make: Canon
     model: EOS 20D
     pitch: 6.39
@@ -53,6 +61,8 @@ cameras:
     megapixels: 8.2
     hsensor: 22.5
     vsensor: 15.0
+    keh: https://tidd.ly/46u4vKN
+    adorama: https://prf.hn/l/mVOx2Bd/
   - make: Canon
     model: EOS 40D
     pitch: 5.71
@@ -62,6 +72,8 @@ cameras:
     megapixels: 10.1
     hsensor: 22.2
     vsensor: 14.8
+    keh: https://tidd.ly/3T7ndF3
+    adorama: https://prf.hn/l/ZQ4ExeY/
   - make: Canon
     model: EOS 5D
     pitch: 8.20
@@ -71,6 +83,8 @@ cameras:
     megapixels: 12.7
     hsensor: 35.8
     vsensor: 23.9
+    keh: https://tidd.ly/4y50qIQ
+    adorama: https://prf.hn/l/zjwmAQO/
   - make: Canon
     model: EOS 5D Mark II
     pitch: 6.41
@@ -80,6 +94,8 @@ cameras:
     megapixels: 21.0
     hsensor: 36.0
     vsensor: 24.0
+    keh: https://tidd.ly/4wXIdfg
+    adorama: https://prf.hn/l/zpMV2BQ/
   - make: Canon
     model: EOS 5D Mark III
     pitch: 6.25
@@ -89,6 +105,8 @@ cameras:
     megapixels: 22.3
     hsensor: 36.0
     vsensor: 24.0
+    keh: https://tidd.ly/4gsigQe
+    adorama: https://prf.hn/l/8jalP2Q/
   - make: Canon
     model: EOS 5D Mark IV
     pitch: 5.36
@@ -98,6 +116,8 @@ cameras:
     megapixels: 30.4
     hsensor: 36.0
     vsensor: 24.0
+    keh: https://tidd.ly/4ilP7Yn
+    adorama: https://prf.hn/l/vw4zNRR/
   - make: Canon
     model: EOS 5DS
     pitch: 4.13
@@ -107,6 +127,7 @@ cameras:
     megapixels: 50.6
     hsensor: 36.0
     vsensor: 24.0
+    keh: https://tidd.ly/4i3iMVU
   - make: Canon
     model: EOS 5DS R
     pitch: 4.14
@@ -116,6 +137,8 @@ cameras:
     megapixels: 50.6
     hsensor: 36.0
     vsensor: 24.0
+    keh: https://tidd.ly/46vPSqo
+    adorama: https://prf.hn/l/eO1Bx4D/
   - make: Canon
     model: EOS 6D
     pitch: 6.54
@@ -125,6 +148,8 @@ cameras:
     megapixels: 20.2
     hsensor: 35.8
     vsensor: 23.9
+    keh: https://tidd.ly/4ybATxH
+    adorama: https://prf.hn/l/Nd4BMWe/
   - make: Canon
     model: EOS 6D Mark II
     pitch: 5.75
@@ -134,6 +159,8 @@ cameras:
     megapixels: 26.2
     hsensor: 35.9
     vsensor: 24.0
+    keh: https://tidd.ly/4zHeWZ7
+    adorama: https://prf.hn/l/w9a4wRj/
   - make: Canon
     model: EOS 60D
     pitch: 4.30
@@ -143,6 +170,8 @@ cameras:
     megapixels: 18.0
     hsensor: 22.3
     vsensor: 14.9
+    keh: https://tidd.ly/4i2TuHy
+    adorama: https://prf.hn/l/p3Vzek8/
   - make: Canon
     model: EOS 7D
     pitch: 4.30
@@ -152,6 +181,8 @@ cameras:
     megapixels: 18.0
     hsensor: 22.3
     vsensor: 14.9
+    keh: https://tidd.ly/4xsL6FU
+    adorama: https://prf.hn/l/kg5bNqW/
   - make: Canon
     model: EOS 70D
     pitch: 4.11
@@ -161,6 +192,8 @@ cameras:
     megapixels: 20.2
     hsensor: 22.5
     vsensor: 15.0
+    keh: https://tidd.ly/3SkbS4l
+    adorama: https://prf.hn/l/Vx2OV8y/
   - make: Canon
     model: EOS 760D Rebel T6s
     pitch: 3.72
@@ -170,6 +203,7 @@ cameras:
     megapixels: 24.2
     hsensor: 22.3
     vsensor: 14.9
+    keh: https://tidd.ly/4zMOi0I
   - make: Canon
     model: EOS 77D
     pitch: 3.72
@@ -179,6 +213,8 @@ cameras:
     megapixels: 24.2
     hsensor: 22.3
     vsensor: 14.9
+    keh: https://tidd.ly/4iCcXyP
+    adorama: https://prf.hn/l/vwM12BE/
   - make: Canon
     model: EOS 80D
     pitch: 3.72
@@ -188,6 +224,8 @@ cameras:
     megapixels: 24.2
     hsensor: 22.3
     vsensor: 14.9
+    keh: https://tidd.ly/4x46rEN
+    adorama: https://prf.hn/l/w9MP2gE/
   - make: Canon
     model: EOS 90D
     pitch: 3.20
@@ -197,6 +235,8 @@ cameras:
     megapixels: 32.5
     hsensor: 22.3
     vsensor: 14.9
+    keh: https://tidd.ly/4xtEbMT
+    adorama: https://prf.hn/l/VX3N0nk/
 
   - make: Canon
     model: EOS M3
@@ -207,6 +247,8 @@ cameras:
     megapixels: 24.2
     hsensor: 22.3
     vsensor: 14.9
+    keh: https://tidd.ly/4zNoEc6
+    adorama: https://prf.hn/l/QL2ObGq/
   - make: Canon
     model: EOS M5
     pitch: 3.72
@@ -216,6 +258,7 @@ cameras:
     megapixels: 24.2
     hsensor: 22.3
     vsensor: 14.9
+    keh: https://tidd.ly/4i3tQ5n
   - make: Canon
     model: EOS M50
     pitch: 3.71
@@ -225,6 +268,8 @@ cameras:
     megapixels: 24.1
     hsensor: 22.3
     vsensor: 14.9
+    keh: https://tidd.ly/4qTfB5G
+    adorama: https://prf.hn/l/y8Mn2PO/
   - make: Canon
     model: EOS M200
     pitch: 3.72
@@ -234,6 +279,8 @@ cameras:
     megapixels: 24.1
     hsensor: 22.3
     vsensor: 14.9
+    keh: https://tidd.ly/4qLA7VK
+    adorama: https://prf.hn/l/lQ1mzad/
 
   - make: Canon
     model: EOS R
@@ -244,6 +291,8 @@ cameras:
     megapixels: 30.3
     hsensor: 36.0
     vsensor: 24.0
+    keh: https://tidd.ly/4gFVWkT
+    adorama: https://prf.hn/l/QL1BMgz/
   - make: Canon
     model: EOS R5
     pitch: 4.40
@@ -253,6 +302,8 @@ cameras:
     megapixels: 45.0
     hsensor: 36.0
     vsensor: 24.0
+    keh: https://tidd.ly/4gEoKua
+    adorama: https://prf.hn/l/gx2GY8e/
   - make: Canon
     model: EOS R50
     pitch: 3.72
@@ -262,6 +313,8 @@ cameras:
     megapixels: 24.2
     hsensor: 22.3
     vsensor: 14.9
+    keh: https://tidd.ly/4zMvoHs
+    adorama: https://prf.hn/l/gxE9lby/
   - make: Canon
     model: EOS R6
     pitch: 6.58
@@ -271,6 +324,8 @@ cameras:
     megapixels: 20.1
     hsensor: 36.0
     vsensor: 24.0
+    keh: https://tidd.ly/4xyVBaU
+    adorama: https://prf.hn/l/Oq2O48m/
   - make: Canon
     model: EOS R6 Mark II
     pitch: 5.96
@@ -280,6 +335,8 @@ cameras:
     megapixels: 24.2
     hsensor: 36.0
     vsensor: 24.0
+    keh: https://tidd.ly/4xxEvdw
+    adorama: https://prf.hn/l/b9E5bY1/
   - make: Canon
     model: EOS R7
     pitch: 3.20
@@ -289,6 +346,8 @@ cameras:
     megapixels: 32.5
     hsensor: 22.3
     vsensor: 14.8
+    keh: https://tidd.ly/4zMw0wK
+    adorama: https://prf.hn/l/aWzB0Da/
   - make: Canon
     model: EOS R8
     pitch: 5.98
@@ -298,6 +357,8 @@ cameras:
     megapixels: 24.2
     hsensor: 36.0
     vsensor: 24.0
+    keh: https://tidd.ly/4iD3uY4
+    adorama: https://prf.hn/l/4PRMxqZ/
   - make: Canon
     model: EOS R100
     pitch: 3.72
@@ -307,6 +368,8 @@ cameras:
     megapixels: 24.1
     hsensor: 22.3
     vsensor: 14.9
+    keh: https://tidd.ly/3UpAkSw
+    adorama: https://prf.hn/l/aWMOVPq/
   - make: Canon
     model: EOS RP
     pitch: 5.75
@@ -316,6 +379,8 @@ cameras:
     megapixels: 26.2
     hsensor: 35.9
     vsensor: 24.0
+    keh: https://tidd.ly/3UluH7P
+    adorama: https://prf.hn/l/ngmd1Dz/
 
   - make: Canon
     model: PowerShot ELPH 180
@@ -326,6 +391,7 @@ cameras:
     megapixels: 20.0
     hsensor: 6.17
     vsensor: 4.55
+    keh: https://tidd.ly/46xvuoM
   - make: Canon
     model: PowerShot G1 X
     pitch: 4.27
@@ -335,6 +401,8 @@ cameras:
     megapixels: 14.3
     hsensor: 18.7
     vsensor: 14.0
+    keh: https://tidd.ly/4gEpAqO
+    adorama: https://prf.hn/l/eQGlkBn/
 
   - make: Fujifilm
     model: FinePix X100
@@ -345,6 +413,7 @@ cameras:
     megapixels: 12.3
     hsensor: 23.6
     vsensor: 15.8
+    keh: https://tidd.ly/3UI7i0j
   - make: Fujifilm
     model: X100S
     pitch: 4.82
@@ -354,6 +423,8 @@ cameras:
     megapixels: 16.3
     hsensor: 23.6
     vsensor: 15.6
+    keh: https://tidd.ly/4iB1DD8
+    adorama: https://prf.hn/l/G9NV4OZ/
   - make: Fujifilm
     model: X100T
     pitch: 4.82
@@ -363,6 +434,8 @@ cameras:
     megapixels: 16.3
     hsensor: 23.6
     vsensor: 15.6
+    keh: https://tidd.ly/4zNJkAX
+    adorama: https://prf.hn/l/eOM8RlE/
   - make: Fujifilm
     model: X100F
     pitch: 3.93
@@ -372,6 +445,8 @@ cameras:
     megapixels: 24.3
     hsensor: 23.6
     vsensor: 15.6
+    keh: https://tidd.ly/4zNq6v4
+    adorama: https://prf.hn/l/Mb2RZN3/
   - make: Fujifilm
     model: X100V
     pitch: 3.74
@@ -381,6 +456,8 @@ cameras:
     megapixels: 26.1
     hsensor: 23.5
     vsensor: 15.6
+    keh: https://tidd.ly/4xEayIL
+    adorama: https://prf.hn/l/XZ0BMEQ/
   - make: Fujifilm
     model: X100VI
     pitch: 3.04
@@ -390,6 +467,7 @@ cameras:
     megapixels: 40.2
     hsensor: 23.5
     vsensor: 15.7
+    adorama: https://prf.hn/l/W42Ovqw/
   - make: Fujifilm
     model: X70
     pitch: 4.82
@@ -399,6 +477,7 @@ cameras:
     megapixels: 16.3
     hsensor: 23.6
     vsensor: 15.6
+    keh: https://tidd.ly/45SsKSO
 
   - make: Fujifilm
     model: X-E1
@@ -409,6 +488,8 @@ cameras:
     megapixels: 16.3
     hsensor: 23.6
     vsensor: 15.6
+    keh: https://tidd.ly/4gGQLkQ
+    adorama: https://prf.hn/l/2YEodpw/
   - make: Fujifilm
     model: X-E2
     pitch: 4.82
@@ -418,6 +499,7 @@ cameras:
     megapixels: 16.3
     hsensor: 23.6
     vsensor: 15.6
+    keh: https://tidd.ly/4cCXJGn
   - make: Fujifilm
     model: X-E3
     pitch: 3.92
@@ -427,6 +509,7 @@ cameras:
     megapixels: 24.3
     hsensor: 23.5
     vsensor: 15.6
+    keh: https://tidd.ly/3SyONeg
   - make: Fujifilm
     model: X-E4
     pitch: 3.77
@@ -436,6 +519,8 @@ cameras:
     megapixels: 26.1
     hsensor: 23.5
     vsensor: 15.6
+    keh: https://tidd.ly/4xhJaiZ
+    adorama: https://prf.hn/l/0e53pDN/
 
   - make: Fujifilm
     model: X-H1
@@ -446,6 +531,7 @@ cameras:
     megapixels: 24.3
     hsensor: 23.5
     vsensor: 15.6
+    keh: https://tidd.ly/45VWHBy
   - make: Fujifilm
     model: X-H2
     pitch: 3.04
@@ -455,6 +541,8 @@ cameras:
     megapixels: 40.2
     hsensor: 23.5
     vsensor: 15.6
+    keh: https://tidd.ly/3UrX97Y
+    adorama: https://prf.hn/l/deoW3v5/
   - make: Fujifilm
     model: X-Pro1
     pitch: 4.82
@@ -464,6 +552,7 @@ cameras:
     megapixels: 16.3
     hsensor: 23.6
     vsensor: 15.6
+    keh: https://tidd.ly/4wXpyQS
   - make: Fujifilm
     model: X-Pro2
     pitch: 3.93
@@ -473,6 +562,8 @@ cameras:
     megapixels: 24.3
     hsensor: 23.6
     vsensor: 15.6
+    keh: https://tidd.ly/4xsOaBU
+    adorama: https://prf.hn/l/DL2wAMR/
   - make: Fujifilm
     model: X-Pro3
     pitch: 3.77
@@ -482,6 +573,8 @@ cameras:
     megapixels: 26.1
     hsensor: 23.5
     vsensor: 15.6
+    keh: https://tidd.ly/4qI8woi
+    adorama: https://prf.hn/l/p3Vzede/
 
   - make: Fujifilm
     model: X-S10
@@ -492,6 +585,7 @@ cameras:
     megapixels: 26.1
     hsensor: 23.5
     vsensor: 15.6
+    keh: https://tidd.ly/45S6hoZ
   - make: Fujifilm
     model: X-S20
     pitch: 3.77
@@ -501,6 +595,8 @@ cameras:
     megapixels: 26.1
     hsensor: 23.5
     vsensor: 15.6
+    keh: https://tidd.ly/4qIJbdQ
+    adorama: https://prf.hn/l/jXGpzwR/
 
   - make: Fujifilm
     model: X-T1
@@ -511,6 +607,8 @@ cameras:
     megapixels: 16.3
     hsensor: 23.6
     vsensor: 15.6
+    keh: https://tidd.ly/4cfpEvJ
+    adorama: https://prf.hn/l/9ORqz2O/
   - make: Fujifilm
     model: X-T2
     pitch: 3.93
@@ -520,6 +618,8 @@ cameras:
     megapixels: 24.3
     hsensor: 23.6
     vsensor: 15.6
+    keh: https://tidd.ly/4i3mleK
+    adorama: https://prf.hn/l/qXvJQDd/
   - make: Fujifilm
     model: X-T20
     pitch: 3.92
@@ -529,6 +629,8 @@ cameras:
     megapixels: 24.3
     hsensor: 23.5
     vsensor: 15.6
+    keh: https://tidd.ly/4gD5eOv
+    adorama: https://prf.hn/l/EJ2w0MV/
   - make: Fujifilm
     model: X-T3
     pitch: 3.77
@@ -538,6 +640,8 @@ cameras:
     megapixels: 26.1
     hsensor: 23.5
     vsensor: 15.6
+    keh: https://tidd.ly/4qNrudg
+    adorama: https://prf.hn/l/8jRwZ2Y/
   - make: Fujifilm
     model: X-T30
     pitch: 3.77
@@ -547,6 +651,8 @@ cameras:
     megapixels: 26.1
     hsensor: 23.5
     vsensor: 15.6
+    keh: https://tidd.ly/4y9Fmko
+    adorama: https://prf.hn/l/Bd3NVAo/
   - make: Fujifilm
     model: X-T4
     pitch: 3.77
@@ -556,6 +662,8 @@ cameras:
     megapixels: 26.1
     hsensor: 23.5
     vsensor: 15.6
+    keh: https://tidd.ly/4x0j2Jb
+    adorama: https://prf.hn/l/p3xjkA8/
   - make: Fujifilm
     model: X-T5
     pitch: 3.04
@@ -565,6 +673,8 @@ cameras:
     megapixels: 40.2
     hsensor: 23.5
     vsensor: 15.7
+    keh: https://tidd.ly/4xt70c6
+    adorama: https://prf.hn/l/G95JMAZ/
   - make: Fujifilm
     model: X-T50
     pitch: 3.04
@@ -574,6 +684,8 @@ cameras:
     megapixels: 40.2
     hsensor: 23.5
     vsensor: 15.7
+    keh: https://tidd.ly/4iCIqB5
+    adorama: https://prf.hn/l/mA5PXDY/
 
   - make: Fujifilm
     model: GFX 50R
@@ -584,6 +696,8 @@ cameras:
     megapixels: 51.4
     hsensor: 43.8
     vsensor: 32.9
+    keh: https://tidd.ly/45XWa1O
+    adorama: https://prf.hn/l/ojNnqDJ/
   - make: Fujifilm
     model: GFX 50S
     pitch: 5.31
@@ -593,6 +707,8 @@ cameras:
     megapixels: 51.4
     hsensor: 43.8
     vsensor: 32.9
+    keh: https://tidd.ly/4wUO5G0
+    adorama: https://prf.hn/l/xEMk2Xk/
   - make: Fujifilm
     model: GFX 100
     pitch: 3.76
@@ -602,6 +718,7 @@ cameras:
     megapixels: 102
     hsensor: 43.8
     vsensor: 32.9
+    keh: https://tidd.ly/46vUiO0
   - make: Fujifilm
     model: GFX 100S
     pitch: 3.76
@@ -611,6 +728,8 @@ cameras:
     megapixels: 102
     hsensor: 43.8
     vsensor: 32.9
+    keh: https://tidd.ly/45XDIGB
+    adorama: https://prf.hn/l/w9AOXZY/
 
   - make: Hasselblad
     model: CFV 100C
@@ -621,6 +740,8 @@ cameras:
     megapixels: 100
     hsensor: 43.8
     vsensor: 32.9
+    keh: https://tidd.ly/4d9DPCK
+    adorama: https://prf.hn/l/BJNaQW0/
   - make: Hasselblad
     model: X2D 100C
     pitch: 3.76
@@ -630,6 +751,8 @@ cameras:
     megapixels: 100
     hsensor: 43.8
     vsensor: 32.9
+    keh: https://tidd.ly/3Siw1Yv
+    adorama: https://prf.hn/l/QLNdVZE/
 
   - make: Leica
     model: M8
@@ -640,6 +763,8 @@ cameras:
     megapixels: 10.3
     hsensor: 27.0
     vsensor: 18.0
+    keh: https://tidd.ly/4wXqFQy
+    adorama: https://prf.hn/l/4PRMx2W/
   - make: Leica
     model: SL2
     pitch: 4.30
@@ -649,6 +774,7 @@ cameras:
     megapixels: 47.3
     hsensor: 36
     vsensor: 24
+    keh: https://tidd.ly/4xhKRgl
   - make: Leica
     model: SL3
     pitch: 3.78
@@ -658,6 +784,8 @@ cameras:
     megapixels: 60.3
     hsensor: 36.0
     vsensor: 24.0
+    keh: https://tidd.ly/4cjCpW8
+    adorama: https://prf.hn/l/LANampR/
 
   - make: Nikon
     model: D200
@@ -668,6 +796,8 @@ cameras:
     megapixels: 10.20
     hsensor: 23.6
     vsensor: 15.8
+    keh: https://tidd.ly/4zGIvK5
+    adorama: https://prf.hn/l/AJYw8W8/
   - make: Nikon
     model: D300
     pitch: 5.50
@@ -677,6 +807,8 @@ cameras:
     megapixels: 12.3
     hsensor: 23.6
     vsensor: 15.8
+    keh: https://tidd.ly/3UpD1n6
+    adorama: https://prf.hn/l/LAROLER/
   - make: Nikon
     model: D3200
     pitch: 3.86
@@ -686,6 +818,8 @@ cameras:
     megapixels: 24.2
     hsensor: 23.2
     vsensor: 15.4
+    keh: https://tidd.ly/4xn4jca
+    adorama: https://prf.hn/l/pRPVBv9/
   - make: Nikon
     model: D3500
     pitch: 3.92
@@ -695,6 +829,8 @@ cameras:
     megapixels: 24.2
     hsensor: 23.5
     vsensor: 15.6
+    keh: https://tidd.ly/4zDNCuy
+    adorama: https://prf.hn/l/lQ0AaLd/
   - make: Nikon
     model: D40
     pitch: 7.88
@@ -704,6 +840,8 @@ cameras:
     megapixels: 6.1
     hsensor: 23.7
     vsensor: 15.6
+    keh: https://tidd.ly/4qNMTDh
+    adorama: https://prf.hn/l/0M45AqW/
   - make: Nikon
     model: D500
     pitch: 4.22
@@ -713,6 +851,8 @@ cameras:
     megapixels: 20.9
     hsensor: 23.5
     vsensor: 15.7
+    keh: https://tidd.ly/4qNfGrq
+    adorama: https://prf.hn/l/vwG3l0o/
   - make: Nikon
     model: D5000
     pitch: 5.50
@@ -722,6 +862,8 @@ cameras:
     megapixels: 12.3
     hsensor: 23.6
     vsensor: 15.8
+    keh: https://tidd.ly/3UlxjCF
+    adorama: https://prf.hn/l/4PRMxWW/
   - make: Nikon
     model: D5100
     pitch: 4.79
@@ -731,6 +873,8 @@ cameras:
     megapixels: 16.2
     hsensor: 23.6
     vsensor: 15.6
+    keh: https://tidd.ly/4zMyXNQ
+    adorama: https://prf.hn/l/XZyQlxR/
   - make: Nikon
     model: D5300
     pitch: 3.92
@@ -740,6 +884,7 @@ cameras:
     megapixels: 24.2
     hsensor: 23.5
     vsensor: 15.6
+    keh: https://tidd.ly/3SIW8rs
   - make: Nikon
     model: D600
     pitch: 5.97
@@ -749,6 +894,8 @@ cameras:
     megapixels: 24.3
     hsensor: 35.9
     vsensor: 24.0
+    keh: https://tidd.ly/4qQMGPK
+    adorama: https://prf.hn/l/xO40pzP/
   - make: Nikon
     model: D610
     pitch: 5.97
@@ -758,6 +905,8 @@ cameras:
     megapixels: 24.3
     hsensor: 35.9
     vsensor: 24.0
+    keh: https://tidd.ly/4xtI4S5
+    adorama: https://prf.hn/l/QLNdVwD/
   - make: Nikon
     model: D70
     pitch: 7.88
@@ -767,6 +916,8 @@ cameras:
     megapixels: 6.1
     hsensor: 23.7
     vsensor: 15.5
+    keh: https://tidd.ly/3UIGpta
+    adorama: https://prf.hn/l/lJe1wpv/
   - make: Nikon
     model: D700
     pitch: 8.46
@@ -776,6 +927,8 @@ cameras:
     megapixels: 12.1
     hsensor: 36.0
     vsensor: 23.9
+    keh: https://tidd.ly/4gFZFin
+    adorama: https://prf.hn/l/L3PNQ5w/
   - make: Nikon
     model: D7000
     pitch: 4.79
@@ -785,6 +938,8 @@ cameras:
     megapixels: 16.2
     hsensor: 23.6
     vsensor: 15.6
+    keh: https://tidd.ly/3UmU9d6
+    adorama: https://prf.hn/l/ZQ4ExV9/
   - make: Nikon
     model: D7100
     pitch: 3.92
@@ -794,6 +949,8 @@ cameras:
     megapixels: 24.1
     hsensor: 23.5
     vsensor: 15.6
+    keh: https://tidd.ly/4cRLSEd
+    adorama: https://prf.hn/l/3PDw5yV/
   - make: Nikon
     model: D7200
     pitch: 3.92
@@ -803,6 +960,8 @@ cameras:
     megapixels: 24.2
     hsensor: 23.5
     vsensor: 15.6
+    keh: https://tidd.ly/4qNsUo6
+    adorama: https://prf.hn/l/q3MZ2ep/
   - make: Nikon
     model: D750
     pitch: 5.97
@@ -812,6 +971,8 @@ cameras:
     megapixels: 24.3
     hsensor: 35.9
     vsensor: 24.0
+    keh: https://tidd.ly/4zNsySi
+    adorama: https://prf.hn/l/2MJpWYj/
   - make: Nikon
     model: D780
     pitch: 5.94
@@ -821,6 +982,8 @@ cameras:
     megapixels: 24.5
     hsensor: 35.9
     vsensor: 23.9
+    keh: https://tidd.ly/4xFe0CM
+    adorama: https://prf.hn/l/deoW3AL/
   - make: Nikon
     model: D80
     pitch: 6.10
@@ -830,6 +993,8 @@ cameras:
     megapixels: 10.2
     hsensor: 23.6
     vsensor: 15.8
+    keh: https://tidd.ly/4qNNfK7
+    adorama: https://prf.hn/l/mVPQWZL/
   - make: Nikon
     model: D800
     pitch: 4.88
@@ -839,6 +1004,8 @@ cameras:
     megapixels: 36.3
     hsensor: 35.9
     vsensor: 24.0
+    keh: https://tidd.ly/46xxNIu
+    adorama: https://prf.hn/l/GqzNwWz/
   - make: Nikon
     model: D810
     pitch: 4.88
@@ -848,6 +1015,8 @@ cameras:
     megapixels: 36.3
     hsensor: 35.9
     vsensor: 24.0
+    keh: https://tidd.ly/4h1qWwZ
+    adorama: https://prf.hn/l/AJYw8AV/
   - make: Nikon
     model: D850
     pitch: 4.35
@@ -857,6 +1026,8 @@ cameras:
     megapixels: 45.7
     hsensor: 35.9
     vsensor: 23.9
+    keh: https://tidd.ly/4iCrmLw
+    adorama: https://prf.hn/l/PlDjYql/
   - make: Nikon
     model: D90
     pitch: 5.50
@@ -866,6 +1037,8 @@ cameras:
     megapixels: 12.3
     hsensor: 23.6
     vsensor: 15.8
+    keh: https://tidd.ly/4ybGe8d
+    adorama: https://prf.hn/l/kVb3JD3/
   - make: Nikon
     model: Df
     pitch: 7.31
@@ -875,6 +1048,8 @@ cameras:
     megapixels: 16.2
     hsensor: 36.0
     vsensor: 23.9
+    keh: https://tidd.ly/4zLh2qN
+    adorama: https://prf.hn/l/0eRw0JG/
 
   - make: Nikon
     model: Z 5
@@ -885,6 +1060,8 @@ cameras:
     megapixels: 24.3
     hsensor: 35.9
     vsensor: 23.9
+    keh: https://tidd.ly/4cmH75w
+    adorama: https://prf.hn/l/deMEJGk/
   - make: Nikon
     model: Z 5 II
     pitch: 5.94
@@ -894,6 +1071,8 @@ cameras:
     megapixels: 24.5
     hsensor: 35.9
     vsensor: 23.9
+    keh: https://tidd.ly/4gswrVq
+    adorama: https://prf.hn/l/mVOx2LV/
   - make: Nikon
     model: Z 50
     pitch: 4.22
@@ -903,6 +1082,8 @@ cameras:
     megapixels: 20.9
     hsensor: 23.5
     vsensor: 15.7
+    keh: https://tidd.ly/4xtIpEl
+    adorama: https://prf.hn/l/55RYoXV/
   - make: Nikon
     model: Z 6
     pitch: 5.94
@@ -912,6 +1093,8 @@ cameras:
     megapixels: 24.5
     hsensor: 35.9
     vsensor: 23.9
+    keh: https://tidd.ly/4iB4Gv4
+    adorama: https://prf.hn/l/xEMk2JN/
   - make: Nikon
     model: Z 6 II
     pitch: 5.94
@@ -921,6 +1104,8 @@ cameras:
     megapixels: 24.5
     hsensor: 35.9
     vsensor: 23.9
+    keh: https://tidd.ly/4xtBzhU
+    adorama: https://prf.hn/l/vwG3lkv/
   - make: Nikon
     model: Z 6 III
     pitch: 5.94
@@ -930,6 +1115,7 @@ cameras:
     megapixels: 24.5
     hsensor: 35.9
     vsensor: 23.9
+    keh: https://tidd.ly/4qNtfHo
   - make: Nikon
     model: Z 7
     pitch: 4.35
@@ -939,6 +1125,7 @@ cameras:
     megapixels: 45.7
     hsensor: 35.9
     vsensor: 23.9
+    keh: https://tidd.ly/4zSfoDY
   - make: Nikon
     model: Z 7 II
     pitch: 4.35
@@ -948,6 +1135,7 @@ cameras:
     megapixels: 45.7
     hsensor: 35.9
     vsensor: 23.9
+    keh: https://tidd.ly/4gDT7kp
   - make: Nikon
     model: Z 8
     pitch: 4.35
@@ -957,6 +1145,7 @@ cameras:
     megapixels: 45.7
     hsensor: 35.9
     vsensor: 23.9
+    keh: https://tidd.ly/4xxjBLE
   - make: Nikon
     model: Z 9
     pitch: 4.35
@@ -966,6 +1155,7 @@ cameras:
     megapixels: 45.7
     hsensor: 35.9
     vsensor: 23.9
+    keh: https://tidd.ly/4qIIJwp
   - make: Nikon
     model: Z f
     pitch: 5.94
@@ -975,6 +1165,7 @@ cameras:
     megapixels: 24.5
     hsensor: 35.9
     vsensor: 23.9
+    keh: https://tidd.ly/4gpg4ca
   - make: Nikon
     model: Z fc
     pitch: 4.22
@@ -984,6 +1175,7 @@ cameras:
     megapixels: 20.9
     hsensor: 23.5
     vsensor: 15.7
+    keh: https://tidd.ly/4gD74Pp
 
   - make: OM System
     model: OM-1
@@ -994,6 +1186,7 @@ cameras:
     megapixels: 20.4
     hsensor: 17.3
     vsensor: 13.0
+    keh: https://tidd.ly/4qHqsPP
   - make: OM System
     model: OM-3
     pitch: 3.34
@@ -1003,6 +1196,7 @@ cameras:
     megapixels: 20.4
     hsensor: 17.3
     vsensor: 13.0
+    keh: https://tidd.ly/3SIWMoS
   - make: OM System
     model: OM-5
     pitch: 3.34
@@ -1012,6 +1206,7 @@ cameras:
     megapixels: 20.4
     hsensor: 17.3
     vsensor: 13.0
+    keh: https://tidd.ly/46vm7G7
   - make: Olympus
     model: OM-D E-M1
     pitch: 3.75
@@ -1021,6 +1216,7 @@ cameras:
     megapixels: 16.3
     hsensor: 17.3
     vsensor: 13.0
+    keh: https://tidd.ly/4x2iUZI
   - make: Olympus
     model: OM-D E-M1 Mark II
     pitch: 3.34
@@ -1030,6 +1226,7 @@ cameras:
     megapixels: 20.4
     hsensor: 17.3
     vsensor: 13.0
+    keh: https://tidd.ly/4gwaxiA
   - make: Olympus
     model: OM-D E-M1 Mark III
     pitch: 3.34
@@ -1039,6 +1236,7 @@ cameras:
     megapixels: 20.4
     hsensor: 17.3
     vsensor: 13.0
+    keh: https://tidd.ly/4xhM8UF
   - make: Olympus
     model: OM-D E-M10
     pitch: 3.75
@@ -1048,6 +1246,7 @@ cameras:
     megapixels: 16.1
     hsensor: 17.3
     vsensor: 13.0
+    keh: https://tidd.ly/4gL3jaP
   - make: Olympus
     model: OM-D E-M10 Mark II
     pitch: 3.75
@@ -1057,6 +1256,7 @@ cameras:
     megapixels: 16.1
     hsensor: 17.3
     vsensor: 13.0
+    keh: https://tidd.ly/4zSfThk
   - make: Olympus
     model: OM-D E-M10 Mark III
     pitch: 3.75
@@ -1066,6 +1266,7 @@ cameras:
     megapixels: 16.1
     hsensor: 17.3
     vsensor: 13.0
+    keh: https://tidd.ly/4qOJpAj
   - make: Olympus
     model: OM-D E-M10 Mark IV
     pitch: 3.34
@@ -1075,6 +1276,7 @@ cameras:
     megapixels: 20.3
     hsensor: 17.3
     vsensor: 13.0
+    keh: https://tidd.ly/4xn5lF4
   - make: Olympus
     model: OM-D E-M5
     pitch: 3.75
@@ -1084,6 +1286,7 @@ cameras:
     megapixels: 16.1
     hsensor: 17.3
     vsensor: 13.0
+    keh: https://tidd.ly/4xEe71B
   - make: Olympus
     model: OM-D E-M5 Mark II
     pitch: 3.75
@@ -1093,6 +1296,7 @@ cameras:
     megapixels: 16.1
     hsensor: 17.3
     vsensor: 13.0
+    keh: https://tidd.ly/4zLpeal
   - make: Olympus
     model: OM-D E-M5 Mark III
     pitch: 3.34
@@ -1102,6 +1306,7 @@ cameras:
     megapixels: 20.4
     hsensor: 17.3
     vsensor: 13.0
+    keh: https://tidd.ly/3SyRUTu
 
   - make: Olympus
     model: PEN E-P7
@@ -1112,6 +1317,7 @@ cameras:
     megapixels: 20.3
     hsensor: 17.3
     vsensor: 13.0
+    keh: https://tidd.ly/4y9ekJU
 
   - make: Panasonic
     model: Lumix DC-S5
@@ -1122,6 +1328,7 @@ cameras:
     megapixels: 24.2
     hsensor: 35.6
     vsensor: 23.8
+    keh: https://tidd.ly/4gu4BYM
   - make: Panasonic
     model: Lumix DC-G9
     pitch: 3.34
@@ -1131,6 +1338,7 @@ cameras:
     megapixels: 20.3
     hsensor: 17.3
     vsensor: 13.0
+    keh: https://tidd.ly/4y9eDEy
   - make: Panasonic
     model: Lumix DC-G9 II
     pitch: 3.00
@@ -1140,6 +1348,7 @@ cameras:
     megapixels: 25.2
     hsensor: 17.3
     vsensor: 13.0
+    keh: https://tidd.ly/4ygkUyB
   - make: Panasonic
     model: Lumix DMC-FZ70
     pitch: 1.34
@@ -1149,6 +1358,7 @@ cameras:
     megapixels: 16.1
     hsensor: 6.17
     vsensor: 4.55
+    keh: https://tidd.ly/4gqRYOa
   - make: Panasonic
     model: Lumix DMC-G1
     pitch: 4.33
@@ -1158,6 +1368,7 @@ cameras:
     megapixels: 12.1
     hsensor: 17.3
     vsensor: 13.0
+    keh: https://tidd.ly/4x0TT0X
   - make: Panasonic
     model: Lumix DMC-G2
     pitch: 4.33
@@ -1167,6 +1378,7 @@ cameras:
     megapixels: 12.1
     hsensor: 17.3
     vsensor: 13.0
+    keh: https://tidd.ly/4gGUvCU
   - make: Panasonic
     model: Lumix DMC-G5
     pitch: 3.77
@@ -1176,6 +1388,7 @@ cameras:
     megapixels: 16.0
     hsensor: 17.3
     vsensor: 13.0
+    keh: https://tidd.ly/4zNG8W0
   - make: Panasonic
     model: Lumix DMC-G85
     pitch: 3.77
@@ -1185,6 +1398,7 @@ cameras:
     megapixels: 16.0
     hsensor: 17.3
     vsensor: 13.0
+    keh: https://tidd.ly/4gsSw6h
   - make: Panasonic
     model: Lumix DMC-GF3
     pitch: 4.33
@@ -1203,6 +1417,7 @@ cameras:
     megapixels: 16.05
     hsensor: 17.3
     vsensor: 13.0
+    keh: https://tidd.ly/3UM9yUh
   - make: Panasonic
     model: Lumix DMC-GH3
     pitch: 3.75
@@ -1221,6 +1436,7 @@ cameras:
     megapixels: 16.05
     hsensor: 17.3
     vsensor: 13.0
+    keh: https://tidd.ly/4ybHsAo
   - make: Panasonic
     model: Lumix DMC-GH5S
     pitch: 4.70
@@ -1230,6 +1446,7 @@ cameras:
     megapixels: 10.28
     hsensor: 17.3
     vsensor: 13.0
+    keh: https://tidd.ly/45Tbk8H
   - make: Panasonic
     model: Lumix DMC-GX8
     pitch: 3.34
@@ -1239,6 +1456,7 @@ cameras:
     megapixels: 20.3
     hsensor: 17.3
     vsensor: 13.0
+    keh: https://tidd.ly/461nXOW
   - make: Panasonic
     model: Lumix DMC-GX85
     pitch: 3.77
@@ -1248,6 +1466,7 @@ cameras:
     megapixels: 16.0
     hsensor: 17.3
     vsensor: 13.0
+    keh: https://tidd.ly/4yerRjC
   - make: Panasonic
     model: Lumix DMC-LX2
     pitch: 1.84
@@ -1275,6 +1494,7 @@ cameras:
     megapixels: 20.1
     hsensor: 13.2
     vsensor: 8.8
+    keh: https://tidd.ly/4y9J8u4
 
   - make: Pentax
     model: 645D
@@ -1294,6 +1514,7 @@ cameras:
     megapixels: 51.4
     hsensor: 43.8
     vsensor: 32.8
+    keh: https://tidd.ly/4zMBdEO
   - make: Pentax
     model: K-01
     pitch: 4.81
@@ -1339,6 +1560,7 @@ cameras:
     megapixels: 24.24
     hsensor: 23.5
     vsensor: 15.6
+    keh: https://tidd.ly/4gZJD46
 
   - make: Pharsighted
     model: E9
@@ -1359,6 +1581,7 @@ cameras:
     megapixels: 24.24
     hsensor: 23.5
     vsensor: 15.6
+    keh: https://tidd.ly/4qIN5n0
   - make: Ricoh
     model: GR IIIx
     pitch: 3.92
@@ -1407,6 +1630,7 @@ cameras:
     megapixels: 24.3
     hsensor: 23.5
     vsensor: 15.6
+    keh: https://tidd.ly/4gpivvk
   - make: Sony
     model: α6300
     pitch: 3.92
@@ -1416,6 +1640,7 @@ cameras:
     megapixels: 24.2
     hsensor: 23.5
     vsensor: 15.6
+    keh: https://tidd.ly/4h1bpNK
   - make: Sony
     model: α6400
     pitch: 3.92
@@ -1425,6 +1650,7 @@ cameras:
     megapixels: 24.2
     hsensor: 23.5
     vsensor: 15.6
+    keh: https://tidd.ly/4iwQNhy
   - make: Sony
     model: α6500
     pitch: 3.92
@@ -1434,6 +1660,7 @@ cameras:
     megapixels: 24.2
     hsensor: 23.5
     vsensor: 15.6
+    keh: https://tidd.ly/3Urtb3X
   - make: Sony
     model: α6600
     pitch: 3.92
@@ -1443,6 +1670,7 @@ cameras:
     megapixels: 24.2
     hsensor: 23.5
     vsensor: 15.6
+    keh: https://tidd.ly/4hXjfce
   - make: Sony
     model: α6700
     pitch: 3.76
@@ -1452,6 +1680,7 @@ cameras:
     megapixels: 26.0
     hsensor: 23.3
     vsensor: 15.5
+    keh: https://tidd.ly/4hXjcNA
   - make: Sony
     model: α7
     pitch: 5.97
@@ -1461,6 +1690,7 @@ cameras:
     megapixels: 24.3
     hsensor: 35.8
     vsensor: 23.9
+    keh: https://tidd.ly/4qKpoe9
   - make: Sony
     model: α7 II
     pitch: 5.92
@@ -1470,6 +1700,7 @@ cameras:
     megapixels: 24.3
     hsensor: 35.2
     vsensor: 23.9
+    keh: https://tidd.ly/46vYBJa
   - make: Sony
     model: α7 III
     pitch: 5.93
@@ -1479,6 +1710,7 @@ cameras:
     megapixels: 24.2
     hsensor: 35.6
     vsensor: 23.8
+    keh: https://tidd.ly/4ybfXXM
   - make: Sony
     model: α7 IV
     pitch: 5.12
@@ -1488,6 +1720,7 @@ cameras:
     megapixels: 33.0
     hsensor: 35.9
     vsensor: 23.9
+    keh: https://tidd.ly/4r4y67n
   - make: Sony
     model: α7CR
     pitch: 3.76
@@ -1497,6 +1730,7 @@ cameras:
     megapixels: 61.0
     hsensor: 35.7
     vsensor: 23.8
+    keh: https://tidd.ly/4gpjqfg
   - make: Sony
     model: α7R
     pitch: 4.88
@@ -1506,6 +1740,7 @@ cameras:
     megapixels: 36.4
     hsensor: 35.9
     vsensor: 24.0
+    keh: https://tidd.ly/4gALT0l
   - make: Sony
     model: α7R II
     pitch: 4.50
@@ -1515,6 +1750,7 @@ cameras:
     megapixels: 42.4
     hsensor: 35.9
     vsensor: 24.0
+    keh: https://tidd.ly/4gBJTGF
   - make: Sony
     model: α7R III
     pitch: 4.52
@@ -1542,6 +1778,7 @@ cameras:
     megapixels: 61.0
     hsensor: 35.7
     vsensor: 23.8
+    keh: https://tidd.ly/4qNAorc
   - make: Sony
     model: α7R VI
     pitch: 3.60
@@ -1551,6 +1788,7 @@ cameras:
     megapixels: 66.8
     hsensor: 35.9
     vsensor: 24.0
+    keh: https://tidd.ly/4gHM623
 
   - make: Sony
     model: α7S
@@ -1561,6 +1799,7 @@ cameras:
     megapixels: 12.2
     hsensor: 35.8
     vsensor: 23.9
+    keh: https://tidd.ly/4y5r4Bh
   - make: Sony
     model: α7S II
     pitch: 8.40
@@ -1570,6 +1809,7 @@ cameras:
     megapixels: 12.2
     hsensor: 35.6
     vsensor: 23.8
+    keh: https://tidd.ly/4ceYdlQ
   - make: Sony
     model: α7S III
     pitch: 8.40
@@ -1579,6 +1819,7 @@ cameras:
     megapixels: 12.1
     hsensor: 35.6
     vsensor: 23.8
+    keh: https://tidd.ly/3V2mtS8
 
   - make: Sony
     model: Alpha NEX-3
@@ -1589,6 +1830,7 @@ cameras:
     megapixels: 14.2
     hsensor: 23.4
     vsensor: 15.6
+    keh: https://tidd.ly/4ybMVXT
   - make: Sony
     model: Alpha NEX-5
     pitch: 5.10
@@ -1607,6 +1849,7 @@ cameras:
     megapixels: 16.1
     hsensor: 23.4
     vsensor: 15.6
+    keh: https://tidd.ly/4zJU0Aq
   - make: Sony
     model: Alpha NEX-7
     pitch: 3.90
@@ -1616,6 +1859,7 @@ cameras:
     megapixels: 24.3
     hsensor: 23.4
     vsensor: 15.6
+    keh: https://tidd.ly/4gpmQP8
 
   - make: Sony
     model: Alpha SLT-A65
@@ -1626,6 +1870,7 @@ cameras:
     megapixels: 24.3
     hsensor: 23.5
     vsensor: 15.6
+    keh: https://tidd.ly/46sljSu
 
   - make: Sony
     model:  Cyber-Shot DSC-F828
@@ -1663,6 +1908,7 @@ cameras:
     megapixels: 20.1
     hsensor: 13.2
     vsensor: 8.8
+    keh: https://tidd.ly/4gue2HS
   - make: Sony
     model: Cyber-shot DSC-RX100 VI
     pitch: 2.41
@@ -1672,3 +1918,4 @@ cameras:
     megapixels: 20.1
     hsensor: 13.2
     vsensor: 8.8
+    keh: https://tidd.ly/4hYtsoP
