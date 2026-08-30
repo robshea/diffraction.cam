@@ -1291,6 +1291,7 @@ cameras:
     hsensor: 17.3
     vsensor: 13.0
     keh: https://tidd.ly/4xn5lF4
+    adorama: https://prf.hn/l/Jpw0vaZ/
   - make: Olympus
     model: OM-D E-M5
     pitch: 3.75
@@ -1301,6 +1302,7 @@ cameras:
     hsensor: 17.3
     vsensor: 13.0
     keh: https://tidd.ly/4xEe71B
+    adorama: https://prf.hn/l/VxGBozM/
   - make: Olympus
     model: OM-D E-M5 Mark II
     pitch: 3.75
@@ -1321,6 +1323,7 @@ cameras:
     hsensor: 17.3
     vsensor: 13.0
     keh: https://tidd.ly/3SyRUTu
+    adorama: https://prf.hn/l/gxE9wOy/
 
   - make: Olympus
     model: PEN E-P7
@@ -1343,6 +1346,7 @@ cameras:
     hsensor: 35.6
     vsensor: 23.8
     keh: https://tidd.ly/4gu4BYM
+    adorama: https://prf.hn/l/5mGZJvR/
   - make: Panasonic
     model: Lumix DC-G9
     pitch: 3.34
@@ -1353,6 +1357,7 @@ cameras:
     hsensor: 17.3
     vsensor: 13.0
     keh: https://tidd.ly/4y9eDEy
+    adorama: https://prf.hn/l/G92BkVZ/
   - make: Panasonic
     model: Lumix DC-G9 II
     pitch: 3.00
@@ -1363,6 +1368,7 @@ cameras:
     hsensor: 17.3
     vsensor: 13.0
     keh: https://tidd.ly/4ygkUyB
+    adorama: https://prf.hn/l/AJYwz4d/
   - make: Panasonic
     model: Lumix DMC-FZ70
     pitch: 1.34
