@@ -775,6 +775,7 @@ cameras:
     hsensor: 36
     vsensor: 24
     keh: https://tidd.ly/4xhKRgl
+    adorama: https://prf.hn/l/pRPVdJ0/
   - make: Leica
     model: SL3
     pitch: 3.78
@@ -885,6 +886,7 @@ cameras:
     hsensor: 23.5
     vsensor: 15.6
     keh: https://tidd.ly/3SIW8rs
+    adorama: https://prf.hn/l/OqaBGoy/
   - make: Nikon
     model: D600
     pitch: 5.97
@@ -1116,6 +1118,7 @@ cameras:
     hsensor: 35.9
     vsensor: 23.9
     keh: https://tidd.ly/4qNtfHo
+    adorama: https://prf.hn/l/8jk5WJA/
   - make: Nikon
     model: Z 7
     pitch: 4.35
@@ -1126,6 +1129,7 @@ cameras:
     hsensor: 35.9
     vsensor: 23.9
     keh: https://tidd.ly/4zSfoDY
+    adorama: https://prf.hn/l/AJYwzV4/
   - make: Nikon
     model: Z 7 II
     pitch: 4.35
@@ -1136,6 +1140,7 @@ cameras:
     hsensor: 35.9
     vsensor: 23.9
     keh: https://tidd.ly/4gDT7kp
+    adorama: https://prf.hn/l/1A9xP4j/
   - make: Nikon
     model: Z 8
     pitch: 4.35
@@ -1146,6 +1151,7 @@ cameras:
     hsensor: 35.9
     vsensor: 23.9
     keh: https://tidd.ly/4xxjBLE
+    adorama: https://prf.hn/l/xEMkGOd/
   - make: Nikon
     model: Z 9
     pitch: 4.35
@@ -1156,6 +1162,7 @@ cameras:
     hsensor: 35.9
     vsensor: 23.9
     keh: https://tidd.ly/4qIIJwp
+    adorama: https://prf.hn/l/G95JO3p/
   - make: Nikon
     model: Z f
     pitch: 5.94
@@ -1166,6 +1173,7 @@ cameras:
     hsensor: 35.9
     vsensor: 23.9
     keh: https://tidd.ly/4gpg4ca
+    adorama: https://prf.hn/l/AJpbWPV/
   - make: Nikon
     model: Z fc
     pitch: 4.22
@@ -1176,6 +1184,7 @@ cameras:
     hsensor: 23.5
     vsensor: 15.7
     keh: https://tidd.ly/4gD74Pp
+    adorama: https://prf.hn/l/ojNn0XP/
 
   - make: OM System
     model: OM-1
@@ -1197,6 +1206,7 @@ cameras:
     hsensor: 17.3
     vsensor: 13.0
     keh: https://tidd.ly/3SIWMoS
+    adorama: https://prf.hn/l/RlNaQRG/
   - make: OM System
     model: OM-5
     pitch: 3.34
@@ -1227,6 +1237,7 @@ cameras:
     hsensor: 17.3
     vsensor: 13.0
     keh: https://tidd.ly/4gwaxiA
+    adorama: https://prf.hn/l/jXam5bR/
   - make: Olympus
     model: OM-D E-M1 Mark III
     pitch: 3.34
@@ -1247,6 +1258,7 @@ cameras:
     hsensor: 17.3
     vsensor: 13.0
     keh: https://tidd.ly/4gL3jaP
+    adorama: https://prf.hn/l/AJX4Bk4/
   - make: Olympus
     model: OM-D E-M10 Mark II
     pitch: 3.75
@@ -1257,6 +1269,7 @@ cameras:
     hsensor: 17.3
     vsensor: 13.0
     keh: https://tidd.ly/4zSfThk
+    adorama: https://prf.hn/l/deoWpd3/
   - make: Olympus
     model: OM-D E-M10 Mark III
     pitch: 3.75
@@ -1267,6 +1280,7 @@ cameras:
     hsensor: 17.3
     vsensor: 13.0
     keh: https://tidd.ly/4qOJpAj
+    adorama: https://prf.hn/l/o35mYZL/
   - make: Olympus
     model: OM-D E-M10 Mark IV
     pitch: 3.34
@@ -1760,6 +1774,7 @@ cameras:
     megapixels: 42.4
     hsensor: 35.9
     vsensor: 24.0
+    keh: https://tidd.ly/4i3I06G
   - make: Sony
     model: α7R IV
     pitch: 3.76
@@ -1769,6 +1784,7 @@ cameras:
     megapixels: 61.0
     hsensor: 35.7
     vsensor: 23.8
+    keh: https://tidd.ly/3UIZFXu
   - make: Sony
     model: α7R V
     pitch: 3.76
