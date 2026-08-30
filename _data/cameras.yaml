@@ -1409,6 +1409,7 @@ cameras:
     hsensor: 17.3
     vsensor: 13.0
     keh: https://tidd.ly/4zNG8W0
+    adorama: https://prf.hn/l/8jald9Q/
   - make: Panasonic
     model: Lumix DMC-G85
     pitch: 3.77
@@ -1419,6 +1420,7 @@ cameras:
     hsensor: 17.3
     vsensor: 13.0
     keh: https://tidd.ly/4gsSw6h
+    adorama: https://prf.hn/l/MbzB831/
   - make: Panasonic
     model: Lumix DMC-GF3
     pitch: 4.33
@@ -1447,6 +1449,7 @@ cameras:
     megapixels: 16.05
     hsensor: 17.3
     vsensor: 13.0
+    adorama: https://prf.hn/l/W4ABlDX/
   - make: Panasonic
     model: Lumix DMC-GH4
     pitch: 3.75
@@ -1457,6 +1460,7 @@ cameras:
     hsensor: 17.3
     vsensor: 13.0
     keh: https://tidd.ly/4ybHsAo
+    adorama: https://prf.hn/l/55ZVGBo/
   - make: Panasonic
     model: Lumix DMC-GH5S
     pitch: 4.70
@@ -1467,6 +1471,7 @@ cameras:
     hsensor: 17.3
     vsensor: 13.0
     keh: https://tidd.ly/45Tbk8H
+    adorama: https://prf.hn/l/8jald9w/
   - make: Panasonic
     model: Lumix DMC-GX8
     pitch: 3.34
@@ -1477,6 +1482,7 @@ cameras:
     hsensor: 17.3
     vsensor: 13.0
     keh: https://tidd.ly/461nXOW
+    adorama: https://prf.hn/l/EJdnWl0/
   - make: Panasonic
     model: Lumix DMC-GX85
     pitch: 3.77
