@@ -10,6 +10,7 @@ cameras:
     vsensor: 18.7
     keh: https://tidd.ly/4wXHPgO
     adorama: https://prf.hn/l/OqQPmWm/
+    bh_temp: https://www.bhphotovideo.com/c/search?sts=ma&InitialSearch=yes&searchType=USED&q=Canon%20EOS%201D%20Mark%20III
   - make: Canon
     model: EOS 1D Mark IV
     pitch: 5.70
@@ -21,6 +22,7 @@ cameras:
     vsensor: 18.6
     keh: https://tidd.ly/4iCwNdm
     adorama: https://prf.hn/l/YL9QbDg/
+    bh_temp: https://www.bhphotovideo.com/c/search?sts=ma&InitialSearch=yes&searchType=USED&q=Canon%20EOS%201D%20Mark%20IV
   - make: Canon
     model: EOS 1Ds Mark III
     pitch: 6.41
@@ -31,6 +33,7 @@ cameras:
     hsensor: 36.0
     vsensor: 24.0
     keh: https://tidd.ly/4i3rhAj
+    bh_temp: https://www.bhphotovideo.com/c/search?sts=ma&InitialSearch=yes&searchType=USED&q=Canon%20EOS%201Ds%20Mark%20III
   - make: Canon
     model: EOS 100D Rebel SL1
     pitch: 4.30
@@ -41,6 +44,7 @@ cameras:
     hsensor: 22.3
     vsensor: 14.9
     keh: https://tidd.ly/4qOWiui
+    bh_temp: https://www.bhphotovideo.com/c/search?sts=ma&InitialSearch=yes&searchType=USED&q=Canon%20EOS%20100D%20Rebel%20SL1
   - make: Canon
     model: EOS 1100D Rebel T3
     pitch: 5.20
@@ -63,6 +67,7 @@ cameras:
     vsensor: 15.0
     keh: https://tidd.ly/46u4vKN
     adorama: https://prf.hn/l/mVOx2Bd/
+    bh_temp: https://www.bhphotovideo.com/c/search?sts=ma&InitialSearch=yes&searchType=USED&q=Canon%20EOS%2020D
   - make: Canon
     model: EOS 40D
     pitch: 5.71
@@ -74,6 +79,7 @@ cameras:
     vsensor: 14.8
     keh: https://tidd.ly/3T7ndF3
     adorama: https://prf.hn/l/ZQ4ExeY/
+    bh_temp: https://www.bhphotovideo.com/c/search?sts=ma&InitialSearch=yes&searchType=USED&q=Canon%20EOS%2040D
   - make: Canon
     model: EOS 5D
     pitch: 8.20
@@ -85,6 +91,7 @@ cameras:
     vsensor: 23.9
     keh: https://tidd.ly/4y50qIQ
     adorama: https://prf.hn/l/zjwmAQO/
+    bh_temp: https://www.bhphotovideo.com/c/product/803530039-USE/canon_0296b002_eos_5d_digital_camera.html
   - make: Canon
     model: EOS 5D Mark II
     pitch: 6.41
@@ -96,6 +103,7 @@ cameras:
     vsensor: 24.0
     keh: https://tidd.ly/4wXIdfg
     adorama: https://prf.hn/l/zpMV2BQ/
+    bh_temp: https://www.bhphotovideo.com/c/product/803523145-USE/canon_2764b003_eos_5d_mark_ii.html
   - make: Canon
     model: EOS 5D Mark III
     pitch: 6.25
@@ -107,6 +115,7 @@ cameras:
     vsensor: 24.0
     keh: https://tidd.ly/4gsigQe
     adorama: https://prf.hn/l/8jalP2Q/
+    bh_temp: https://www.bhphotovideo.com/c/search?sts=ma&InitialSearch=yes&searchType=USED&q=Canon%20EOS%205D%20Mark%20III
   - make: Canon
     model: EOS 5D Mark IV
     pitch: 5.36
@@ -118,6 +127,7 @@ cameras:
     vsensor: 24.0
     keh: https://tidd.ly/4ilP7Yn
     adorama: https://prf.hn/l/vw4zNRR/
+    bh_temp: https://www.bhphotovideo.com/c/product/1274705-REG/canon_eos_5d_mark_iv.html
   - make: Canon
     model: EOS 5DS
     pitch: 4.13
@@ -128,6 +138,7 @@ cameras:
     hsensor: 36.0
     vsensor: 24.0
     keh: https://tidd.ly/4i3iMVU
+    bh_temp: https://www.bhphotovideo.com/c/product/803509706-USE/canon_0581c002_eos_5ds_dslr_camera.html
   - make: Canon
     model: EOS 5DS R
     pitch: 4.14
@@ -139,6 +150,7 @@ cameras:
     vsensor: 24.0
     keh: https://tidd.ly/46vPSqo
     adorama: https://prf.hn/l/eO1Bx4D/
+    bh_temp: https://www.bhphotovideo.com/c/search?sts=ma&InitialSearch=yes&searchType=USED&q=Canon%20EOS%205DS%20R
   - make: Canon
     model: EOS 6D
     pitch: 6.54
@@ -150,6 +162,7 @@ cameras:
     vsensor: 23.9
     keh: https://tidd.ly/4ybATxH
     adorama: https://prf.hn/l/Nd4BMWe/
+    bh_temp: https://www.bhphotovideo.com/c/search?sts=ma&InitialSearch=yes&searchType=USED&q=Canon%20EOS%206D
   - make: Canon
     model: EOS 6D Mark II
     pitch: 5.75
@@ -161,6 +174,7 @@ cameras:
     vsensor: 24.0
     keh: https://tidd.ly/4zHeWZ7
     adorama: https://prf.hn/l/w9a4wRj/
+    bh_temp: https://www.bhphotovideo.com/c/search?sts=ma&InitialSearch=yes&searchType=USED&q=Canon%20EOS%206D%20Mark%20II
   - make: Canon
     model: EOS 60D
     pitch: 4.30
@@ -172,6 +186,7 @@ cameras:
     vsensor: 14.9
     keh: https://tidd.ly/4i2TuHy
     adorama: https://prf.hn/l/p3Vzek8/
+    bh_temp: https://www.bhphotovideo.com/c/search?sts=ma&InitialSearch=yes&searchType=USED&q=Canon%20EOS%2060D
   - make: Canon
     model: EOS 7D
     pitch: 4.30
@@ -183,6 +198,7 @@ cameras:
     vsensor: 14.9
     keh: https://tidd.ly/4xsL6FU
     adorama: https://prf.hn/l/kg5bNqW/
+    bh_temp: https://www.bhphotovideo.com/c/product/803532569-USE/canon_3814b004_eos_7d_dslr_camera.html
   - make: Canon
     model: EOS 70D
     pitch: 4.11
@@ -194,6 +210,7 @@ cameras:
     vsensor: 15.0
     keh: https://tidd.ly/3SkbS4l
     adorama: https://prf.hn/l/Vx2OV8y/
+    bh_temp: https://www.bhphotovideo.com/c/search?sts=ma&InitialSearch=yes&searchType=USED&q=Canon%20EOS%2070D
   - make: Canon
     model: EOS 760D Rebel T6s
     pitch: 3.72
@@ -204,6 +221,7 @@ cameras:
     hsensor: 22.3
     vsensor: 14.9
     keh: https://tidd.ly/4zMOi0I
+    bh_temp: https://www.bhphotovideo.com/c/search?sts=ma&InitialSearch=yes&searchType=USED&q=Canon%20EOS%20760D%20Rebel%20T6s
   - make: Canon
     model: EOS 77D
     pitch: 3.72
@@ -215,6 +233,7 @@ cameras:
     vsensor: 14.9
     keh: https://tidd.ly/4iCcXyP
     adorama: https://prf.hn/l/vwM12BE/
+    bh_temp: https://www.bhphotovideo.com/c/search?sts=ma&InitialSearch=yes&searchType=USED&q=Canon%20EOS%2077D
   - make: Canon
     model: EOS 80D
     pitch: 3.72
@@ -226,6 +245,7 @@ cameras:
     vsensor: 14.9
     keh: https://tidd.ly/4x46rEN
     adorama: https://prf.hn/l/w9MP2gE/
+    bh_temp: https://www.bhphotovideo.com/c/search?sts=ma&InitialSearch=yes&searchType=USED&q=Canon%20EOS%2080D
   - make: Canon
     model: EOS 90D
     pitch: 3.20
@@ -237,6 +257,7 @@ cameras:
     vsensor: 14.9
     keh: https://tidd.ly/4xtEbMT
     adorama: https://prf.hn/l/VX3N0nk/
+    bh_temp: https://www.bhphotovideo.com/c/product/803449121-USE/canon_3616c002_eos_90d_dslr_camera.html
 
   - make: Canon
     model: EOS M3
@@ -259,6 +280,7 @@ cameras:
     hsensor: 22.3
     vsensor: 14.9
     keh: https://tidd.ly/4i3tQ5n
+    bh_temp: https://www.bhphotovideo.com/c/product/803510239-USE/canon_1279c021aa_eos_m5_mirrorless_digital.html
   - make: Canon
     model: EOS M50
     pitch: 3.71
@@ -270,6 +292,7 @@ cameras:
     vsensor: 14.9
     keh: https://tidd.ly/4qTfB5G
     adorama: https://prf.hn/l/y8Mn2PO/
+    bh_temp: https://www.bhphotovideo.com/c/search?sts=ma&InitialSearch=yes&searchType=USED&q=Canon%20EOS%20M50
   - make: Canon
     model: EOS M200
     pitch: 3.72
@@ -281,6 +304,7 @@ cameras:
     vsensor: 14.9
     keh: https://tidd.ly/4qLA7VK
     adorama: https://prf.hn/l/lQ1mzad/
+    bh_temp: https://www.bhphotovideo.com/c/search?sts=ma&InitialSearch=yes&searchType=USED&q=Canon%20EOS%20M200
 
   - make: Canon
     model: EOS R
@@ -293,6 +317,7 @@ cameras:
     vsensor: 24.0
     keh: https://tidd.ly/4gFVWkT
     adorama: https://prf.hn/l/QL1BMgz/
+    bh_temp: https://www.bhphotovideo.com/c/product/803510984-USE/canon_3075c002_eos_r_mirrorless_camera.html
   - make: Canon
     model: EOS R5
     pitch: 4.40
@@ -304,6 +329,7 @@ cameras:
     vsensor: 24.0
     keh: https://tidd.ly/4gEoKua
     adorama: https://prf.hn/l/gx2GY8e/
+    bh_temp: https://www.bhphotovideo.com/c/product/1547009-REG/canon_4147c002_eos_r5_mirrorless_camera.html
   - make: Canon
     model: EOS R50
     pitch: 3.72
@@ -315,6 +341,7 @@ cameras:
     vsensor: 14.9
     keh: https://tidd.ly/4zMvoHs
     adorama: https://prf.hn/l/gxE9lby/
+    bh_temp: https://www.bhphotovideo.com/c/product/1748810-REG/canon_eos_r50_mirrorless_camera.html
   - make: Canon
     model: EOS R6
     pitch: 6.58
@@ -326,6 +353,7 @@ cameras:
     vsensor: 24.0
     keh: https://tidd.ly/4xyVBaU
     adorama: https://prf.hn/l/Oq2O48m/
+    bh_temp: https://www.bhphotovideo.com/c/product/803515530-USE/canon_4082c002_eos_r6_mirrorless_camera.html
   - make: Canon
     model: EOS R6 Mark II
     pitch: 5.96
@@ -337,6 +365,7 @@ cameras:
     vsensor: 24.0
     keh: https://tidd.ly/4xxEvdw
     adorama: https://prf.hn/l/b9E5bY1/
+    bh_temp: https://www.bhphotovideo.com/c/product/1733214-REG/canon_eos_r6_mark_ii.html
   - make: Canon
     model: EOS R7
     pitch: 3.20
@@ -348,6 +377,7 @@ cameras:
     vsensor: 14.8
     keh: https://tidd.ly/4zMw0wK
     adorama: https://prf.hn/l/aWzB0Da/
+    bh_temp: https://www.bhphotovideo.com/c/product/1707911-REG/canon_eos_r7_mirrorless_camera.html
   - make: Canon
     model: EOS R8
     pitch: 5.98
@@ -359,6 +389,7 @@ cameras:
     vsensor: 24.0
     keh: https://tidd.ly/4iD3uY4
     adorama: https://prf.hn/l/4PRMxqZ/
+    bh_temp: https://www.bhphotovideo.com/c/product/1748813-REG/canon_eos_r8_mirrorless_camera.html
   - make: Canon
     model: EOS R100
     pitch: 3.72
@@ -370,6 +401,7 @@ cameras:
     vsensor: 14.9
     keh: https://tidd.ly/3UpAkSw
     adorama: https://prf.hn/l/aWMOVPq/
+    bh_temp: https://www.bhphotovideo.com/c/product/1769090-REG/canon_6052c012_eos_r100_mirrorless_camera.html
   - make: Canon
     model: EOS RP
     pitch: 5.75
@@ -381,6 +413,7 @@ cameras:
     vsensor: 24.0
     keh: https://tidd.ly/3UluH7P
     adorama: https://prf.hn/l/ngmd1Dz/
+    bh_temp: https://www.bhphotovideo.com/c/product/1459282-REG/canon_eos_rp_mirrorless_digital.html
 
   - make: Canon
     model: PowerShot ELPH 180
@@ -425,6 +458,7 @@ cameras:
     vsensor: 15.6
     keh: https://tidd.ly/4iB1DD8
     adorama: https://prf.hn/l/G9NV4OZ/
+    bh_temp: https://www.bhphotovideo.com/c/product/803481447-USE/fujifilm_16321066_x100s_digital_camera_silver.html
   - make: Fujifilm
     model: X100T
     pitch: 4.82
@@ -436,6 +470,7 @@ cameras:
     vsensor: 15.6
     keh: https://tidd.ly/4zNJkAX
     adorama: https://prf.hn/l/eOM8RlE/
+    bh_temp: https://www.bhphotovideo.com/c/product/803426216-USE/fujifilm_16440680_x100t_digital_camera_black.html
   - make: Fujifilm
     model: X100F
     pitch: 3.93
@@ -458,6 +493,7 @@ cameras:
     vsensor: 15.6
     keh: https://tidd.ly/4xEayIL
     adorama: https://prf.hn/l/XZ0BMEQ/
+    bh_temp: https://www.bhphotovideo.com/c/product/803528608-USE/fujifilm_16643000_x100v_digital_camera_black.html
   - make: Fujifilm
     model: X100VI
     pitch: 3.04
@@ -468,6 +504,7 @@ cameras:
     hsensor: 23.5
     vsensor: 15.7
     adorama: https://prf.hn/l/W42Ovqw/
+    bh_temp: https://www.bhphotovideo.com/c/product/1899778-REG/fujifilm_16953924_x100vi_digital_camera_black_coo_japan.html
   - make: Fujifilm
     model: X70
     pitch: 4.82
@@ -478,6 +515,7 @@ cameras:
     hsensor: 23.6
     vsensor: 15.6
     keh: https://tidd.ly/45SsKSO
+    bh_temp: https://www.bhphotovideo.com/c/product/803518200-USE/fujifilm_16499150_x70_digital_camera_black.html
 
   - make: Fujifilm
     model: X-E1
@@ -490,6 +528,7 @@ cameras:
     vsensor: 15.6
     keh: https://tidd.ly/4gGQLkQ
     adorama: https://prf.hn/l/2YEodpw/
+    bh_temp: https://www.bhphotovideo.com/c/product/803520543-USE/fujifilm_16272356_x_e1_mirrorless_digital_camera.html
   - make: Fujifilm
     model: X-E2
     pitch: 4.82
@@ -510,6 +549,7 @@ cameras:
     hsensor: 23.5
     vsensor: 15.6
     keh: https://tidd.ly/3SyONeg
+    bh_temp: https://www.bhphotovideo.com/c/product/803526686-USE/fujifilm_16558401_x_e3_mirrorless_digital_camera.html
   - make: Fujifilm
     model: X-E4
     pitch: 3.77
@@ -521,6 +561,7 @@ cameras:
     vsensor: 15.6
     keh: https://tidd.ly/4xhJaiZ
     adorama: https://prf.hn/l/0e53pDN/
+    bh_temp: https://www.bhphotovideo.com/c/product/803525262-USE/fujifilm_16673811_x_e4_mirrorless_camera_black.html
 
   - make: Fujifilm
     model: X-H1
@@ -532,6 +573,7 @@ cameras:
     hsensor: 23.5
     vsensor: 15.6
     keh: https://tidd.ly/45VWHBy
+    bh_temp: https://www.bhphotovideo.com/c/product/803519119-USE/fujifilm_16568731_x_h1_mirrorless_digital_camera.html
   - make: Fujifilm
     model: X-H2
     pitch: 3.04
@@ -543,6 +585,7 @@ cameras:
     vsensor: 15.6
     keh: https://tidd.ly/3UrX97Y
     adorama: https://prf.hn/l/deoW3v5/
+    bh_temp: https://www.bhphotovideo.com/c/product/1726019-REG/fujifilm_16757045_x_h2_digital_camera_body.html
   - make: Fujifilm
     model: X-Pro1
     pitch: 4.82
@@ -564,6 +607,7 @@ cameras:
     vsensor: 15.6
     keh: https://tidd.ly/4xsOaBU
     adorama: https://prf.hn/l/DL2wAMR/
+    bh_temp: https://www.bhphotovideo.com/c/product/803526196-USE/fujifilm_16488618_x_pro2_mirrorless_digital_camera.html
   - make: Fujifilm
     model: X-Pro3
     pitch: 3.77
@@ -575,6 +619,7 @@ cameras:
     vsensor: 15.6
     keh: https://tidd.ly/4qI8woi
     adorama: https://prf.hn/l/p3Vzede/
+    bh_temp: https://www.bhphotovideo.com/c/product/803524723-USE/fujifilm_600021381_x_pro3_mirrorless_camera_black.html
 
   - make: Fujifilm
     model: X-S10
@@ -586,6 +631,7 @@ cameras:
     hsensor: 23.5
     vsensor: 15.6
     keh: https://tidd.ly/45S6hoZ
+    bh_temp: https://www.bhphotovideo.com/c/product/803531988-USE/fujifilm_16670041_x_s10_mirrorless_camera.html
   - make: Fujifilm
     model: X-S20
     pitch: 3.77
@@ -597,6 +643,7 @@ cameras:
     vsensor: 15.6
     keh: https://tidd.ly/4qIJbdQ
     adorama: https://prf.hn/l/jXGpzwR/
+    bh_temp: https://www.bhphotovideo.com/c/product/1765968-REG/fujifilm_16781852_x_s20_mirrorless_camera_black.html
 
   - make: Fujifilm
     model: X-T1
@@ -609,6 +656,7 @@ cameras:
     vsensor: 15.6
     keh: https://tidd.ly/4cfpEvJ
     adorama: https://prf.hn/l/9ORqz2O/
+    bh_temp: https://www.bhphotovideo.com/c/product/803522362-USE/fujifilm_16421452_x_t1_mirrorless_digital_camera.html
   - make: Fujifilm
     model: X-T2
     pitch: 3.93
@@ -620,6 +668,7 @@ cameras:
     vsensor: 15.6
     keh: https://tidd.ly/4i3mleK
     adorama: https://prf.hn/l/qXvJQDd/
+    bh_temp: https://www.bhphotovideo.com/c/product/803516082-USE/fujifilm_16519247_x_t2_mirrorless_digital_camera.html
   - make: Fujifilm
     model: X-T20
     pitch: 3.92
@@ -631,6 +680,7 @@ cameras:
     vsensor: 15.6
     keh: https://tidd.ly/4gD5eOv
     adorama: https://prf.hn/l/EJ2w0MV/
+    bh_temp: https://www.bhphotovideo.com/c/product/803515600-USE/fujifilm_16542359_x_t20_mirrorless_digital_camera.html
   - make: Fujifilm
     model: X-T3
     pitch: 3.77
@@ -642,6 +692,7 @@ cameras:
     vsensor: 15.6
     keh: https://tidd.ly/4qNrudg
     adorama: https://prf.hn/l/8jRwZ2Y/
+    bh_temp: https://www.bhphotovideo.com/c/product/803532716-USE/fujifilm_16589058_x_t3_mirrorless_camera_silver.html
   - make: Fujifilm
     model: X-T30
     pitch: 3.77
@@ -653,6 +704,7 @@ cameras:
     vsensor: 15.6
     keh: https://tidd.ly/4y9Fmko
     adorama: https://prf.hn/l/Bd3NVAo/
+    bh_temp: https://www.bhphotovideo.com/c/product/803518714-USE/fujifilm_16619011_x_t30_mirrorless_camera_black.html
   - make: Fujifilm
     model: X-T4
     pitch: 3.77
@@ -664,6 +716,7 @@ cameras:
     vsensor: 15.6
     keh: https://tidd.ly/4x0j2Jb
     adorama: https://prf.hn/l/p3xjkA8/
+    bh_temp: https://www.bhphotovideo.com/c/product/803511604-USE/fujifilm_16652855_x_t4_mirrorless_camera_black.html
   - make: Fujifilm
     model: X-T5
     pitch: 3.04
@@ -675,6 +728,7 @@ cameras:
     vsensor: 15.7
     keh: https://tidd.ly/4xt70c6
     adorama: https://prf.hn/l/G95JMAZ/
+    bh_temp: https://www.bhphotovideo.com/c/product/1899771-REG/fujifilm_16953857_x_t5_body_black_coo_japan.html
   - make: Fujifilm
     model: X-T50
     pitch: 3.04
@@ -686,6 +740,7 @@ cameras:
     vsensor: 15.7
     keh: https://tidd.ly/4iCIqB5
     adorama: https://prf.hn/l/mA5PXDY/
+    bh_temp: https://www.bhphotovideo.com/c/product/1899783-REG/fujifilm_16953974_x_t50_body_black_coo_japan.html
 
   - make: Fujifilm
     model: GFX 50R
@@ -730,6 +785,7 @@ cameras:
     vsensor: 32.9
     keh: https://tidd.ly/45XDIGB
     adorama: https://prf.hn/l/w9AOXZY/
+    bh_temp: https://www.bhphotovideo.com/c/product/803518262-USE/fujifilm_600022058_gfx_100s_medium_format.html
 
   - make: Hasselblad
     model: CFV 100C
@@ -742,6 +798,7 @@ cameras:
     vsensor: 32.9
     keh: https://tidd.ly/4d9DPCK
     adorama: https://prf.hn/l/BJNaQW0/
+    bh_temp: https://www.bhphotovideo.com/c/product/1803225-REG/hasselblad_cphb0000086601_hasselblad_907x_cfv_100c.html
   - make: Hasselblad
     model: X2D 100C
     pitch: 3.76
@@ -753,6 +810,7 @@ cameras:
     vsensor: 32.9
     keh: https://tidd.ly/3Siw1Yv
     adorama: https://prf.hn/l/QLNdVZE/
+    bh_temp: https://www.bhphotovideo.com/c/product/803504976-USE/hasselblad_cp_hb_00000723_01_x2d_100c_medium_format.html
 
   - make: Leica
     model: M8
@@ -776,6 +834,7 @@ cameras:
     vsensor: 24
     keh: https://tidd.ly/4xhKRgl
     adorama: https://prf.hn/l/pRPVdJ0/
+    bh_temp: https://www.bhphotovideo.com/c/product/803528047-USE/leica_10854_sl2_mirrorless_camera_black.html
   - make: Leica
     model: SL3
     pitch: 3.78
@@ -787,6 +846,7 @@ cameras:
     vsensor: 24.0
     keh: https://tidd.ly/4cjCpW8
     adorama: https://prf.hn/l/LANampR/
+    bh_temp: https://www.bhphotovideo.com/c/product/1812974-REG/leica_10607_sl3_mirrorless_camera.html
 
   - make: Nikon
     model: D200
@@ -821,6 +881,7 @@ cameras:
     vsensor: 15.4
     keh: https://tidd.ly/4xn4jca
     adorama: https://prf.hn/l/pRPVBv9/
+    bh_temp: https://www.bhphotovideo.com/c/product/803504168-USE/nikon_25490_d3200_slr_body.html
   - make: Nikon
     model: D3500
     pitch: 3.92
@@ -832,6 +893,7 @@ cameras:
     vsensor: 15.6
     keh: https://tidd.ly/4zDNCuy
     adorama: https://prf.hn/l/lQ0AaLd/
+    bh_temp: https://www.bhphotovideo.com/c/product/803513761-USE/nikon_1590_d3500_dslr_camera_with.html
   - make: Nikon
     model: D40
     pitch: 7.88
@@ -854,6 +916,7 @@ cameras:
     vsensor: 15.7
     keh: https://tidd.ly/4qNfGrq
     adorama: https://prf.hn/l/vwG3l0o/
+    bh_temp: https://www.bhphotovideo.com/c/product/803519376-USE/nikon_1559_d500_dslr_camera_body.html
   - make: Nikon
     model: D5000
     pitch: 5.50
@@ -865,6 +928,7 @@ cameras:
     vsensor: 15.8
     keh: https://tidd.ly/3UlxjCF
     adorama: https://prf.hn/l/4PRMxWW/
+    bh_temp: https://www.bhphotovideo.com/c/search?sts=ma&InitialSearch=yes&searchType=USED&q=Nikon%20D5000
   - make: Nikon
     model: D5100
     pitch: 4.79
@@ -876,6 +940,7 @@ cameras:
     vsensor: 15.6
     keh: https://tidd.ly/4zMyXNQ
     adorama: https://prf.hn/l/XZyQlxR/
+    bh_temp: https://www.bhphotovideo.com/c/search?sts=ma&InitialSearch=yes&searchType=USED&q=Nikon%20D5100
   - make: Nikon
     model: D5300
     pitch: 3.92
@@ -887,6 +952,7 @@ cameras:
     vsensor: 15.6
     keh: https://tidd.ly/3SIW8rs
     adorama: https://prf.hn/l/OqaBGoy/
+    bh_temp: https://www.bhphotovideo.com/c/search?sts=ma&InitialSearch=yes&searchType=USED&q=Nikon%20D5300
   - make: Nikon
     model: D600
     pitch: 5.97
@@ -898,6 +964,7 @@ cameras:
     vsensor: 24.0
     keh: https://tidd.ly/4qQMGPK
     adorama: https://prf.hn/l/xO40pzP/
+    bh_temp: https://www.bhphotovideo.com/c/search?sts=ma&InitialSearch=yes&searchType=USED&q=Nikon%20D600
   - make: Nikon
     model: D610
     pitch: 5.97
@@ -909,6 +976,7 @@ cameras:
     vsensor: 24.0
     keh: https://tidd.ly/4xtI4S5
     adorama: https://prf.hn/l/QLNdVwD/
+    bh_temp: https://www.bhphotovideo.com/c/search?sts=ma&InitialSearch=yes&searchType=USED&q=Nikon%20D610
   - make: Nikon
     model: D70
     pitch: 7.88
@@ -920,6 +988,7 @@ cameras:
     vsensor: 15.5
     keh: https://tidd.ly/3UIGpta
     adorama: https://prf.hn/l/lJe1wpv/
+    bh_temp: https://www.bhphotovideo.com/c/search?sts=ma&InitialSearch=yes&searchType=USED&q=Nikon%20D70
   - make: Nikon
     model: D700
     pitch: 8.46
@@ -931,6 +1000,7 @@ cameras:
     vsensor: 23.9
     keh: https://tidd.ly/4gFZFin
     adorama: https://prf.hn/l/L3PNQ5w/
+    bh_temp: https://www.bhphotovideo.com/c/search?sts=ma&InitialSearch=yes&searchType=USED&q=Nikon%20D700
   - make: Nikon
     model: D7000
     pitch: 4.79
@@ -942,6 +1012,7 @@ cameras:
     vsensor: 15.6
     keh: https://tidd.ly/3UmU9d6
     adorama: https://prf.hn/l/ZQ4ExV9/
+    bh_temp: https://www.bhphotovideo.com/c/search?sts=ma&InitialSearch=yes&searchType=USED&q=Nikon%20D7000
   - make: Nikon
     model: D7100
     pitch: 3.92
@@ -953,6 +1024,7 @@ cameras:
     vsensor: 15.6
     keh: https://tidd.ly/4cRLSEd
     adorama: https://prf.hn/l/3PDw5yV/
+    bh_temp: https://www.bhphotovideo.com/c/search?sts=ma&InitialSearch=yes&searchType=USED&q=Nikon%20D7100
   - make: Nikon
     model: D7200
     pitch: 3.92
@@ -964,6 +1036,7 @@ cameras:
     vsensor: 15.6
     keh: https://tidd.ly/4qNsUo6
     adorama: https://prf.hn/l/q3MZ2ep/
+    bh_temp: https://www.bhphotovideo.com/c/search?sts=ma&InitialSearch=yes&searchType=USED&q=Nikon%20D7200
   - make: Nikon
     model: D750
     pitch: 5.97
@@ -975,6 +1048,7 @@ cameras:
     vsensor: 24.0
     keh: https://tidd.ly/4zNsySi
     adorama: https://prf.hn/l/2MJpWYj/
+    bh_temp: https://www.bhphotovideo.com/c/search?q=Nikon%20D750
   - make: Nikon
     model: D780
     pitch: 5.94
@@ -986,6 +1060,7 @@ cameras:
     vsensor: 23.9
     keh: https://tidd.ly/4xFe0CM
     adorama: https://prf.hn/l/deoW3AL/
+    bh_temp: https://www.bhphotovideo.com/c/product/1538572-REG/nikon_d780_dslr_camera.html
   - make: Nikon
     model: D80
     pitch: 6.10
@@ -997,6 +1072,7 @@ cameras:
     vsensor: 15.8
     keh: https://tidd.ly/4qNNfK7
     adorama: https://prf.hn/l/mVPQWZL/
+    bh_temp: https://www.bhphotovideo.com/c/search?sts=ma&InitialSearch=yes&searchType=USED&q=Nikon%20D80
   - make: Nikon
     model: D800
     pitch: 4.88
@@ -1008,6 +1084,7 @@ cameras:
     vsensor: 24.0
     keh: https://tidd.ly/46xxNIu
     adorama: https://prf.hn/l/GqzNwWz/
+    bh_temp: https://www.bhphotovideo.com/c/search?sts=ma&InitialSearch=yes&searchType=USED&q=Nikon%20D800
   - make: Nikon
     model: D810
     pitch: 4.88
@@ -1019,6 +1096,7 @@ cameras:
     vsensor: 24.0
     keh: https://tidd.ly/4h1qWwZ
     adorama: https://prf.hn/l/AJYw8AV/
+    bh_temp: https://www.bhphotovideo.com/c/search?sts=ma&InitialSearch=yes&searchType=USED&q=Nikon%20D810
   - make: Nikon
     model: D850
     pitch: 4.35
@@ -1030,6 +1108,7 @@ cameras:
     vsensor: 23.9
     keh: https://tidd.ly/4iCrmLw
     adorama: https://prf.hn/l/PlDjYql/
+    bh_temp: https://www.bhphotovideo.com/c/product/1351688-REG/nikon_d850_dslr_camera_body.html
   - make: Nikon
     model: D90
     pitch: 5.50
@@ -1052,6 +1131,7 @@ cameras:
     vsensor: 23.9
     keh: https://tidd.ly/4zLh2qN
     adorama: https://prf.hn/l/0eRw0JG/
+    bh_temp: https://www.bhphotovideo.com/c/search?sts=ma&InitialSearch=yes&searchType=USED&q=Nikon%20Df
 
   - make: Nikon
     model: Z 5
@@ -1064,6 +1144,7 @@ cameras:
     vsensor: 23.9
     keh: https://tidd.ly/4cmH75w
     adorama: https://prf.hn/l/deMEJGk/
+    bh_temp: https://www.bhphotovideo.com/c/product/1578204-REG/nikon_z_5_mirrorless_digital.html
   - make: Nikon
     model: Z 5 II
     pitch: 5.94
@@ -1075,6 +1156,7 @@ cameras:
     vsensor: 23.9
     keh: https://tidd.ly/4gswrVq
     adorama: https://prf.hn/l/mVOx2LV/
+    bh_temp: https://www.bhphotovideo.com/c/product/1889823-REG/nikon_1680_z5_ii_mirrorless_camera.html
   - make: Nikon
     model: Z 50
     pitch: 4.22
@@ -1097,6 +1179,7 @@ cameras:
     vsensor: 23.9
     keh: https://tidd.ly/4iB4Gv4
     adorama: https://prf.hn/l/xEMk2JN/
+    bh_temp: https://www.bhphotovideo.com/c/product/803501382-USE/nikon_1595_z6_mirrorless_camera.html
   - make: Nikon
     model: Z 6 II
     pitch: 5.94
@@ -1108,6 +1191,7 @@ cameras:
     vsensor: 23.9
     keh: https://tidd.ly/4xtBzhU
     adorama: https://prf.hn/l/vwG3lkv/
+    bh_temp: https://www.bhphotovideo.com/c/product/1597167-REG/nikon_z_6_ii_mirrorless.html
   - make: Nikon
     model: Z 6 III
     pitch: 5.94
@@ -1119,6 +1203,7 @@ cameras:
     vsensor: 23.9
     keh: https://tidd.ly/4qNtfHo
     adorama: https://prf.hn/l/8jk5WJA/
+    bh_temp: https://www.bhphotovideo.com/c/product/1834803-REG/nikon_z6_iii_mirrorless_camera.html
   - make: Nikon
     model: Z 7
     pitch: 4.35
@@ -1130,6 +1215,7 @@ cameras:
     vsensor: 23.9
     keh: https://tidd.ly/4zSfoDY
     adorama: https://prf.hn/l/AJYwzV4/
+    bh_temp: https://www.bhphotovideo.com/c/product/803367245-USE/nikon_1591_z7_mirrorless_camera.html
   - make: Nikon
     model: Z 7 II
     pitch: 4.35
@@ -1141,6 +1227,7 @@ cameras:
     vsensor: 23.9
     keh: https://tidd.ly/4gDT7kp
     adorama: https://prf.hn/l/1A9xP4j/
+    bh_temp: https://www.bhphotovideo.com/c/product/1597168-REG/nikon_z_7_ii_mirrorless.html
   - make: Nikon
     model: Z 8
     pitch: 4.35
@@ -1152,6 +1239,7 @@ cameras:
     vsensor: 23.9
     keh: https://tidd.ly/4xxjBLE
     adorama: https://prf.hn/l/xEMkGOd/
+    bh_temp: https://www.bhphotovideo.com/c/product/1765622-REG/nikon_z8_mirrorless_camera.html
   - make: Nikon
     model: Z 9
     pitch: 4.35
@@ -1163,6 +1251,7 @@ cameras:
     vsensor: 23.9
     keh: https://tidd.ly/4qIIJwp
     adorama: https://prf.hn/l/G95JO3p/
+    bh_temp: https://www.bhphotovideo.com/c/product/1629829-REG/nikon_z_9_mirrorless_digital.html
   - make: Nikon
     model: Z f
     pitch: 5.94
@@ -1174,6 +1263,7 @@ cameras:
     vsensor: 23.9
     keh: https://tidd.ly/4gpg4ca
     adorama: https://prf.hn/l/AJpbWPV/
+    bh_temp: https://www.bhphotovideo.com/c/product/1788062-REG/nikon_1761_zf_mirrorless_camera.html
   - make: Nikon
     model: Z fc
     pitch: 4.22
@@ -1185,6 +1275,7 @@ cameras:
     vsensor: 15.7
     keh: https://tidd.ly/4gD74Pp
     adorama: https://prf.hn/l/ojNn0XP/
+    bh_temp: https://www.bhphotovideo.com/c/product/1649279-REG/nikon_zfc_mirrorless_camera_body.html
 
   - make: OM System
     model: OM-1
@@ -1196,6 +1287,7 @@ cameras:
     hsensor: 17.3
     vsensor: 13.0
     keh: https://tidd.ly/4qHqsPP
+    bh_temp: https://www.bhphotovideo.com/c/product/803530685-USE/om_system_v210010bu000_om_1_mirrorless_camera.html
   - make: OM System
     model: OM-3
     pitch: 3.34
@@ -1207,6 +1299,7 @@ cameras:
     vsensor: 13.0
     keh: https://tidd.ly/3SIWMoS
     adorama: https://prf.hn/l/RlNaQRG/
+    bh_temp: https://www.bhphotovideo.com/c/product/1876132-REG/om_system_v210050sw000_om_3_mirrorless_camera.html
   - make: OM System
     model: OM-5
     pitch: 3.34
@@ -1217,6 +1310,7 @@ cameras:
     hsensor: 17.3
     vsensor: 13.0
     keh: https://tidd.ly/46vm7G7
+    bh_temp: https://www.bhphotovideo.com/c/product/803516226-USE/om_system_v210020su000_om_5_mirrorless_camera_silver.html
   - make: Olympus
     model: OM-D E-M1
     pitch: 3.75
@@ -1227,6 +1321,7 @@ cameras:
     hsensor: 17.3
     vsensor: 13.0
     keh: https://tidd.ly/4x2iUZI
+    bh_temp: https://www.bhphotovideo.com/c/product/803518906-USE/olympus_v207010bu000_om_d_e_m1_mirrorless_micro.html
   - make: Olympus
     model: OM-D E-M1 Mark II
     pitch: 3.34
@@ -1238,6 +1333,7 @@ cameras:
     vsensor: 13.0
     keh: https://tidd.ly/4gwaxiA
     adorama: https://prf.hn/l/jXam5bR/
+    bh_temp: https://www.bhphotovideo.com/c/product/803528158-USE/olympus_v207060bu000_om_d_e_m1_mark_ii.html
   - make: Olympus
     model: OM-D E-M1 Mark III
     pitch: 3.34
@@ -1248,6 +1344,7 @@ cameras:
     hsensor: 17.3
     vsensor: 13.0
     keh: https://tidd.ly/4xhM8UF
+    bh_temp: https://www.bhphotovideo.com/c/product/803528172-USE/olympus_v207100bu000_om_d_e_m1_mark_iii.html
   - make: Olympus
     model: OM-D E-M10
     pitch: 3.75
@@ -1259,6 +1356,7 @@ cameras:
     vsensor: 13.0
     keh: https://tidd.ly/4gL3jaP
     adorama: https://prf.hn/l/AJX4Bk4/
+    bh_temp: https://www.bhphotovideo.com/c/product/803530352-USE/olympus_v207020bu000_om_d_e_m10_mirrorless_micro.html
   - make: Olympus
     model: OM-D E-M10 Mark II
     pitch: 3.75
@@ -1270,6 +1368,7 @@ cameras:
     vsensor: 13.0
     keh: https://tidd.ly/4zSfThk
     adorama: https://prf.hn/l/deoWpd3/
+    bh_temp: https://www.bhphotovideo.com/c/product/803533553-USE/olympus_v207050su000_om_d_e_m10_mark_ii.html
   - make: Olympus
     model: OM-D E-M10 Mark III
     pitch: 3.75
@@ -1281,6 +1380,7 @@ cameras:
     vsensor: 13.0
     keh: https://tidd.ly/4qOJpAj
     adorama: https://prf.hn/l/o35mYZL/
+    bh_temp: https://www.bhphotovideo.com/c/product/803458156-USE/olympus_v207070bu000_om_d_e_m10_mark_iii.html
   - make: Olympus
     model: OM-D E-M10 Mark IV
     pitch: 3.34
@@ -1292,6 +1392,7 @@ cameras:
     vsensor: 13.0
     keh: https://tidd.ly/4xn5lF4
     adorama: https://prf.hn/l/Jpw0vaZ/
+    bh_temp: https://www.bhphotovideo.com/c/product/803482899-USE/olympus_om_d_e_m10_mark_iv.html
   - make: Olympus
     model: OM-D E-M5
     pitch: 3.75
@@ -1303,6 +1404,7 @@ cameras:
     vsensor: 13.0
     keh: https://tidd.ly/4xEe71B
     adorama: https://prf.hn/l/VxGBozM/
+    bh_temp: https://www.bhphotovideo.com/c/product/803518768-USE/olympus_v204040bu000_om_d_e_m5_mirrorless_micro.html
   - make: Olympus
     model: OM-D E-M5 Mark II
     pitch: 3.75
@@ -1313,6 +1415,7 @@ cameras:
     hsensor: 17.3
     vsensor: 13.0
     keh: https://tidd.ly/4zLpeal
+    bh_temp: https://www.bhphotovideo.com/c/product/803441911-USE/olympus_v207040bu000_om_d_e_m5_mark_ii.html
   - make: Olympus
     model: OM-D E-M5 Mark III
     pitch: 3.34
@@ -1324,6 +1427,7 @@ cameras:
     vsensor: 13.0
     keh: https://tidd.ly/3SyRUTu
     adorama: https://prf.hn/l/gxE9wOy/
+    bh_temp: https://www.bhphotovideo.com/c/product/803498643-USE/olympus_v207090bu000_om_d_e_m5_mark_iii.html
 
   - make: Olympus
     model: PEN E-P7
@@ -1347,6 +1451,7 @@ cameras:
     vsensor: 23.8
     keh: https://tidd.ly/4gu4BYM
     adorama: https://prf.hn/l/5mGZJvR/
+    bh_temp: https://www.bhphotovideo.com/c/product/803472927-USE/panasonic_dc_s5body_lumix_s5_mirrorless_camera.html
   - make: Panasonic
     model: Lumix DC-G9
     pitch: 3.34
@@ -1358,6 +1463,7 @@ cameras:
     vsensor: 13.0
     keh: https://tidd.ly/4y9eDEy
     adorama: https://prf.hn/l/G92BkVZ/
+    bh_temp: https://www.bhphotovideo.com/c/product/803489512-USE/panasonic_dc_g9mk_lumix_g9_mirrorless_camera.html
   - make: Panasonic
     model: Lumix DC-G9 II
     pitch: 3.00
@@ -1369,6 +1475,7 @@ cameras:
     vsensor: 13.0
     keh: https://tidd.ly/4ygkUyB
     adorama: https://prf.hn/l/AJYwz4d/
+    bh_temp: https://www.bhphotovideo.com/c/product/1945155-REG/panasonic_dc_g9m2body9_lumix_g9_ii_mirrorless.html
   - make: Panasonic
     model: Lumix DMC-FZ70
     pitch: 1.34
@@ -1410,6 +1517,7 @@ cameras:
     vsensor: 13.0
     keh: https://tidd.ly/4zNG8W0
     adorama: https://prf.hn/l/8jald9Q/
+    bh_temp: https://www.bhphotovideo.com/c/product/803534385-USE/panasonic_dmc_g5kbody_lumix_dmc_g5_mirrorless_micro.html
   - make: Panasonic
     model: Lumix DMC-G85
     pitch: 3.77
@@ -1461,6 +1569,7 @@ cameras:
     vsensor: 13.0
     keh: https://tidd.ly/4ybHsAo
     adorama: https://prf.hn/l/55ZVGBo/
+    bh_temp: https://www.bhphotovideo.com/c/product/803526547-USE/panasonic_dmc_gh4kbody_lumix_gh4_mirrorless_camera.html
   - make: Panasonic
     model: Lumix DMC-GH5S
     pitch: 4.70
@@ -1472,6 +1581,7 @@ cameras:
     vsensor: 13.0
     keh: https://tidd.ly/45Tbk8H
     adorama: https://prf.hn/l/8jald9w/
+    bh_temp: https://www.bhphotovideo.com/c/product/803511616-USE/panasonic_dc_gh5s_lumix_gh5s_mirrorless_camera.html
   - make: Panasonic
     model: Lumix DMC-GX8
     pitch: 3.34
@@ -1483,6 +1593,7 @@ cameras:
     vsensor: 13.0
     keh: https://tidd.ly/461nXOW
     adorama: https://prf.hn/l/EJdnWl0/
+    bh_temp: https://www.bhphotovideo.com/c/product/803500766-USE/panasonic_dmc_gx8kbody_lumix_dmc_gx8_mirrorless_micro.html
   - make: Panasonic
     model: Lumix DMC-GX85
     pitch: 3.77
@@ -1493,6 +1604,7 @@ cameras:
     hsensor: 17.3
     vsensor: 13.0
     keh: https://tidd.ly/4yerRjC
+    bh_temp: https://www.bhphotovideo.com/c/product/803532198-USE/panasonic_dmc_gx85kbody_lumix_dmc_gx85_mirrorless_micro.html
   - make: Panasonic
     model: Lumix DMC-LX2
     pitch: 1.84
@@ -1521,6 +1633,7 @@ cameras:
     hsensor: 13.2
     vsensor: 8.8
     keh: https://tidd.ly/4y9J8u4
+    bh_temp: https://www.bhphotovideo.com/c/search?sts=ma&InitialSearch=yes&searchType=USED&q=Panasonic%20Lumix%20DMC-ZS100%20camera
 
   - make: Pentax
     model: 645D
@@ -1541,6 +1654,7 @@ cameras:
     hsensor: 43.8
     vsensor: 32.8
     keh: https://tidd.ly/4zMBdEO
+    bh_temp: https://www.bhphotovideo.com/c/search?sts=ma&InitialSearch=yes&searchType=USED&q=Pentax%20645Z%20camera
   - make: Pentax
     model: K-01
     pitch: 4.81
@@ -1608,6 +1722,7 @@ cameras:
     hsensor: 23.5
     vsensor: 15.6
     keh: https://tidd.ly/4qIN5n0
+    bh_temp: https://www.bhphotovideo.com/c/search?sts=ma&InitialSearch=yes&searchType=USED&q=Ricoh%20GR%20III%20digital%20camera
   - make: Ricoh
     model: GR IIIx
     pitch: 3.92
@@ -1617,6 +1732,7 @@ cameras:
     megapixels: 24.2
     hsensor: 23.5
     vsensor: 15.6
+    bh_temp: https://www.bhphotovideo.com/c/product/1664769-REG/ricoh_15286_gr_iiix_digital_camera.html
 
   - make: Samsung
     model: NX1100
@@ -1657,6 +1773,7 @@ cameras:
     hsensor: 23.5
     vsensor: 15.6
     keh: https://tidd.ly/4gpivvk
+    bh_temp: https://www.bhphotovideo.com/c/search?sts=ma&InitialSearch=yes&searchType=USED&q=Sony%20a6000%20camera
   - make: Sony
     model: α6300
     pitch: 3.92
@@ -1667,6 +1784,7 @@ cameras:
     hsensor: 23.5
     vsensor: 15.6
     keh: https://tidd.ly/4h1bpNK
+    bh_temp: https://www.bhphotovideo.com/c/search?sts=ma&InitialSearch=yes&searchType=USED&q=Sony%20a6300%20camera
   - make: Sony
     model: α6400
     pitch: 3.92
@@ -1677,6 +1795,7 @@ cameras:
     hsensor: 23.5
     vsensor: 15.6
     keh: https://tidd.ly/4iwQNhy
+    bh_temp: https://www.bhphotovideo.com/c/product/1453768-REG/sony_ilce_6400_b_alpha_a6400_mirrorless_digital.html
   - make: Sony
     model: α6500
     pitch: 3.92
@@ -1687,6 +1806,7 @@ cameras:
     hsensor: 23.5
     vsensor: 15.6
     keh: https://tidd.ly/3Urtb3X
+    bh_temp: https://www.bhphotovideo.com/c/search?sts=ma&InitialSearch=yes&searchType=USED&q=Sony%20a6500%20camera
   - make: Sony
     model: α6600
     pitch: 3.92
@@ -1697,6 +1817,7 @@ cameras:
     hsensor: 23.5
     vsensor: 15.6
     keh: https://tidd.ly/4hXjfce
+    bh_temp: https://www.bhphotovideo.com/c/search?sts=ma&InitialSearch=yes&searchType=USED&q=Sony%20a6600%20camera
   - make: Sony
     model: α6700
     pitch: 3.76
@@ -1707,6 +1828,7 @@ cameras:
     hsensor: 23.3
     vsensor: 15.5
     keh: https://tidd.ly/4hXjcNA
+    bh_temp: https://www.bhphotovideo.com/c/product/1776281-REG/sony_a6700_mirrorless_camera.html
   - make: Sony
     model: α7
     pitch: 5.97
@@ -1717,6 +1839,7 @@ cameras:
     hsensor: 35.8
     vsensor: 23.9
     keh: https://tidd.ly/4qKpoe9
+    bh_temp: https://www.bhphotovideo.com/c/product/803524674-USE/sony_ilce7_b_alpha_a7_mirrorless_digital.html
   - make: Sony
     model: α7 II
     pitch: 5.92
@@ -1727,6 +1850,7 @@ cameras:
     hsensor: 35.2
     vsensor: 23.9
     keh: https://tidd.ly/46vYBJa
+    bh_temp: https://www.bhphotovideo.com/c/product/803515141-USE/sony_ilce7m2_b_a7_ii_mirrorless_camera.html
   - make: Sony
     model: α7 III
     pitch: 5.93
@@ -1737,6 +1861,7 @@ cameras:
     hsensor: 35.6
     vsensor: 23.8
     keh: https://tidd.ly/4ybfXXM
+    bh_temp: https://www.bhphotovideo.com/c/product/803518324-USE/sony_ilce7m3_b_a7_iii_mirrorless_camera.html
   - make: Sony
     model: α7 IV
     pitch: 5.12
@@ -1747,6 +1872,7 @@ cameras:
     hsensor: 35.9
     vsensor: 23.9
     keh: https://tidd.ly/4r4y67n
+    bh_temp: https://www.bhphotovideo.com/c/product/803535200-USE/sony_ilce_7m4_b_a7_iv_mirrorless_camera.html
   - make: Sony
     model: α7CR
     pitch: 3.76
@@ -1757,6 +1883,7 @@ cameras:
     hsensor: 35.7
     vsensor: 23.8
     keh: https://tidd.ly/4gpjqfg
+    bh_temp: https://www.bhphotovideo.com/c/search?sts=ma&InitialSearch=yes&searchType=USED&q=Sony%20a7CR%20camera
   - make: Sony
     model: α7R
     pitch: 4.88
@@ -1767,6 +1894,7 @@ cameras:
     hsensor: 35.9
     vsensor: 24.0
     keh: https://tidd.ly/4gALT0l
+    bh_temp: https://www.bhphotovideo.com/c/product/803432973-USE/sony_ilce7r_b_alpha_a7r_mirrorless_digital.html
   - make: Sony
     model: α7R II
     pitch: 4.50
@@ -1777,6 +1905,7 @@ cameras:
     hsensor: 35.9
     vsensor: 24.0
     keh: https://tidd.ly/4gBJTGF
+    bh_temp: https://www.bhphotovideo.com/c/product/803533061-USE/sony_ilce7rm2_b_alpha_a7r_ii_mirrorless.html
   - make: Sony
     model: α7R III
     pitch: 4.52
@@ -1787,6 +1916,7 @@ cameras:
     hsensor: 35.9
     vsensor: 24.0
     keh: https://tidd.ly/4i3I06G
+    bh_temp: https://www.bhphotovideo.com/c/search?sts=ma&InitialSearch=yes&searchType=USED&q=Sony%20Alpha%20a7R%20III%20mirrorless%20camera
   - make: Sony
     model: α7R IV
     pitch: 3.76
@@ -1797,6 +1927,7 @@ cameras:
     hsensor: 35.7
     vsensor: 23.8
     keh: https://tidd.ly/3UIZFXu
+    bh_temp: https://www.bhphotovideo.com/c/product/803530035-USE/sony_ilce7rm4_b_alpha_a7r_iv_mirrorless.html
   - make: Sony
     model: α7R V
     pitch: 3.76
@@ -1807,6 +1938,7 @@ cameras:
     hsensor: 35.7
     vsensor: 23.8
     keh: https://tidd.ly/4qNAorc
+    bh_temp: https://www.bhphotovideo.com/c/product/803496064-USE/sony_ilce_7rm5_b_a7r_v_mirrorless_camera.html
   - make: Sony
     model: α7R VI
     pitch: 3.60
@@ -1817,6 +1949,7 @@ cameras:
     hsensor: 35.9
     vsensor: 24.0
     keh: https://tidd.ly/4gHM623
+    bh_temp: https://www.bhphotovideo.com/c/product/803534219-USE/sony_ilce_7rm6_b_a7r_vi_mirrorless_camera.html
 
   - make: Sony
     model: α7S
@@ -1828,6 +1961,7 @@ cameras:
     hsensor: 35.8
     vsensor: 23.9
     keh: https://tidd.ly/4y5r4Bh
+    bh_temp: https://www.bhphotovideo.com/c/product/803457203-USE/sony_ilce7s_b_alpha_a7s_mirrorless_digital.html
   - make: Sony
     model: α7S II
     pitch: 8.40
@@ -1838,6 +1972,7 @@ cameras:
     hsensor: 35.6
     vsensor: 23.8
     keh: https://tidd.ly/4ceYdlQ
+    bh_temp: https://www.bhphotovideo.com/c/product/803531175-USE/sony_ilce7sm2_b_alpha_a7s_ii_mirrorless.html
   - make: Sony
     model: α7S III
     pitch: 8.40
@@ -1848,6 +1983,7 @@ cameras:
     hsensor: 35.6
     vsensor: 23.8
     keh: https://tidd.ly/3V2mtS8
+    bh_temp: https://www.bhphotovideo.com/c/product/803533241-USE/sony_ilce7sm3_b_a7s_iii_mirrorless_camera.html
 
   - make: Sony
     model: Alpha NEX-3
@@ -1859,6 +1995,7 @@ cameras:
     hsensor: 23.4
     vsensor: 15.6
     keh: https://tidd.ly/4ybMVXT
+    bh_temp: https://www.bhphotovideo.com/c/search?sts=ma&InitialSearch=yes&searchType=USED&q=Sony%20Alpha%20NEX-3%20camera
   - make: Sony
     model: Alpha NEX-5
     pitch: 5.10
@@ -1899,6 +2036,7 @@ cameras:
     hsensor: 23.5
     vsensor: 15.6
     keh: https://tidd.ly/46sljSu
+    bh_temp: https://www.bhphotovideo.com/c/search?sts=ma&InitialSearch=yes&searchType=USED&q=Sony%20Alpha%20SLT-A65%20camera
 
   - make: Sony
     model:  Cyber-Shot DSC-F828
@@ -1927,6 +2065,7 @@ cameras:
     megapixels: 15.3
     hsensor: 13.2
     vsensor: 8.8
+    bh_temp: https://www.bhphotovideo.com/c/product/1469682-REG/sony_dsc_rx0ii_cyber_shot_dsc_rx0_ii_digital.html
   - make: Sony
     model: Cyber-Shot DSC-RX10 IV
     pitch: 2.41
@@ -1937,6 +2076,7 @@ cameras:
     hsensor: 13.2
     vsensor: 8.8
     keh: https://tidd.ly/4gue2HS
+    bh_temp: https://www.bhphotovideo.com/c/search?sts=ma&InitialSearch=yes&searchType=USED&q=Sony%20RX10%20IV
   - make: Sony
     model: Cyber-shot DSC-RX100 VI
     pitch: 2.41
