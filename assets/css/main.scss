@@ -36,16 +36,10 @@ $color-warning:           #d67f05;
 
 input, label, select {
   float: left;
-  margin: 5px;
   font-size: 0.8em;
 }
 select {
   background-color: $color-field-fill;
-}
-
-label {
-  margin-left: 10px;
-  margin-top: 8px;
 }
 
 form {
@@ -56,6 +50,7 @@ form {
 caption {
   caption-side: bottom;
   font-style: italic;
+  padding: 5px 0 5px 0;
 }
 
 a.site-title {
@@ -69,7 +64,7 @@ a.site-title {
 #top-fields {
   display: flex;
   gap: 2em;
-  margin-bottom: 25px;
+  margin-bottom: 5px;
 }
 .column {
   flex: 0 0 auto;
@@ -77,6 +72,7 @@ a.site-title {
   align-items: center;
   gap: 0.5em;
 }
+
 .column label {
   margin-bottom: 0;
 }
@@ -102,6 +98,10 @@ a.site-title {
   margin: -0.4em -0.35em;
 }
 
+#diff-table, form {
+  margin-bottom: 0;
+}
+
 // first & second column (ƒ-stop label cell is a <th scope="row">, not a <td>,
 // so screen readers get the row's ƒ-stop announced alongside each data cell).
 // Sticky-pinned during the table's horizontal scroll (.camera-table-wrapper's
@@ -109,28 +109,23 @@ a.site-title {
 // to the IR columns — this is what DESIGN.md's "frozen leading columns" means.
 // padding bumped beyond the theme/th defaults so the row's clickable height
 // clears the 44px touch-target guideline (measured ~42.75px before this).
-#diff-table td:first-child, #diff-table th:nth-child(2) {
+#diff-table th:nth-child(1), #diff-table td:nth-child(1) {
   background-color: $color-field-fill;
   color: $color-field-text;
-  text-align: right;
   font-weight: bold;
-  width: 75px;
-  padding: 0.7em 0.5em;
+  left: 0;
+  padding: 0.25em 0.25em;
   position: sticky;
+  width: 100px;
   z-index: 1;
 }
 
-// first column — widened from 25px so the radio's own hit area (measured
-// ~29.5px wide before this) gets closer to a usable touch-target width.
-#diff-table td:first-child {
-  width: 36px;
-  left: 0;
+td, #diff-table caption {
+  font-weight: normal;
 }
 
-// second column
-#diff-table th:nth-child(2) {
-  width: 50px;
-  left: 36px;
+th {
+  border-bottom: 1px solid #b6b6b6;
 }
 
 // header row (colspan=2 over the same two frozen columns above; needs its own
@@ -142,6 +137,11 @@ a.site-title {
   left: 0;
   z-index: 2;
 }
+
+td label {
+  margin-left: 5px;
+}
+
 #uv, #w350, #w400 {
   background-color: $color-band-uv-bg;
   color: $color-band-uv-text;
@@ -185,7 +185,7 @@ th {
 // silently breaks their `position: sticky` (confirmed live: without this override
 // the sticky columns scroll away with everything else instead of staying pinned).
 #diff-table {
-  min-width: 1241px;
+  width: 100%;
   overflow: visible;
 }
 #diff-table td {
@@ -243,7 +243,7 @@ th {
   display: flex;
   flex-direction: column;
   gap: 0.5em;
-  margin: 1em 0 1.5em;
+  margin: 0.5em 0 1em;
   padding: 0.5em 1em;
   background-color: $color-form-bg;
   border: 1px solid $color-form-border;
@@ -251,7 +251,6 @@ th {
 }
 .camera-details__group {
   display: flex;
-  flex-wrap: wrap;
   gap: 0.75em 1.5em;
 }
 .camera-details__group:not(:first-child) {
@@ -354,7 +353,7 @@ th {
 
 .camera-table-wrapper {
   overflow-x: auto;
-  margin-bottom: 1.5em;
+  margin-bottom: 0.5em;
 }
 
 #camera-table {
