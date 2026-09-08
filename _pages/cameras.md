@@ -53,6 +53,7 @@ Pixel pitch values are sourced from manufacturer specifications or calculated ba
     <th scope="col" class="camera-number"><button type="button" class="camera-sort-button" data-sort="megapixels">Megapixels</button></th>
     <th scope="col" class="camera-number">Pixels</th>
     <th scope="col" class="camera-number">Sensor (mm)</th>
+    <th scope="col">Links</th>
   </tr>
   </thead>
   <tbody>
@@ -64,6 +65,7 @@ Pixel pitch values are sourced from manufacturer specifications or calculated ba
     <td class="camera-number">{{ camera.megapixels }}</td>
     <td class="camera-number">{{ camera.hpixels }} × {{ camera.vpixels }}</td>
     <td class="camera-number">{{ camera.hsensor }} × {{ camera.vsensor }}</td>
+    <td class="camera-links">{% if camera.keh contains "h" %}<a href="{{ camera.keh }}" target="_blank" rel="noopener sponsored">KEH</a> {% endif %}{% if camera.adorama contains "h" %}<a href="{{ camera.adorama }}" target="_blank" rel="noopener sponsored">Adorama</a> {% endif %}{% if camera.bh contains "h" %}<a href="{{ camera.bh }}" target="_blank" rel="noopener sponsored">B&amp;H</a>{% elsif camera.bh_temp contains "h" %}<a href="{{ camera.bh_temp }}" target="_blank" rel="noopener sponsored">B&amp;H</a>{% endif %}</td>
   </tr>
   {% endfor %}
   </tbody>

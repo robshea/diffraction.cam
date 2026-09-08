@@ -93,6 +93,7 @@ function updateCameraDetails(selectedOption, pitch_micron) {
   const detailCamera = document.getElementById("detail-camera");
   if (!detailCamera) return; // camera-details block not present on this page
 
+  const detailCameraLinks = document.getElementById("detail-camera-links");
   const detailPitch = document.getElementById("detail-pitch");
   const detailMegapixels = document.getElementById("detail-megapixels");
   const detailPixels = document.getElementById("detail-pixels");
@@ -100,6 +101,7 @@ function updateCameraDetails(selectedOption, pitch_micron) {
 
   if (!pitch_micron) {
     detailCamera.textContent = "—";
+    if (detailCameraLinks) detailCameraLinks.innerHTML = "";
     detailPitch.textContent = "—";
     detailMegapixels.textContent = "—";
     detailPixels.textContent = "—";
@@ -108,10 +110,29 @@ function updateCameraDetails(selectedOption, pitch_micron) {
   }
 
   detailCamera.textContent = selectedOption.label;
+  if (detailCameraLinks) detailCameraLinks.innerHTML = buildAffiliateLinks(selectedOption);
   detailPitch.textContent = pitch_micron + " μm";
   detailMegapixels.textContent = selectedOption.dataset.megapixels;
   detailPixels.textContent = selectedOption.dataset.hpixels + " × " + selectedOption.dataset.vpixels;
   detailSensor.textContent = selectedOption.dataset.hsensor + " × " + selectedOption.dataset.vsensor + " mm";
+}
+
+// Builds the "buy it" affiliate link line shown under the camera name in the
+// Camera Details panel — KEH, Adorama, B&H — from the data-bh/data-keh/
+// data-adorama attributes on the selected <option> (form.md leaves an
+// attribute empty when that camera has no link, so a blank one is simply
+// skipped rather than rendered as a dead link).
+function buildAffiliateLinks(selectedOption) {
+  const retailers = [
+    { key: "keh", label: "KEH" },
+    { key: "adorama", label: "Adorama" },
+    { key: "bh", label: "B&H" },
+  ];
+
+  return retailers
+    .filter(({ key }) => selectedOption.dataset[key])
+    .map(({ key, label }) => `<a href="${selectedOption.dataset[key]}" target="_blank" rel="noopener sponsored">${label}</a>`)
+    .join(" ");
 }
 
 function airyPitchRatio(f_number, wavelength, pitch_micron) {

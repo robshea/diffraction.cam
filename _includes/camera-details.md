@@ -3,6 +3,7 @@
     <div class="camera-details__item">
       <span class="camera-details__label">{{ site.data.icons.camera-retro }} Camera</span>
       <span id="detail-camera" class="camera-details__value">—</span>
+      <span id="detail-camera-links" class="camera-details__links"></span>
     </div>
     <div class="camera-details__item">
       <span class="camera-details__label">{{ site.data.icons.waveform }} Filter</span>

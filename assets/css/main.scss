@@ -264,6 +264,14 @@ th {
 .camera-details__label {
   font-size: 0.75em;
 }
+.camera-details__links {
+  display: flex;
+  gap: 0.6em;
+  font-size: 0.68em;
+}
+.camera-details__links a {
+  white-space: nowrap;
+}
 .camera-details__value {
   color: $color-field-text;
   font-size: 0.9em;
@@ -363,6 +371,13 @@ th {
 
 #camera-table .camera-number {
   text-align: right;
+}
+
+.camera-links a {
+  margin-right: 0.6em;
+}
+.camera-links a:last-child {
+  margin-right: 0;
 }
 
 .camera-sort-button {

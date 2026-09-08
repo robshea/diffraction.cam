@@ -11,7 +11,7 @@
     <select name="camera" id="camera" onchange="updatePitch()">
       <option value="">- select camera -</option>
       {% for camera in site.data.cameras.cameras %}
-      <option value="{{ camera.pitch }}" data-megapixels="{{ camera.megapixels }}" data-hpixels="{{ camera.hpixels }}" data-vpixels="{{ camera.vpixels }}" data-hsensor="{{ camera.hsensor }}" data-vsensor="{{ camera.vsensor }}">{{ camera.make }} {{ camera.model }}</option>
+      <option value="{{ camera.pitch }}" data-megapixels="{{ camera.megapixels }}" data-hpixels="{{ camera.hpixels }}" data-vpixels="{{ camera.vpixels }}" data-hsensor="{{ camera.hsensor }}" data-vsensor="{{ camera.vsensor }}" data-bh="{% if camera.bh contains 'h' %}{{ camera.bh }}{% elsif camera.bh_temp contains 'h' %}{{ camera.bh_temp }}{% endif %}" data-keh="{% if camera.keh contains 'h' %}{{ camera.keh }}{% endif %}" data-adorama="{% if camera.adorama contains 'h' %}{{ camera.adorama }}{% endif %}">{{ camera.make }} {{ camera.model }}</option>
       {% endfor %}
     </select>
   </div>
