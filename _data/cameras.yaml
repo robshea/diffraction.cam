@@ -47,6 +47,7 @@ cameras:
     hsensor: 22.3
     vsensor: 14.9
     keh: https://tidd.ly/4qOWiui
+    adorama: https://prf.hn/l/b3eWOYn/
     bh_temp: https://www.bhphotovideo.com/c/search?sts=ma&InitialSearch=yes&searchType=USED&q=Canon%20EOS%20100D%20Rebel%20SL1
     bh: https://bhpho.to/4xApnw1
   - make: Canon
@@ -829,6 +830,7 @@ cameras:
     hsensor: 43.8
     vsensor: 32.9
     keh: https://tidd.ly/46vUiO0
+    adorama: https://prf.hn/l/PJe0OBe/
   - make: Fujifilm
     model: GFX 100S
     pitch: 3.76
@@ -1415,6 +1417,7 @@ cameras:
     hsensor: 17.3
     vsensor: 13.0
     keh: https://tidd.ly/4x2iUZI
+    adorama: https://prf.hn/l/mVPQZxL/
     bh_temp: https://www.bhphotovideo.com/c/product/803518906-USE/olympus_v207010bu000_om_d_e_m1_mirrorless_micro.html
     bh: https://bhpho.to/4deyeet
   - make: Olympus
@@ -1440,6 +1443,7 @@ cameras:
     hsensor: 17.3
     vsensor: 13.0
     keh: https://tidd.ly/4xhM8UF
+    adorama: https://prf.hn/l/YL2vxvy/
     bh_temp: https://www.bhphotovideo.com/c/product/803528172-USE/olympus_v207100bu000_om_d_e_m1_mark_iii.html
     bh: https://bhpho.to/4h3VeiC
   - make: Olympus
@@ -1517,6 +1521,7 @@ cameras:
     hsensor: 17.3
     vsensor: 13.0
     keh: https://tidd.ly/4zLpeal
+    adorama: https://prf.hn/l/DL2G1GZ/
     bh_temp: https://www.bhphotovideo.com/c/product/803441911-USE/olympus_v207040bu000_om_d_e_m5_mark_ii.html
     bh: https://bhpho.to/4cSTk1U
   - make: Olympus
@@ -1778,6 +1783,7 @@ cameras:
     megapixels: 16.3
     hsensor: 23.7
     vsensor: 15.7
+    adorama: https://prf.hn/l/XveaO2y/
   - make: Pentax
     model: K-20
     pitch: 5.01
@@ -1836,6 +1842,7 @@ cameras:
     hsensor: 23.5
     vsensor: 15.6
     keh: https://tidd.ly/4qIN5n0
+    adorama: https://prf.hn/l/3YOjwDw/
     bh_temp: https://www.bhphotovideo.com/c/search?sts=ma&InitialSearch=yes&searchType=USED&q=Ricoh%20GR%20III%20digital%20camera
     bh: https://bhpho.to/4zRITFC
   - make: Ricoh
@@ -1847,6 +1854,7 @@ cameras:
     megapixels: 24.2
     hsensor: 23.5
     vsensor: 15.6
+    adorama: https://prf.hn/l/q5NVZMq/
     bh_temp: https://www.bhphotovideo.com/c/product/1664769-REG/ricoh_15286_gr_iiix_digital_camera.html
     bh: https://bhpho.to/4xzAcOY
 
@@ -1889,6 +1897,7 @@ cameras:
     hsensor: 23.5
     vsensor: 15.6
     keh: https://tidd.ly/4gpivvk
+    adorama: https://prf.hn/l/55ZV9Yx/
     bh_temp: https://www.bhphotovideo.com/c/search?sts=ma&InitialSearch=yes&searchType=USED&q=Sony%20a6000%20camera
     bh: https://bhpho.to/4xzAd5u
   - make: Sony
@@ -1901,6 +1910,7 @@ cameras:
     hsensor: 23.5
     vsensor: 15.6
     keh: https://tidd.ly/4h1bpNK
+    adorama: https://prf.hn/l/BO5nXR1/
     bh_temp: https://www.bhphotovideo.com/c/search?sts=ma&InitialSearch=yes&searchType=USED&q=Sony%20a6300%20camera
     bh: https://bhpho.to/4xR319P
   - make: Sony
@@ -1913,6 +1923,7 @@ cameras:
     hsensor: 23.5
     vsensor: 15.6
     keh: https://tidd.ly/4iwQNhy
+    adorama: https://prf.hn/l/xE09jkz/
     bh_temp: https://www.bhphotovideo.com/c/product/1453768-REG/sony_ilce_6400_b_alpha_a6400_mirrorless_digital.html
     bh: https://bhpho.to/4qSWPLF
   - make: Sony
@@ -1925,6 +1936,7 @@ cameras:
     hsensor: 23.5
     vsensor: 15.6
     keh: https://tidd.ly/3Urtb3X
+    adorama: https://prf.hn/l/jXMBYBO/
     bh_temp: https://www.bhphotovideo.com/c/search?sts=ma&InitialSearch=yes&searchType=USED&q=Sony%20a6500%20camera
     bh: https://bhpho.to/4gyu17O
   - make: Sony
@@ -1937,6 +1949,7 @@ cameras:
     hsensor: 23.5
     vsensor: 15.6
     keh: https://tidd.ly/4hXjfce
+    adorama: https://prf.hn/l/2MJR9k9/
     bh_temp: https://www.bhphotovideo.com/c/search?sts=ma&InitialSearch=yes&searchType=USED&q=Sony%20a6600%20camera
     bh: https://bhpho.to/4xzAdT2
   - make: Sony
@@ -1949,6 +1962,7 @@ cameras:
     hsensor: 23.3
     vsensor: 15.5
     keh: https://tidd.ly/4hXjcNA
+    adorama: https://prf.hn/l/o3nX4l2/
     bh_temp: https://www.bhphotovideo.com/c/product/1776281-REG/sony_a6700_mirrorless_camera.html
     bh: https://bhpho.to/4cj4Nb0
   - make: Sony
@@ -1973,6 +1987,7 @@ cameras:
     hsensor: 35.2
     vsensor: 23.9
     keh: https://tidd.ly/46vYBJa
+    adorama: https://prf.hn/l/lQ1mL53/
     bh_temp: https://www.bhphotovideo.com/c/product/803515141-USE/sony_ilce7m2_b_a7_ii_mirrorless_camera.html
     bh: https://bhpho.to/4xxVFrt
   - make: Sony
@@ -1985,6 +2000,7 @@ cameras:
     hsensor: 35.6
     vsensor: 23.8
     keh: https://tidd.ly/4ybfXXM
+    adorama: https://prf.hn/l/9ORP8Pk/
     bh_temp: https://www.bhphotovideo.com/c/product/803518324-USE/sony_ilce7m3_b_a7_iii_mirrorless_camera.html
     bh: https://bhpho.to/4xAdLcr
   - make: Sony
@@ -1997,6 +2013,7 @@ cameras:
     hsensor: 35.9
     vsensor: 23.9
     keh: https://tidd.ly/4r4y67n
+    adorama: https://prf.hn/l/QxeJO22/
     bh_temp: https://www.bhphotovideo.com/c/product/803535200-USE/sony_ilce_7m4_b_a7_iv_mirrorless_camera.html
     bh: https://bhpho.to/4zMUqGk
   - make: Sony
@@ -2009,6 +2026,7 @@ cameras:
     hsensor: 35.7
     vsensor: 23.8
     keh: https://tidd.ly/4gpjqfg
+    adorama: https://prf.hn/l/Oqa2dly/
     bh_temp: https://www.bhphotovideo.com/c/search?sts=ma&InitialSearch=yes&searchType=USED&q=Sony%20a7CR%20camera
     bh: https://bhpho.to/4zMUiqk
   - make: Sony
@@ -2021,6 +2039,7 @@ cameras:
     hsensor: 35.9
     vsensor: 24.0
     keh: https://tidd.ly/4gALT0l
+    adorama: https://prf.hn/l/G92dRdD/
     bh_temp: https://www.bhphotovideo.com/c/product/803432973-USE/sony_ilce7r_b_alpha_a7r_mirrorless_digital.html
     bh: https://bhpho.to/4qUY2Ck
   - make: Sony
@@ -2033,6 +2052,7 @@ cameras:
     hsensor: 35.9
     vsensor: 24.0
     keh: https://tidd.ly/4gBJTGF
+    adorama: https://prf.hn/l/AJYjxjX/
     bh_temp: https://www.bhphotovideo.com/c/product/803533061-USE/sony_ilce7rm2_b_alpha_a7r_ii_mirrorless.html
     bh: https://bhpho.to/4qRP2xE
   - make: Sony
@@ -2045,6 +2065,7 @@ cameras:
     hsensor: 35.9
     vsensor: 24.0
     keh: https://tidd.ly/4i3I06G
+    adorama: https://prf.hn/l/aWmR8Yg/
     bh_temp: https://www.bhphotovideo.com/c/search?sts=ma&InitialSearch=yes&searchType=USED&q=Sony%20Alpha%20a7R%20III%20mirrorless%20camera
     bh: https://bhpho.to/4zP6oPR
   - make: Sony
@@ -2057,6 +2078,7 @@ cameras:
     hsensor: 35.7
     vsensor: 23.8
     keh: https://tidd.ly/3UIZFXu
+    adorama: https://prf.hn/l/0eRozow/
     bh_temp: https://www.bhphotovideo.com/c/product/803530035-USE/sony_ilce7rm4_b_alpha_a7r_iv_mirrorless.html
     bh: https://bhpho.to/4qYPQkj
   - make: Sony
@@ -2069,6 +2091,7 @@ cameras:
     hsensor: 35.7
     vsensor: 23.8
     keh: https://tidd.ly/4qNAorc
+    adorama: https://prf.hn/l/ngkyzqe/
     bh_temp: https://www.bhphotovideo.com/c/product/803496064-USE/sony_ilce_7rm5_b_a7r_v_mirrorless_camera.html
     bh: https://bhpho.to/4A5HRGq
   - make: Sony
@@ -2081,6 +2104,7 @@ cameras:
     hsensor: 35.9
     vsensor: 24.0
     keh: https://tidd.ly/4gHM623
+    adorama: https://prf.hn/l/o3MWwWP/
     bh_temp: https://www.bhphotovideo.com/c/product/803534219-USE/sony_ilce_7rm6_b_a7r_vi_mirrorless_camera.html
     bh: https://bhpho.to/3Ux9wzF
 
@@ -2094,6 +2118,7 @@ cameras:
     hsensor: 35.8
     vsensor: 23.9
     keh: https://tidd.ly/4y5r4Bh
+    adorama: https://prf.hn/l/Jpw0kxv/
     bh_temp: https://www.bhphotovideo.com/c/product/803457203-USE/sony_ilce7s_b_alpha_a7s_mirrorless_digital.html
     bh: https://bhpho.to/3Ur4q88
   - make: Sony
@@ -2106,6 +2131,7 @@ cameras:
     hsensor: 35.6
     vsensor: 23.8
     keh: https://tidd.ly/4ceYdlQ
+    adorama: https://prf.hn/l/9ORP8PW/
     bh_temp: https://www.bhphotovideo.com/c/product/803531175-USE/sony_ilce7sm2_b_alpha_a7s_ii_mirrorless.html
     bh: https://bhpho.to/4iIdv6l
   - make: Sony
@@ -2118,6 +2144,7 @@ cameras:
     hsensor: 35.6
     vsensor: 23.8
     keh: https://tidd.ly/3V2mtS8
+    adorama: https://prf.hn/l/DRoQw2E/
     bh_temp: https://www.bhphotovideo.com/c/product/803533241-USE/sony_ilce7sm3_b_a7s_iii_mirrorless_camera.html
     bh: https://bhpho.to/4gHM1LL
 
@@ -2142,6 +2169,7 @@ cameras:
     megapixels: 14.2
     hsensor: 23.4
     vsensor: 15.6
+    adorama: https://prf.hn/l/AJpYzMg/
   - make: Sony
     model: Alpha NEX-5R
     pitch: 4.76
@@ -2152,6 +2180,7 @@ cameras:
     hsensor: 23.4
     vsensor: 15.6
     keh: https://tidd.ly/4zJU0Aq
+    adorama: https://prf.hn/l/Nd3VvZP/
   - make: Sony
     model: Alpha NEX-7
     pitch: 3.90
@@ -2162,6 +2191,7 @@ cameras:
     hsensor: 23.4
     vsensor: 15.6
     keh: https://tidd.ly/4gpmQP8
+    adorama: https://prf.hn/l/0eyRP1k/
 
   - make: Sony
     model: Alpha SLT-A65
@@ -2173,6 +2203,7 @@ cameras:
     hsensor: 23.5
     vsensor: 15.6
     keh: https://tidd.ly/46sljSu
+    adorama: https://prf.hn/l/w9AOJQG/
     bh_temp: https://www.bhphotovideo.com/c/search?sts=ma&InitialSearch=yes&searchType=USED&q=Sony%20Alpha%20SLT-A65%20camera
     bh: https://bhpho.to/4i7DnZc
 
@@ -2185,6 +2216,7 @@ cameras:
     megapixels: 8.0
     hsensor: 8.8
     vsensor: 6.6
+    adorama: https://prf.hn/l/ERlxw2p/
   - make: Sony
     model: Cyber-Shot DSC-RX0
     pitch: 2.75
@@ -2194,6 +2226,7 @@ cameras:
     megapixels: 15.3
     hsensor: 13.2
     vsensor: 8.8
+    adorama: https://prf.hn/l/debM0QL/
   - make: Sony
     model: Cyber-Shot DSC-RX0 II
     pitch: 2.75
@@ -2203,6 +2236,7 @@ cameras:
     megapixels: 15.3
     hsensor: 13.2
     vsensor: 8.8
+    adorama: https://prf.hn/l/p3Mqwqv/
     bh_temp: https://www.bhphotovideo.com/c/product/1469682-REG/sony_dsc_rx0ii_cyber_shot_dsc_rx0_ii_digital.html
     bh: https://bhpho.to/4h3BITn
   - make: Sony
@@ -2215,6 +2249,7 @@ cameras:
     hsensor: 13.2
     vsensor: 8.8
     keh: https://tidd.ly/4gue2HS
+    adorama: https://prf.hn/l/mVdOzGL/
     bh_temp: https://www.bhphotovideo.com/c/search?sts=ma&InitialSearch=yes&searchType=USED&q=Sony%20RX10%20IV
     bh: https://bhpho.to/4zI41y6
   - make: Sony
@@ -2227,5 +2262,6 @@ cameras:
     hsensor: 13.2
     vsensor: 8.8
     keh: https://tidd.ly/4hYtsoP
+    adorama: https://prf.hn/l/8xv4wRp/
     bh_temp: https://www.bhphotovideo.com/c/product/803514197-USE/sony_dscrx100m6_b_cyber_shot_dsc_rx100_vi_digital.html
     bh: https://bhpho.to/4icAmad
