@@ -2017,6 +2017,18 @@ cameras:
     bh_temp: https://www.bhphotovideo.com/c/product/803535200-USE/sony_ilce_7m4_b_a7_iv_mirrorless_camera.html
     bh: https://bhpho.to/4zMUqGk
   - make: Sony
+    model: α7 V
+    pitch: 5.12
+    size: Full Frame
+    hpixels: 7008
+    vpixels: 4672
+    megapixels: 33.0
+    hsensor: 35.9
+    vsensor: 23.9
+    keh: https://tidd.ly/3UThrYc
+    adorama: https://prf.hn/l/ngmXaRl/
+    bh: https://bhpho.to/3SEtDeQ
+  - make: Sony
     model: α7CR
     pitch: 3.76
     size: Full Frame
