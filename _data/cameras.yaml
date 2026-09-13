@@ -204,6 +204,19 @@ cameras:
     bh_temp: https://www.bhphotovideo.com/c/search?sts=ma&InitialSearch=yes&searchType=USED&q=Canon%20EOS%2060D
     bh: https://bhpho.to/4wZg7Ac
   - make: Canon
+    model: EOS 650D Rebel T4i
+    pitch: 4.30
+    size: APS-C
+    hpixels: 5184
+    vpixels: 3456
+    megapixels: 18.0
+    hsensor: 22.3
+    vsensor: 14.9
+    keh: https://tidd.ly/4r6QpIK
+    adorama: https://prf.hn/l/2MJXMQj/
+    bh_temp: https://www.bhphotovideo.com/c/search?sts=ma&InitialSearch=yes&searchType=USED&q=Canon%20EOS%20650D%20Rebel%20T4i
+    bh: https://bhpho.to/4h1YHxb
+  - make: Canon
     model: EOS 7D
     pitch: 4.30
     size: APS-C
