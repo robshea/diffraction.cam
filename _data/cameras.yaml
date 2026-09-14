@@ -1456,6 +1456,17 @@ cameras:
     hsensor: 17.3
     vsensor: 13.0
     keh: https://tidd.ly/4y9ekJU
+  - make: Olympus
+    model: PEN E-PL9
+    pitch: 3.75
+    size: Micro Four Thirds
+    hpixels: 4608
+    vpixels: 3456
+    megapixels: 16.1
+    hsensor: 17.3
+    vsensor: 13.0
+    keh: https://tidd.ly/4A8l8JT
+    bh: https://bhpho.to/4rbb5Q1
 
   - make: Panasonic
     model: Lumix DC-S5
